@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8b8174" stroke-width="1" opacity="0.55"/></pattern>
+  <style>.room{fill:#e8dfcc;stroke:#2f2b27;stroke-width:8}.label{font-family:serif;font-size:30px;font-weight:bold;fill:#241f1a}.small{font-family:serif;font-size:22px;fill:#241f1a}.wall{stroke:#2f2b27;stroke-width:10;stroke-linecap:square}.secret{stroke:#7a2f2f;stroke-width:7;stroke-dasharray:14 10}.furn{fill:#b9a98d;stroke:#443b31;stroke-width:4}</style>
+</defs>
+<rect width="1200" height="840" fill="#d2c4a8"/>
+<text x="600" y="45" text-anchor="middle" class="label">Dagger Rock Tavern — Hidden Complex</text>
+<text x="600" y="76" text-anchor="middle" class="small">5-foot squares • DM tactical map</text>
+
+<!-- A Cellar 8x6 -->
+<g transform="translate(70,140)">
+ <rect class="room" width="320" height="240"/><rect width="320" height="240" fill="url(#grid)"/>
+ <text x="160" y="34" text-anchor="middle" class="label">A. Cellar</text>
+ <rect x="24" y="72" width="48" height="48" class="furn"/><rect x="24" y="136" width="48" height="48" class="furn"/>
+ <rect x="248" y="70" width="48" height="120" class="furn"/>
+ <text x="110" y="215" class="small">casks &amp; shelves</text>
+ <line x1="320" y1="90" x2="320" y2="150" class="secret"/>
+ <text x="250" y="166" class="small">secret</text>
+ <line x1="130" y1="0" x2="190" y2="0" stroke="#d2c4a8" stroke-width="14"/>
+ <text x="160" y="-12" text-anchor="middle" class="small">stairs to tavern</text>
+</g>
+
+<!-- B Meeting Room 8x7 -->
+<g transform="translate(470,120)">
+ <rect class="room" width="320" height="280"/><rect width="320" height="280" fill="url(#grid)"/>
+ <text x="160" y="34" text-anchor="middle" class="label">B. Secret Meeting Room</text>
+ <rect x="90" y="96" width="140" height="80" rx="4" class="furn"/>
+ <circle cx="78" cy="108" r="13" class="furn"/><circle cx="78" cy="152" r="13" class="furn"/><circle cx="242" cy="108" r="13" class="furn"/><circle cx="242" cy="152" r="13" class="furn"/><circle cx="120" cy="190" r="13" class="furn"/><circle cx="200" cy="190" r="13" class="furn"/>
+ <rect x="145" y="120" width="30" height="22" fill="#7a2f2f" stroke="#443b31" stroke-width="3"/>
+ <text x="160" y="230" text-anchor="middle" class="small">evidence satchel</text>
+ <text x="160" y="258" text-anchor="middle" class="small">tunnel map on wall</text>
+ <line x1="0" y1="90" x2="0" y2="150" class="secret"/><line x1="320" y1="90" x2="320" y2="150" class="secret"/>
+</g>
+
+<!-- C Quarters 7x6 -->
+<g transform="translate(870,140)">
+ <rect class="room" width="280" height="240"/><rect width="280" height="240" fill="url(#grid)"/>
+ <text x="140" y="34" text-anchor="middle" class="label">C. Felans' Quarters</text>
+ <rect x="24" y="70" width="72" height="120" class="furn"/><rect x="184" y="70" width="72" height="120" class="furn"/>
+ <rect x="110" y="72" width="60" height="48" class="furn"/>
+ <rect x="112" y="150" width="56" height="36" class="furn"/>
+ <text x="140" y="220" text-anchor="middle" class="small">locked chests &amp; records</text>
+ <line x1="0" y1="90" x2="0" y2="150" class="secret"/>
+</g>
+
+<!-- D Tunnel Landing -->
+<g transform="translate(510,520)">
+ <rect class="room" width="240" height="200"/><rect width="240" height="200" fill="url(#grid)"/>
+ <text x="120" y="34" text-anchor="middle" class="label">D. Tunnel Landing</text>
+ <path d="M75 70h90 M75 90h90 M75 110h90 M75 130h90 M75 150h90" stroke="#443b31" stroke-width="5"/>
+ <path d="M120 165v30" stroke="#7a2f2f" stroke-width="6" marker-end="url(#none)"/>
+ <text x="120" y="184" text-anchor="middle" class="small">escape route south</text>
+</g>
+
+<!-- passages -->
+<path d="M390 260 H470" class="wall"/><path d="M790 260 H870" class="wall"/>
+<path d="M630 400 V520" class="wall"/>
+<text x="600" y="805" text-anchor="middle" class="small">Objective: secure evidence and stop Yuri, Rin, and Ellie from escaping through the tunnel landing.</text>
+</svg>
