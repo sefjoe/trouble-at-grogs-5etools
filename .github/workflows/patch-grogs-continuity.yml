@@ -1,0 +1,149 @@
+name: Patch Trouble at Grogs continuity
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch adventure JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('Trouble_at_Grogs_5etools_CURRENT.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          d['_meta']['sources'][0]['version'] = '1.5-continuity-tightened'
+          d['_meta']['dateLastModified'] = 1790311600
+
+          sections = {s['name']: s for s in d['adventureData'][0]['data']}
+          guide = sections['Adventure Guide']
+          ch1 = sections['Chapter 1: The Happy Orc']
+          ch2 = sections['Chapter 2: Trouble in Dagger Rock']
+          ch3 = sections['Chapter 3: Return to the Happy Orc']
+          appB = sections['Appendix B: Clues and Evidence']
+          appD = sections['Appendix D: DM Quick Reference']
+
+          def byname(section, name):
+              return next(e for e in section['entries'] if isinstance(e, dict) and e.get('name') == name)
+
+          # The visible feature is an ordinary cellar entrance; the secret tunnel is concealed beyond it.
+          initial = byname(ch1, 'Initial Leads')['entries'][0]
+          rows = []
+          for r in initial['rows']:
+              if r[0] == 'Well':
+                  rows.append(['Cellar', 'An ordinary tavern cellar; careful investigation can reveal signs of a concealed passage beyond the normal storage area.'])
+              elif r[0] == 'Green Grape / Caela':
+                  continue
+              elif r[0] == 'Jim Ramsey':
+                  rows.append(['Jim Ramsey', 'Grog or the staff identify him as one of the loudest repeaters of anti-Grog rumors; he can reveal the rumor network, courier behavior, and graveyard tunnel route.'])
+              else:
+                  rows.append(r)
+          initial['rows'] = rows
+
+          happy = byname(ch1, 'The Happy Orc')['entries']
+          cellar_note = "The cellar entrance on the tavern map is ordinary and known to Grog and his staff. It leads to normal storage. The conspiracy's tunnel connection is concealed beyond the cellar, so simply seeing or using the cellar entrance does not reveal the hidden network."
+          if cellar_note not in happy:
+              happy.append(cellar_note)
+
+          problem = byname(ch1, "Grog's Problem")['entries']
+          jim_note = "Grog can also name Jim Ramsey as one of the loudest people repeating the anti-Grog stories around town. Grog does not know Jim is working for Yuri; he only knows Jim keeps spreading the same accusations."
+          if jim_note not in problem:
+              problem.append(jim_note)
+
+          ch1maps = byname(ch1, 'Maps')['entries']
+          ch1maps[:] = [
+              'Use one main physical map for the entire session: the Happy Orc main floor. Leave it on the table from the opening scene onward. The same build can support social play, investigation returns, and the finale.',
+              'If desired, keep two small supplemental builds off to the side: an 8 × 6 Stable / Yard and an 8 × 6 Tunnel Chamber. These only come out if the climax spills beyond the tavern proper.'
+          ]
+
+          caela = byname(ch2, 'Caela Fourfingers')['entries']
+          green_note = 'The Green Grape is not an initial lead. It enters play only if the PCs follow Caela, search her belongings, intercept a report, or otherwise learn that she rents a room there.'
+          if green_note not in caela:
+              caela.append(green_note)
+
+          # Timing: the Happy Orc map is already on the table.
+          clock = byname(guide, 'Three-Hour Structure')['entries'][0]
+          for r in clock['rows']:
+              if r[0] == '1:40–1:50':
+                  r[1] = 'Return to the Happy Orc, place enemies/objectives, set positions, and move toward initiative.'
+          emergency = byname(guide, 'Emergency Pacing')['entries']
+          for i, x in enumerate(emergency):
+              if x.startswith('At 1:40:') or x.startswith('By 1:40:'):
+                  emergency[i] = "By 1:40: use Sid's hard lead or another fail-forward clue so the PCs have achieved enough success to threaten Yuri; then let Yuri's reaction move the story into the finale."
+
+          # Replace Happy Orc well language with the concealed cellar route.
+          tunnels = byname(ch2, 'Tunnel Discoveries')['entries']
+          tunnels[:] = [
+              "Access can come from the Happy Orc cellar, Jim's graveyard route, Cal's barn, or Yuri's wider hidden network.",
+              "A tunnel can identify Cal even if the PCs have never met Sid: sections of worked stone carry Cal's mason's mark or a distinctive construction technique recognizable to townsfolk as his work. Asking who built it points to Cal Stone.",
+              "Following the network toward Yuri's sphere can also reveal Rin or Ellie using the passages, a cache or handoff tied to them, or a route into their part of the operation. Sid is helpful but not required to reach the principal thieves.",
+              'For table play, you do not need to map the entire tunnel system. Use one small supplemental map: the Tunnel Chamber connected to the Happy Orc cellar.',
+              'Finding a tunnel early is a success. Reward it by shortening the investigation and giving the PCs a better starting position for the finale.',
+              'Next leads: Cal Stone from the masonry; Rin/Ellie by following the network; or Yuri when the tunnel evidence is paired with testimony, records, or stolen property.'
+          ]
+
+          # Physical map language.
+          maps = byname(ch3, 'Maps')['entries'][0]
+          for r in maps['rows']:
+              if r[0] == 'Happy Orc — Main Floor':
+                  r[2] = 'Use only your modular walls plus AF634A pieces. The only custom/non-set feature is the cellar-entrance marker.'
+              elif r[0] == 'Tunnel Chamber (Cellar Entrance)':
+                  r[0] = 'Tunnel Chamber'
+                  r[2] = 'Simple hidden underground room. Use AF634A crates/barrels if desired; access is through the concealed passage beyond the Happy Orc cellar.'
+
+          cellar = byname(ch3, 'Cellar Entrance and Tunnel Chamber')['entries']
+          cellar[:] = [
+              'The cellar entrance is an ordinary, visible part of the Happy Orc and leads to normal storage. The secret tunnel connection is concealed inside or beyond the cellar and is not obvious just because the PCs have seen the entrance.',
+              'The Tunnel Chamber does not need to represent the entire underground complex. It is simply the first hidden underground room reached from the concealed passage beyond the cellar, with one or more off-map tunnel exits beyond it.',
+              'If the players never go below, you may resolve all underground pressure narratively and keep the fight entirely on the main tavern map.'
+          ]
+
+          objectives = byname(ch3, 'Objective-Based Combat')['entries']
+          for i, x in enumerate(objectives):
+              if x.startswith('Good moving objectives include:'):
+                  objectives[i] = 'Good moving objectives include: stop planted stolen goods from being hidden in the tavern, intercept the evidence satchel, cut off the rear exit, and block the cellar route. Protect a witness only if a real witness such as Cal or a captured conspirator is actually present; do not invent a witness just to create an objective.'
+
+          # Redundant-clue table uses cellar terminology.
+          clues = byname(appB, 'Essential Conclusions')['entries'][0]
+          for r in clues['rows']:
+              if r[0] == 'Hidden tunnels are being used':
+                  r[1] = "Happy Orc cellar route; graveyard route; Cal's barn; Cal's mason's mark/workmanship; Yuri's hidden routes."
+
+          quick = byname(appD, 'One-Page Running Reference')['entries']
+          quick[:] = [
+              'Baseline: four level-6 PCs; supported levels 4–8; 3-hour target; three investigation beats.',
+              'Truth: Yuri alone is mastermind. Grog is innocent. Sid is an ally. Rin/Ellie are principal thieves. Caela is the kitchen spy. Jim spreads rumors. Grunt/Brock handle arson/intimidation. Cal is the coerced dwarf mason who can tie Yuri directly to the tunnel construction.',
+              "Clock: 0:45 force a useful clue if needed; 1:00 ensure a Yuri link; 1:15 restate facts; 1:20 stop opening optional locations; by 1:40 use fail-forward clues so the PCs have achieved enough success to provoke Yuri's reaction; 1:40–1:50 return to the Happy Orc and place enemies/objectives; 1:50 initiative; 2:30 surrender/flight; 2:45 close.",
+              "Hard lead if stuck: Sid's inventory includes a silver-inlaid merchant's compass with a chipped green enamel lid; a witness ties a similar item to an elf matching Rin near Yuri's tavern.",
+              'Clue-web rule: every scene ends with an actionable next lead. Cal can be found through Sid, tunnel workmanship, or a pressured conspirator. Rin/Ellie can be reached through Sid, Jim, Caela, Grunt/Brock, or the tunnels.',
+              'Opening leads: Grog points naturally to Sid and identifies Jim as a loud rumor-spreader. Caela is already inside the Happy Orc; the Green Grape only becomes known by investigating or following her.',
+              'Cellar rule: the visible cellar entrance is ordinary tavern storage access. The secret tunnel connection is concealed beyond it, so seeing the cellar does not reveal the conspiracy.',
+              'Finale trigger: Yuri strikes the Happy Orc because the PCs have threatened the conspiracy—not because a timer expires. The clock only tells you when to accelerate clues.',
+              'Physical setup: one main Happy Orc map using only your walls and AF634A pieces, plus the custom cellar-entrance marker. Optional 8 × 6 Stable / Yard and 8 × 6 Tunnel Chamber builds only if needed.',
+              'Finale objective: keep the Happy Orc from being framed, protect civilians, secure evidence, and stop escape through the rear or concealed cellar route. Protect a witness only if a real witness is actually present.',
+              'When surprised by player choices, ask: What does Yuri know? What does he fear losing? Which agents can he still reach?'
+          ]
+
+          text = json.dumps(d, ensure_ascii=False, separators=(',', ':'))
+          assert 'Max Stone' not in text
+          assert "Grog's well" not in text
+          assert 'Reveal map, set positions' not in text
+          p.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit patched adventure and clean temporary files
+        run: |
+          rm -f .github/workflows/patch-grogs-continuity.yml tmp_test_noop.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Tighten cellar, lead, timing, and finale continuity'
+          git push
