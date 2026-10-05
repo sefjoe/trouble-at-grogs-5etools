@@ -1,0 +1,171 @@
+name: Rebuild Trouble at Grog's current with embedded maps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebuild-current-with-maps.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild CURRENT from valid v1.6 and embed maps
+        shell: python
+        run: |
+          import json, pathlib, time, hashlib
+
+          src_path = pathlib.Path('Trouble_at_Grogs_5etools_v1.6.json')
+          out_path = pathlib.Path('Trouble_at_Grogs_5etools_CURRENT.json')
+          data = json.loads(src_path.read_text(encoding='utf-8'))
+
+          repo = 'https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main'
+          social_url = repo + '/img/player/happy_orc_social.webp'
+          combat_url = repo + '/img/dm/happy_orc_combat.webp'
+
+          def image_obj(url, image_type, title, area, width, height):
+              return {
+                  'type': 'image',
+                  'href': {'type': 'external', 'url': url},
+                  'imageType': image_type,
+                  'title': title,
+                  'width': width,
+                  'height': height,
+                  'grid': {'type': 'none'},
+                  'mapRegions': [{'area': area, 'points': [[0,0],[1,0],[1,1],[0,1]]}],
+              }
+
+          social_gallery = {
+              'type': 'gallery',
+              'images': [image_obj(social_url, 'mapPlayer', 'The Happy Orc — Social Setup', 'tgh-happy-orc', 700, 827)]
+          }
+          combat_gallery = {
+              'type': 'gallery',
+              'images': [image_obj(combat_url, 'map', 'The Happy Orc — Combat Setup', 'tgh-happy-orc', 700, 806)]
+          }
+
+          sections = data['adventureData'][0]['data']
+          ch1 = next(s for s in sections if s.get('id') == '100')
+          ch3 = next(s for s in sections if s.get('id') == '300')
+
+          def replace_named_entry(section, name, new_entry):
+              for i, ent in enumerate(section.get('entries', [])):
+                  if isinstance(ent, dict) and ent.get('name') == name:
+                      section['entries'][i] = new_entry
+                      return True
+              section.setdefault('entries', []).insert(0, new_entry)
+              return False
+
+          replace_named_entry(ch1, 'Maps', {
+              'type': 'entries',
+              'name': 'Maps',
+              'id': '101',
+              'entries': [
+                  social_gallery,
+                  '{@link Open Social Map|' + social_url + '}',
+                  'Use this as the canonical social setup. At the table, substitute the real L-shaped AF634A bar for the U-shaped bar shown by the generated image.'
+              ]
+          })
+
+          replace_named_entry(ch3, 'Maps', {
+              'type': 'entries',
+              'name': 'Maps',
+              'id': '301',
+              'entries': [
+                  combat_gallery,
+                  '{@link Open Combat Map|' + combat_url + '}',
+                  'Use this as the canonical combat setup. It is the same tavern build as the social map. At the table, use the real L-shaped AF634A bar and manually pull some dining chairs toward the perimeter and tuck stools tighter to the bar.'
+              ]
+          })
+
+          # Lock the final physical-map fiction and cellar arrangement.
+          ch1['entries'].insert(1, {
+              'type': 'entries',
+              'name': 'Physical Map — Locked Build',
+              'entries': [
+                  'The Happy Orc is built on a 22 × 26 one-inch mat using only the confirmed STAHLHAMMERS wall pieces and AF634A tavern furniture.',
+                  {'type': 'table', 'caption': 'Locked Happy Orc Layout', 'colLabels': ['Area','Placement'], 'rows': [
+                      ['Kitchen','Northwest/back-left; compact; clear access from the common room.'],
+                      ['Storage','Northeast/back-right; clear common-room door; rear exit in the north wall.'],
+                      ['Cellar','Underground, not a separate main-floor room. The DM draws the cellar entrance inside storage. The planted evidence is downstairs.'],
+                      ['Bar','West side; use the real L-shaped bar; five stools during the social scene.'],
+                      ['Dining','Largest public zone; two round tables; eight chairs, four per table.'],
+                      ['Fireplace nook','East wall; small fireplace, single white hide rug, two lounge chairs.'],
+                      ['Music nook','Small floor-level southeast performance corner; two crossbar stands; no raised stage.'],
+                      ['Front entrance','Centered south wall, door-wall module.'],
+                      ['Rear exit','North wall of storage, door-wall module.']
+                  ]},
+                  'No windows, shrubs, plants, extra rugs, stage, pillars, or unconfirmed furniture are part of the locked build.'
+              ]
+          })
+
+          # Remove old map-key/cellar assumptions that contradict the locked build.
+          filtered=[]
+          for ent in ch3.get('entries', []):
+              if isinstance(ent, dict) and ent.get('name') in {'Simple NCFA-Style Tactical Map Key','Cellar Entrance and Tunnel Chamber'}:
+                  continue
+              filtered.append(ent)
+          ch3['entries']=filtered
+
+          ch3['entries'].insert(1, {
+              'type': 'entries',
+              'name': 'Evacuating the Tavern',
+              'entries': [
+                  'Once the PCs warn Grog, he evacuates the Happy Orc. Grog, staff, patrons, and civilians are outside before initiative.',
+                  'Sid Barrow remains outside handling law/order and perimeter. Neither Grog nor Sid contributes allied DPR.',
+                  'During evacuation, pull some dining chairs toward walls, tuck stools tighter to the bar, and remove loose tiny tabletop clutter. The two round tables and all major terrain stay in place.'
+              ]
+          })
+          ch3['entries'].insert(2, {
+              'type': 'entries',
+              'name': 'Combat Map — Locked Build',
+              'entries': [
+                  'The combat map is the same physical tavern as the social map.',
+                  'The generated image leaves most furniture in place; at the table manually make the agreed chair/stool reset for clearer movement lanes.',
+                  'The evidence is below in the underground cellar. There is no upstairs evidence marker or separate main-floor cellar room.'
+              ]
+          })
+          ch3['entries'].insert(3, {
+              'type': 'entries',
+              'name': 'Enemy Starting Positions',
+              'entries': [
+                  {'type':'table','caption':'Finale Start','colLabels':['Enemy','Position'],'rows':[
+                      ['Yuri','Just inside the front entrance, centered.'],
+                      ['Bandit 1','Front-left of Yuri.'],
+                      ['Bandit 2','Front-right of Yuri.'],
+                      ['Bandit 3','Bar-side lane.'],
+                      ['Bandit 4','Farther right/rear; 5-PC party only.'],
+                      ['Ellie','Near the storage-room doorway / cellar route.'],
+                      ['Grunt','If still active, in or immediately outside storage near the rear exit.']
+                  ]}
+              ]
+          })
+
+          # Update chapter headers so Maps and locked layout entries appear in 5eTools navigation.
+          for c in data['adventure'][0]['contents']:
+              if c['name'] == 'Chapter 1: The Happy Orc':
+                  c['headers'] = ['Maps','Physical Map — Locked Build'] + [h for h in c.get('headers',[]) if h not in {'Maps','Physical Map — Locked Build'}]
+              if c['name'] == 'Chapter 3: Return to the Happy Orc':
+                  c['headers'] = ['Maps','Evacuating the Tavern','Combat Map — Locked Build','Enemy Starting Positions'] + [h for h in c.get('headers',[]) if h not in {'Maps','Evacuating the Tavern','Combat Map — Locked Build','Enemy Starting Positions','Simple NCFA-Style Tactical Map Key','Cellar Entrance and Tunnel Chamber'}]
+
+          now = int(time.time())
+          data['_meta']['sources'][0]['version'] = '1.8-embedded-maps'
+          data['_meta']['sources'][0]['dateLastModified'] = now
+          data['_meta']['dateLastModified'] = now
+          data['_meta']['_dateLastModifiedHash'] = hashlib.sha1(str(now).encode()).hexdigest()[:10]
+
+          out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          json.loads(out_path.read_text(encoding='utf-8'))
+          pathlib.Path('.github/workflows/rebuild-current-with-maps.yml').unlink()
+
+      - name: Commit rebuilt adventure
+        run: |
+          git config user.name "ChatGPT map embed"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Embed Happy Orc maps in current 5eTools adventure"
+          git push
