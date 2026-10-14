@@ -1,0 +1,798 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "AMNCHall2026",
+        "abbreviation": "AMNC",
+        "full": "A Minor Noise Complaint — Hall One-Shot",
+        "version": "1.0",
+        "authors": [
+          "Josef Pickett"
+        ],
+        "dateLastModified": 1791979200
+      }
+    ],
+    "edition": "one",
+    "dateAdded": 1791979200,
+    "dateLastModified": 1791979200
+  },
+  "adventure": [
+    {
+      "name": "A Minor Noise Complaint",
+      "id": "AMNC-HALL-1",
+      "source": "AMNCHall2026",
+      "group": "other",
+      "published": "2026-10-14",
+      "storyline": "Hall One-Shots",
+      "level": {
+        "start": 4,
+        "end": 4
+      },
+      "contents": [
+        {
+          "name": "Adventure Guide",
+          "headers": [
+            "Running the Adventure",
+            "Three-Hour Running Clock",
+            "Core Cast"
+          ]
+        },
+        {
+          "name": "Chapter 1: The Trial",
+          "headers": [
+            "Opening Read-Aloud",
+            "Evidence and Questions",
+            "Guilty Verdict",
+            "Not-Guilty Verdict"
+          ]
+        },
+        {
+          "name": "Chapter 2: The Department of Municipal Property",
+          "headers": [
+            "The Clerk and Form 19-B",
+            "Form 19-B Handout Text"
+          ]
+        },
+        {
+          "name": "Chapter 3: Mountain Ascent",
+          "headers": [
+            "The Abandoned Miners’ Track",
+            "Sheer Cliff — Forty-Foot Traverse",
+            "Failing Rope Bridge — Fifty Feet",
+            "Three Territorial Giant Goats",
+            "Approach to the Summit"
+          ]
+        },
+        {
+          "name": "Chapter 4: The Summit Map",
+          "headers": [
+            "DM Tactical Map",
+            "Battlefield Features"
+          ]
+        },
+        {
+          "name": "Chapter 5A: Guilty — Recover the Bell",
+          "headers": [
+            "Finale Opening",
+            "Hostile Roster and Combat Tactics",
+            "Fixed-Point Teleportation and Bell Recovery"
+          ]
+        },
+        {
+          "name": "Chapter 5B: Not Guilty — Defend the Hag",
+          "headers": [
+            "Airship Arrival",
+            "Guard Roster and Tactics",
+            "Outcome"
+          ]
+        },
+        {
+          "name": "Appendix A: DM Reference",
+          "headers": [
+            "Quick Rulings",
+            "At-a-Glance Pacing",
+            "Verified Arcknight Mini Pull List"
+          ]
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "AMNC-HALL-1",
+      "source": "AMNCHall2026",
+      "data": [
+        {
+          "type": "section",
+          "name": "Adventure Guide",
+          "id": "000",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Running the Adventure",
+              "entries": [
+                "Three-hour Hall one-shot for five level-4 PCs using the D&D 2024 rules. A ludicrous municipal property dispute is played with complete seriousness. No mystery or puzzle; the verdict determines the opposition.",
+                "Agnes Grist, an evil hag, stole the enormous town bell because it rings every fifteen minutes. She lives on the mountain above the city and has turned the upside-down 2,080-pound bronze bell into a birdbath.",
+                "GUILTY: Jury must recover the bell; hag has a fixed teleport link between city and cottage; no town airship. NOT GUILTY: Jury may defend the hag against a civil property seizure; hag has no teleport magic; the guard arrives by dirigible, disembarks, and the airship leaves.",
+                "Use the single summit map for either finale. The cliff and bridge are theater of the mind; the goat fight is a brief interlude. Do not turn transit into a skill-check gauntlet."
+              ],
+              "id": "001"
+            },
+            {
+              "type": "entries",
+              "name": "Three-Hour Running Clock",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Pacing targets (not mandatory)",
+                  "colLabels": [
+                    "Time",
+                    "Scene"
+                  ],
+                  "rows": [
+                    [
+                      "0:00–0:25",
+                      "Jury introduction, testimony, verdict"
+                    ],
+                    [
+                      "0:25–0:40",
+                      "Form 19-B municipal authorization"
+                    ],
+                    [
+                      "0:40–1:20",
+                      "Sheer cliff, failing rope bridge, giant goats"
+                    ],
+                    [
+                      "1:20–2:00",
+                      "Summit, decisions, tactical positioning or preparation"
+                    ],
+                    [
+                      "2:00–2:55",
+                      "Finale: hag and bugbears OR Captain Vale and guards"
+                    ],
+                    [
+                      "2:55–3:00",
+                      "Payment, bell disposition, biscuits, epilogue"
+                    ]
+                  ]
+                },
+                "Fast play can end earlier; clever solutions and decisive victories count."
+              ],
+              "id": "002"
+            },
+            {
+              "type": "entries",
+              "name": "Core Cast",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Named NPCs",
+                  "colLabels": [
+                    "Name",
+                    "Personality and role"
+                  ],
+                  "rows": [
+                    [
+                      "Magistrate Pell",
+                      "Dry, exacting judge who considers the town charter sacred."
+                    ],
+                    [
+                      "Clerk Brindle",
+                      "Cheerfully fanatical administrator; enjoys correctly approving outrageous paperwork."
+                    ],
+                    [
+                      "Agnes Grist",
+                      "Selfish, genuinely evil green hag obsessed with peace and quiet."
+                    ],
+                    [
+                      "Captain Vale",
+                      "Professional, restrained guard commander who enforces municipal property claims."
+                    ],
+                    [
+                      "Bram",
+                      "Loyal bugbear laborer/bodyguard; uses Bugbear Stalker statistics."
+                    ],
+                    [
+                      "Odo",
+                      "Loyal bugbear laborer/bodyguard; uses Bugbear Warrior statistics."
+                    ]
+                  ]
+                }
+              ],
+              "id": "003"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 1: The Trial",
+          "id": "100",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Opening Read-Aloud",
+              "entries": [
+                "\"The matter before this court is Municipal Bell versus Agnes Grist. Please refrain from bringing livestock into the deliberation chamber.\"",
+                "The five adventurers have been assigned to jury duty. Each introduces their character. Agnes testifies through a two-way speaking mirror; she continually objects to Pell banging the gavel."
+              ],
+              "id": "101"
+            },
+            {
+              "type": "entries",
+              "name": "Evidence and Questions",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "25-minute trial",
+                  "colLabels": [
+                    "When",
+                    "What happens"
+                  ],
+                  "rows": [
+                    [
+                      "0–5 min",
+                      "Call to order and introductions."
+                    ],
+                    [
+                      "5–12 min",
+                      "Three short uncontested statements."
+                    ],
+                    [
+                      "12–20 min",
+                      "Jury questions and deliberation."
+                    ],
+                    [
+                      "20–25 min",
+                      "Majority verdict and branch instructions."
+                    ]
+                  ]
+                },
+                "Bell keeper: City owns the bell. It rang every fifteen minutes. Bram and Odo helped steal it.",
+                "Town clerk: Agnes lodged 47 noise complaints, all recorded and ignored by the city council.",
+                "Agnes: \"I took it. I did not steal it. There is a difference, and I object to that gavel.\"",
+                "Everyone knows the facts; the jury weighs justification, not guilt by evidence discovery. No correct verdict is scripted."
+              ],
+              "id": "102"
+            },
+            {
+              "type": "entries",
+              "name": "Guilty Verdict",
+              "entries": [
+                "Pell: \"By Article Nine of the Town Charter, a jury convicting an absentee offender of municipal-property theft must personally ensure restitution.\"",
+                "The jury must retrieve and return the bell. Pay each PC 150 gp on completion. This version: Agnes has city/cottage fixed teleport pads; the guards do not have a flying machine. Agnes and her two bugbear guards are final opponents."
+              ],
+              "id": "103"
+            },
+            {
+              "type": "entries",
+              "name": "Not-Guilty Verdict",
+              "entries": [
+                "Pell: \"The criminal charge is dismissed. Municipal ownership is unaffected. Civil retrieval will proceed.\"",
+                "Agnes offers 150 gp per character if they defend her property against the guards. Her assistants Bram and Odo are separately detained for unlicensed heavy transport. In this reality Agnes has no teleportation; the guards have a huge dirigible to deploy the seizure team.",
+                "If the jury is split, Pell calls a final show of hands and rules by simple majority. The acquittal does not transfer municipal ownership of the bell."
+              ],
+              "id": "104"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 2: The Department of Municipal Property",
+          "id": "200",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "The Clerk and Form 19-B",
+              "entries": [
+                "Brindle: \"We can authorize unreasonable expenditures. We cannot authorize expenditures that are not itemized.\"",
+                "The party chooses exactly TWO of THREE seals. No check is required; aim for 10–15 minutes.",
+                {
+                  "type": "table",
+                  "caption": "Choose 2 seals",
+                  "colLabels": [
+                    "Seal",
+                    "Immediate effect"
+                  ],
+                  "rows": [
+                    [
+                      "SUPPLY",
+                      "Two Potions of Healing, each restoring 2d4 + 2 HP; Bonus Action to drink or administer using 2024 rules."
+                    ],
+                    [
+                      "PUBLIC WORKS",
+                      "200 feet rope, two climber’s kits, pitons, block-and-tackle, hand winch, municipal rigging diagrams."
+                    ],
+                    [
+                      "CIVIC AUTHORITY",
+                      "One extraordinary written requisition involving municipal property/personnel, limited by actual municipal authority."
+                    ]
+                  ]
+                },
+                "Example requests: inspection of belfry; maintenance labor; hauling cart; meeting with Captain Vale; municipal supplies. Brindle is helpful and strict, not obstructive. Stamp their selections and move on.",
+                "GUILTY: City belfry inspection can disclose the fixed teleport platform. NOT GUILTY: The writ does not automatically override Vale’s separate civil seizure."
+              ],
+              "id": "201"
+            },
+            {
+              "type": "entries",
+              "name": "Form 19-B Handout Text",
+              "entries": [
+                "POST-VERDICT AUTHORIZATION FOR BELL-RELATED ACTIVITIES. The jury is entitled to choose exactly TWO of the following THREE seals: [ ] SUPPLY  [ ] PUBLIC WORKS  [ ] CIVIC AUTHORITY.",
+                "Extraordinary requisition: ____________________. VERDICT: [ ] GUILTY  [ ] NOT GUILTY. JURY FOREPERSON: __________. FILED BY: Clerk Brindle.",
+                "\"The absence of an appropriate form does not excuse the absence of an appropriate form.\""
+              ],
+              "id": "202"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 3: Mountain Ascent",
+          "id": "300",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "The Abandoned Miners’ Track",
+              "entries": [
+                "The public path is narrow, steep and long neglected. It crosses one sheer cliff, one failing rope bridge, and a goat-occupied switchback. The mountain hazards are not Agnes’s traps."
+              ],
+              "id": "301"
+            },
+            {
+              "type": "entries",
+              "name": "Sheer Cliff — Forty-Foot Traverse",
+              "entries": [
+                "\"The trail simply stops. Across a bare wall of stone, the old path resumes forty feet away. A narrow lip, rusted pitons, and a rope bleached by years of weather are all that remain.\"",
+                "One lead character anchors a dependable line with climber’s kit or DC 13 Strength (Athletics). Once anchored, others traverse without individual checks. Valid spell, tool, and rope plans may avoid the check.",
+                "Failure: slip toward a rocky shelf 20 feet down; DC 12 Dexterity saving throw to catch anchor/rope and dangle. On failed save, land on shelf and take 2d6 bludgeoning. Others can help retrieve them."
+              ],
+              "id": "302"
+            },
+            {
+              "type": "entries",
+              "name": "Failing Rope Bridge — Fifty Feet",
+              "entries": [
+                "\"The suspension bridge sways against the rock. Planks are missing, the support ropes creak, and one end has pulled loose from its stone anchor.\"",
+                "Start a four-round countdown as soon as first PC steps on bridge. At END OF ROUND 4 a main support snaps. Up to two Medium characters can cross simultaneously.",
+                {
+                  "type": "table",
+                  "caption": "Crossing actions",
+                  "colLabels": [
+                    "Action",
+                    "Ruling"
+                  ],
+                  "rows": [
+                    [
+                      "Dash across",
+                      "One lead DC 12 Strength (Athletics) OR Dexterity (Acrobatics) check per wave of up to two PCs; partner may Help. Three waves gets five PCs across in about three rounds."
+                    ],
+                    [
+                      "Careful crossing",
+                      "No check, but normal 30-ft speed requires two rounds to cross 50 ft."
+                    ],
+                    [
+                      "Brace bridge",
+                      "Spend action and succeed DC 13 Athletics or appropriate tools: extend deadline by one round; only once."
+                    ],
+                    [
+                      "Failed wave check",
+                      "Lead loses footing, remains on bridge; DC 12 Dexterity save catches ropes, otherwise drops 20 ft to shelf for 2d6 damage."
+                    ],
+                    [
+                      "Bridge collapses",
+                      "Any PC still crossing makes DC 13 Dexterity save; success catches rope/ledge, failure falls 20 ft onto shelf for 2d6 bludgeoning."
+                    ]
+                  ]
+                },
+                "Teleport, Fly, Spider Climb, spare rope, or other effective approaches work normally. Avoid extra rolls beyond those specified."
+              ],
+              "id": "303"
+            },
+            {
+              "type": "entries",
+              "name": "Three Territorial Giant Goats",
+              "entries": [
+                "\"As you reach a wider switchback, three enormous goats look up from a patch of mineral salt. One stamps a hoof and lowers its horns.\"",
+                "Three {@creature Giant Goat|XMM}; AC 11, HP 19 each, 40-ft speed and 30-ft climb. Ram +5 to hit, 1d6+3 bludgeoning; on 20-ft straight charge add 2d4 and potentially knock Large or smaller Prone. Use the published 2024 creature entry. Total 300 XP.",
+                "One goat retreats after two fall unless cornered. These are ordinary territorial animals unrelated to Agnes. Players may use bait, magic, or other approaches to avoid combat."
+              ],
+              "id": "304"
+            },
+            {
+              "type": "entries",
+              "name": "Approach to the Summit",
+              "entries": [
+                "\"Beyond the final rise sits a crooked cottage, an immaculate flower garden, and the town bell upside down in the yard. Birds splash happily inside it. Someone has planted flowers around its rim.\"",
+                "Bell approx. 2,080 lb and four feet across; a winch, timbers and rollers lie nearby.",
+                "GUILTY version: fixed belfry and cottage pads and labor from two bugbears moved bell. NOT GUILTY: a consumed one-use shrinking charm let Bram and Odo carry the bell up; charm expired at summit and there is NO teleport pad."
+              ],
+              "id": "305"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 4: The Summit Map",
+          "id": "400",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "DM Tactical Map",
+              "entries": [
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/a-minor-noise-complaint/img/summit-map.png"
+                      },
+                      "imageType": "map",
+                      "title": "Agnes Grist’s Summit — DM Map, 20 × 16 squares",
+                      "width": 1360,
+                      "height": 1088,
+                      "grid": {
+                        "type": "none"
+                      }
+                    }
+                  ]
+                },
+                "{@link Open Summit Map|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/a-minor-noise-complaint/img/summit-map.png}"
+              ],
+              "id": "401"
+            },
+            {
+              "type": "entries",
+              "name": "Battlefield Features",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "One map for both finales: 20 x 16 squares; 5 ft per square",
+                  "colLabels": [
+                    "Map area",
+                    "Rules"
+                  ],
+                  "rows": [
+                    [
+                      "Cottage (columns L–R / rows 2–7)",
+                      "Door AC 15, 18 HP. Walls grant total cover when closed; open window half cover."
+                    ],
+                    [
+                      "Bell near J10",
+                      "Stolen 2,080-pound upside-down bronze bell with water, birds, and surrounding flowers."
+                    ],
+                    [
+                      "Low walls / herb garden",
+                      "Low walls half cover (+2 AC / relevant Dex saves); planted garden difficult terrain."
+                    ],
+                    [
+                      "Stone pad near N12",
+                      "Fixed teleport pad in guilty version; unremarkable stone paving if not guilty."
+                    ],
+                    [
+                      "Eastern edge R–T",
+                      "Drop 15 ft to lower terrace, 1d6 bludgeoning; can climb back."
+                    ],
+                    [
+                      "Southwest trail",
+                      "Player approach for guilty; available defense approach for not guilty."
+                    ],
+                    [
+                      "North/west courtyard",
+                      "Guard landing zone in not-guilty branch."
+                    ]
+                  ]
+                },
+                "Do not create an airship-interior map. The dirigible is only the guard-delivery device; it departs before combat."
+              ],
+              "id": "402"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 5A: Guilty — Recover the Bell",
+          "id": "500",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Finale Opening",
+              "entries": [
+                "Agnes: \"You brought five armed strangers up my mountain to make more noise. That rather proves my point.\"",
+                "Agnes resists because she is an evil, selfish hag who wants to keep the birdbath. Victory means the bell is recovered; killing the hag is not required."
+              ],
+              "id": "501"
+            },
+            {
+              "type": "entries",
+              "name": "Hostile Roster and Combat Tactics",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Guilty branch — 1,600 encounter XP",
+                  "colLabels": [
+                    "Enemy",
+                    "Stat reference",
+                    "Position / behavior",
+                    "Arcknight #"
+                  ],
+                  "rows": [
+                    [
+                      "Agnes Grist",
+                      "Green Hag CR 3, AC 17, HP 82",
+                      "Starts at cottage, casts or hides and fights if threatened. Invisibility, Disguise Self, Ray of Sickness, Claws.",
+                      "010"
+                    ],
+                    [
+                      "Bram",
+                      "Bugbear Stalker CR 3, AC 15, HP 65",
+                      "Near birdbath. Morningstar Multiattack (reach 10 ft), Quick Grapple and Abduct, isolates PCs.",
+                      "070"
+                    ],
+                    [
+                      "Odo",
+                      "Bugbear Warrior CR 1, AC 14, HP 33",
+                      "Near cottage. One attack/grapple, protects Agnes and bell.",
+                      "069"
+                    ]
+                  ]
+                },
+                "Use full published 2024/2025 monster actions without added legendary actions. Bram and Odo may surrender if Agnes is subdued or flees."
+              ],
+              "id": "502"
+            },
+            {
+              "type": "entries",
+              "name": "Fixed-Point Teleportation and Bell Recovery",
+              "entries": [
+                "Only this branch has teleportation. A 10-foot stone pad outside cottage connects solely to a corresponding city belfry pad. Pressing the stone is one action. Willing creatures and unattended objects wholly on one pad move to the other.",
+                "Winch and rollers: two workers can shift bell onto pad in roughly ten minutes outside initiative. Players can exploit a discovered city pad earlier.",
+                "Agnes may retreat through pad to city if cornered and able to reach it, conceding the bell. Players can also win by bargaining for a genuinely lasting reduction in bell noise.",
+                "Agnes during battle: \"I asked you TWICE not to hit people near the hydrangeas!\""
+              ],
+              "id": "503"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Chapter 5B: Not Guilty — Defend the Hag",
+          "id": "600",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Airship Arrival",
+              "entries": [
+                "Hindenburg-style municipal dirigible approaches the summit, deploys Captain Vale, two sergeants and four guards onto north/west grounds, then leaves. No second map, airborne attacks, boarding or airship combat.",
+                "Agnes: \"That is what I pay you for. I am going to make biscuits.\" She retreats indoors and makes NO attacks, spells, healing, buffs, assistance or bodyguard contribution."
+              ],
+              "id": "601"
+            },
+            {
+              "type": "entries",
+              "name": "Guard Roster and Tactics",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Not-guilty branch — 1,700 encounter XP",
+                  "colLabels": [
+                    "Enemy",
+                    "Stat reference",
+                    "Objective / behavior",
+                    "Arcknight #"
+                  ],
+                  "rows": [
+                    [
+                      "Captain Vale",
+                      "Warrior Veteran CR 3, AC 17, HP 65",
+                      "Reads civil writ, directs team, Parry; can accept credible settlement.",
+                      "044"
+                    ],
+                    [
+                      "Sergeant 1",
+                      "Bandit Captain CR 2, AC 15, HP 52",
+                      "Presses the most disruptive PC, coordinated flank.",
+                      "038"
+                    ],
+                    [
+                      "Sergeant 2",
+                      "Bandit Captain CR 2, AC 15, HP 52",
+                      "Presses defenders from other side, not suicidal.",
+                      "026"
+                    ],
+                    [
+                      "Four Guards",
+                      "Guard CR 1/8, AC 16, HP 11 each",
+                      "Two hold approaches and two form cordon around bell.",
+                      "031–034"
+                    ]
+                  ]
+                },
+                "Vale needs control of summit after PCs retreat, surrender, or are defeated; guard cannot lift 2,080-pound bell during combat. Dirigible returns later with lifting gear. Civil seizure is not an assassination.",
+                "If Vale falls or both sergeants are defeated, remaining troops may withdraw or surrender. Agnes from the kitchen window: \"I CAN HEAR ALL OF THAT, CAPTAIN! SOME OF US HAVE FOOD IN THE OVEN!\""
+              ],
+              "id": "602"
+            },
+            {
+              "type": "entries",
+              "name": "Outcome",
+              "entries": [
+                "If defense succeeds, Agnes pays 150 gp per PC and offers biscuits. Bell stays birdbath unless PCs produce a different legitimate outcome."
+              ],
+              "id": "603"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Appendix A: DM Reference",
+          "id": "700",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Quick Rulings",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Common unexpected actions",
+                  "colLabels": [
+                    "Situation",
+                    "Ruling"
+                  ],
+                  "rows": [
+                    [
+                      "Hung jury",
+                      "Majority verdict after one final show of hands."
+                    ],
+                    [
+                      "Guilty: discover city pad",
+                      "It operates just like cottage pad; can bypass mountain."
+                    ],
+                    [
+                      "Not guilty: reject defense job",
+                      "Agnes cannot compel PCs; Vale proceeds with seizure."
+                    ],
+                    [
+                      "Cliff or bridge bypassed",
+                      "A legal spell/plan works, no replacement obstacle."
+                    ],
+                    [
+                      "Bell damaged deliberately",
+                      "Suggested custom object AC 19, HP 80, damage threshold 10. Destroyed bell is not successful restitution."
+                    ],
+                    [
+                      "Off summit edge",
+                      "15-ft fall, 1d6 damage; return by climb/help."
+                    ],
+                    [
+                      "Guards touch bell",
+                      "Control and cordon matter; they cannot lift it while fighting."
+                    ],
+                    [
+                      "Agnes flees",
+                      "May use existing pad; leaving bell concedes the claim."
+                    ],
+                    [
+                      "NPC leader falls",
+                      "Use stated morale; no replacement boss."
+                    ],
+                    [
+                      "Garden or birds harmed",
+                      "Agnes complains, loudly; no new subsystem."
+                    ]
+                  ]
+                },
+                "Five level-4 PCs encounter budgets: Low 1,250 XP, Moderate 1,875 XP, High 2,500 XP. Goat herd: 300 XP. Guilty finale: 1,600 XP. Not-guilty finale: 1,700 XP.",
+                "Look up Green Hag, Bugbear Stalker, Bugbear Warrior, Giant Goat, Warrior Veteran, Bandit Captain and Guard in official 2024/2025 monster material."
+              ],
+              "id": "701"
+            },
+            {
+              "type": "entries",
+              "name": "At-a-Glance Pacing",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Observed planning targets",
+                  "colLabels": [
+                    "Activity",
+                    "Approx. time"
+                  ],
+                  "rows": [
+                    [
+                      "Trial/verdict",
+                      "20–25 min"
+                    ],
+                    [
+                      "Municipal paperwork",
+                      "8–15 min"
+                    ],
+                    [
+                      "Cliff, bridge, goats",
+                      "25–40 min combined"
+                    ],
+                    [
+                      "Summit choices and preparation",
+                      "15–40 min"
+                    ],
+                    [
+                      "Final battle",
+                      "40–60 min"
+                    ],
+                    [
+                      "Resolution",
+                      "5–10 min"
+                    ]
+                  ]
+                },
+                "A decisive group may finish in about two hours; do not force padding."
+              ],
+              "id": "702"
+            },
+            {
+              "type": "entries",
+              "name": "Verified Arcknight Mini Pull List",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "Permanent binder numbering",
+                  "colLabels": [
+                    "Role",
+                    "Mini # / printed figure",
+                    "Location"
+                  ],
+                  "rows": [
+                    [
+                      "Agnes",
+                      "#010 Crone",
+                      "P02 Front top right"
+                    ],
+                    [
+                      "Bram",
+                      "#070 Bugbear brute",
+                      "P09 Back top right"
+                    ],
+                    [
+                      "Odo",
+                      "#069 Half-orc warrior with axe",
+                      "P09 Back top left"
+                    ],
+                    [
+                      "Captain Vale",
+                      "#044 Lavender-armored officer",
+                      "P06 Front bottom right"
+                    ],
+                    [
+                      "Sergeant 1",
+                      "#038 Blue-armored paladin",
+                      "P05 Back top right"
+                    ],
+                    [
+                      "Sergeant 2",
+                      "#026 Blue-armored spear fighter",
+                      "P04 Front top right"
+                    ],
+                    [
+                      "Guards",
+                      "#031 Red-armored fighter, #032 Female sword fighter, #033 Shield-bearing swordsman, #034 Female armored swordswoman",
+                      "P04 Back bottom left/right; P05 Front top left/right"
+                    ],
+                    [
+                      "Three Giant Goats",
+                      "#102 Gray wolf, #105 Dark wolf, #106 Boar (stand-ins on Large 2x2 bases)",
+                      "P13 Back top right; P14 Front top left/right"
+                    ]
+                  ]
+                },
+                "Pull once, sorted: 010 / 026 / 031 / 032 / 033 / 034 / 038 / 044 / 069 / 070 / 102 / 105 / 106."
+              ],
+              "id": "703"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
