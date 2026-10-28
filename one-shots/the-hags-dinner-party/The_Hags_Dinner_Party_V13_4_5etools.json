@@ -49,8 +49,7 @@
             "Combat Reference",
             "Breaking the Ritual",
             "Special Rulings",
-            "Terrain and Miniatures",
-            "Room Assignment Log"
+            "Terrain and Miniatures"
           ]
         }
       ]
@@ -359,7 +358,7 @@
                     "“Please! I’ve been in this room for ages! Every time I leave, it’s like I’m wrapped back up! Will you free me?”"
                   ]
                 },
-                "The guest has no idea that the bearskin rug traps him. He appears ordinary until distressed, when his features grow spectral. The rug animates only when approached closely enough to trigger it.",
+                "The guest has no idea that the bearskin rug traps him. He appears ordinary until distressed, when his features grow spectral. The rug remains still until someone steps onto it.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -423,7 +422,7 @@
                     ],
                     [
                       "Fight the wardrobe",
-                      "Players may tear garments, dodge, barricade wardrobes or otherwise improvise. The swarm persists until the ritual is broken."
+                      "Players may tear garments, dodge, barricade wardrobes or otherwise improvise. The swarm persists until the haunting is broken."
                     ],
                     [
                       "Clue, if needed",
@@ -467,7 +466,7 @@
                   ]
                 },
                 "Enthralling music: anyone who hears it on arrival makes a DC 13 Wisdom save. On a failure, the listener cannot take purposeful actions while entranced. Repeat the save at the end of each turn; success ends the effect. An ally who uses an action to shake or shield the listener from the music grants an immediate repeat save with Advantage. If everyone fails, the end-of-turn saves continue. Use initiative if tracking turns becomes necessary.",
-                "The WRONG master score stands in the center of the room. The CORRECT complete quartet score is in a leather folio beside the lute player's chair. Comparing them reveals the difference without a check. He can pass the folio to the characters while compelled to keep playing.",
+                "The WRONG master score stands in the center of the room. The CORRECT complete quartet score is in a leather folio beside the lute player's chair. Comparing them reveals the difference without a check. The characters can retrieve the folio.",
                 "All three accompanying instruments are wooden objects (AC 15): violin 3 HP, cello 4 HP, piano 27 HP. A destroyed or disabled instrument stops playing. The instruments take no creature turns; ordinary object-damage rules apply.",
                 "Any one of these solutions ends the haunting:",
                 {
@@ -506,7 +505,7 @@
                     "“That big thing grabbed me when I came in. It carried me up here. It said, ‘Here. Stay. Eat. Soon.’ Then it left. I thought it would come back if I tried to go.”"
                   ]
                 },
-                "The golem's limited speech is intentional. Mira can hold a hero's hand or be carried. She has no combat role.",
+                "Mira can hold a hero's hand or be carried. She has no combat role.",
                 "When she agrees to leave, the door loop ends. Every upstairs room not yet revealed is empty from that point forward; furnishings in the revealed rooms stay."
               ]
             },
@@ -518,10 +517,17 @@
                 {
                   "type": "insetReadaloud",
                   "entries": [
-                    "The moment Mira steps out of the Playroom, all the doors behind you swing shut. The staircase, once impossibly distant, stands only twenty feet away. You hurry down. But where the foyer should be, warm light spills through an open doorway into the dining room."
+                    "The moment Mira steps out of the Playroom, all the doors behind you swing shut. The staircase, once impossibly distant, stands only twenty feet away."
                   ]
                 },
-                "When Mira leaves the Playroom, the staircase appears twenty feet down the hall. Its portal now leads directly to the ordinary dining room. If the party investigates unopened upstairs doors first, those rooms are empty."
+                "When the adventurers descend:",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Warm light spills through an open doorway where the foyer should be. Beyond it waits a dining room, prepared for guests."
+                  ]
+                },
+                "The staircase portal leads directly to the ground-floor dining room. Any unopened upstairs rooms explored before descending are empty."
               ]
             },
             {
@@ -557,7 +563,7 @@
                     "Bring in the pair together, normally around round two. They act at the Skeletons' initiative count but take their own turns. They attack adventurers, never Mira. When the golem and both Skeletons are defeated or permanently neutralized, any remaining Specters dissipate."
                   ]
                 },
-                "The golem fights to kill the intruding adventurers; the Skeletons protect it. None of the guardians or optional Specters target Mira. The golem's anger is portrayed through its dialogue and actions; its custom stat block has no Berserk trait."
+                "The golem fights to kill the intruding adventurers; the Skeletons protect it. None of the guardians or optional Specters target Mira."
               ]
             },
             {
@@ -565,7 +571,6 @@
               "name": "Combat Reference",
               "id": "015",
               "entries": [
-                "Choose the custom {@creature Dinner Golem (3 PCs)|HDP2026}, {@creature Dinner Golem (4 PCs)|HDP2026}, {@creature Dinner Golem (5 PCs)|HDP2026}, or {@creature Dinner Golem (6 PCs)|HDP2026} stat block based on the party.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -631,8 +636,7 @@
                     "col-4",
                     "col-8"
                   ]
-                },
-                "Mira uses miniature #017 Halfling explorer. The two Skeletons are represented by #079 and #080. The Flesh Golem uses #142 Ogre."
+                }
               ]
             },
             {
@@ -799,48 +803,6 @@
                   ]
                 },
                 "Furnish each room as it is revealed. Place characters safely inside the doorway, before the rug or other hazard. Keep all walls and previously placed furnishings fixed. Unrevealed rooms remain unfurnished after Mira's rescue."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Room Assignment Log",
-              "id": "019",
-              "entries": [
-                {
-                  "type": "table",
-                  "colLabels": [
-                    "Opened physical door",
-                    "Revealed destination",
-                    "Released / door now opens to hall"
-                  ],
-                  "rows": [
-                    [
-                      "________",
-                      "1 — Guest Bedroom",
-                      "________________"
-                    ],
-                    [
-                      "________",
-                      "2 — Dressing Room",
-                      "________________"
-                    ],
-                    [
-                      "________",
-                      "3 — Music Room",
-                      "________________"
-                    ],
-                    [
-                      "________",
-                      "4 — Playroom / Mira",
-                      "________________"
-                    ]
-                  ],
-                  "colStyles": [
-                    "col-4",
-                    "col-4",
-                    "col-4"
-                  ]
-                }
               ]
             }
           ]
