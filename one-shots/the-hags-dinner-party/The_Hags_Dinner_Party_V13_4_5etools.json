@@ -31,26 +31,26 @@
         {
           "name": "The Hag's Dinner Party",
           "headers": [
-            "Adventure Guide",
-            "DM front card",
-            "Battle Maps — Embedded",
-            "Encounter clock: elapsed table time, not scene-resolution time",
-            "1. What the DM knows",
-            "2. The Hall outpost and the old key",
-            "3. The front door: Hag’s Door Warden",
-            "4. Downstairs, narrated",
-            "5. The impossible upstairs and discovery doors",
-            "6. First revealed room: Guest Bedroom — locked",
-            "7. Second revealed room: Dressing Room — locked",
-            "8. Third revealed room: Music Room — locked",
-            "9. Fourth revealed room: Playroom — Mira’s rescue — locked",
-            "10. The staircase leads straight to dinner — locked",
-            "11. Dinner: the unfinished household ritual — locked opening",
-            "12. Combat reference — verified 2024 baseline and explicit changes",
-            "13. The cleansing and the ending — locked",
-            "14. Table rulings and improv guide",
-            "15. One-mat terrain build and mini pull",
-            "Room assignment log"
+            "Adventure Overview",
+            "At a Glance",
+            "Maps",
+            "Session Clock",
+            "The Hag's Ritual",
+            "The Hall Outpost",
+            "Hag's Door Warden",
+            "Ground Floor",
+            "The Upstairs Demiplane",
+            "Guest Bedroom",
+            "Dressing Room",
+            "Music Room",
+            "Playroom: Mira",
+            "The Staircase",
+            "The Dinner Party",
+            "Combat Reference",
+            "Breaking the Ritual",
+            "Special Rulings",
+            "Terrain and Miniatures",
+            "Room Assignment Log"
           ]
         }
       ]
@@ -68,80 +68,63 @@
           "entries": [
             {
               "type": "entries",
-              "name": "Adventure Guide",
+              "name": "Adventure Overview",
               "id": "001",
               "entries": [
-                "{@i HALL OF HEROES    •    HALLOWEEN    •    THREE-HOUR ONE-SHOT}",
-                "A missing child. A house that insists on hospitality. Three trapped guests. One unfinished dinner.",
-                "Levels 2–3  •  3–6 players  •  one 36×24-inch mat  •  one planned combat",
-                "{@i Map is a square-by-square DRAWING reference for the ENHANCE mat, not a full-size printable 1-inch grid. All four room thresholds are interchangeable.}",
-                "Rescue Mira by confronting a household still trapped in the hag’s dinner preparations: Guest Bedroom → Dressing Room → Music Room → Playroom → mandatory dinner → house cleansed.",
-                "V13 LOCKED HOUSE RULE: A new upstairs door folds the party into its newly assigned room, which will not let anyone leave until the haunting is resolved. The room remains permanent once freed. See “The impossible upstairs and discovery doors” and “Table rulings and improv guide” for edge cases."
+                "{@i HALL OF HEROES • HALLOWEEN • THREE-HOUR ONE-SHOT}",
+                "A missing child. Three trapped guests. A house preparing a dinner that never begins.",
+                "Levels 2–3 • 3–6 players • one 36×24-inch mat • one combat",
+                "The old hag's enchanted household continues its hospitality ritual: rest, dress, music, play, and dinner. Find Mira, free the imprisoned guests, and end the ritual.",
+                "The upstairs rooms appear in discovery order: Guest Bedroom → Dressing Room → Music Room → Playroom. Their physical doors are interchangeable; once revealed, each room remains in place."
               ]
             },
             {
               "type": "entries",
-              "name": "DM front card",
+              "name": "At a Glance",
               "id": "002",
               "entries": [
                 {
                   "type": "table",
                   "colLabels": [
-                    "Rule",
-                    "Run it this way"
+                    "Element",
+                    "At the table"
                   ],
                   "rows": [
                     [
-                      "One mat",
-                      "Build four empty, interchangeable room shells plus a separate dining island. Furnish as doors open. Everything placed stays put."
+                      "Mat",
+                      "Draw four empty 7×7 rooms and a separate dining island on the single 36×24 mat. Add furnishings as each room is revealed; leave them in place."
                     ],
                     [
-                      "Four reveals",
-                      "1 Guest Bedroom; 2 Dressing; 3 Music; 4 Playroom with Mira. Assign encounter to any physical door chosen, then fix it permanently."
+                      "Room order",
+                      "Guest Bedroom → Dressing Room → Music Room → Playroom with Mira, regardless of which unopened door is chosen."
                     ],
                     [
-                      "Mandatory room entry",
-                      "First opening of a NEW upstairs door folds the hallway around everyone currently upstairs and deposits them inside that room, just inside its threshold; the door shuts. Place terrain before characters move."
+                      "New doorway",
+                      "Opening an unexplored upstairs door folds everyone currently upstairs into the next room, just inside its entrance. The doorway closes."
                     ],
                     [
-                      "Until haunting broken",
-                      "Opening the room door, breaking through an internal boundary or trying to reach another upstairs room returns the character to the SAME room. The house will not let them bypass an active haunting. Solve it by any effective means, then the original doorway opens onto the hallway."
+                      "Haunting",
+                      "Doors and boundary breaches loop back into the active room until its haunting is resolved. Afterward, that room becomes safely accessible."
                     ],
                     [
-                      "Persistent layout",
-                      "Once cleared, the room remains furnished and safely accessible by its original door. Previously discovered doors never change identity; no extra trap or puzzle is added."
+                      "Pacing",
+                      "After an unusually long room, the next unopened door may reveal Mira's Playroom instead of the next haunting."
                     ],
                     [
-                      "After rescuing Mira",
-                      "Unopened upstairs rooms are EMPTY—no ghosts, traps, or encounters. Previously furnished rooms retain their contents. All remaining trapped spirits are released when the dinner ritual is broken."
+                      "After Mira",
+                      "All unrevealed rooms are empty and harmless. Previously opened rooms retain their furnishings."
                     ],
                     [
-                      "Optional short route",
-                      "If a room runs extremely long, after it is resolved the NEXT newly opened door can reveal Mira’s Playroom. When Mira agrees to leave, ALL remaining unopened rooms are empty if explored; no further hauntings or guests appear. Previously revealed furniture stays."
+                      "Windows",
+                      "Upstairs windows show an endless demiplane void. Breaching a boundary during an active haunting returns the character to that room."
                     ],
                     [
-                      "Ghosts",
-                      "Every crying ghost is a former trapped guest. Freeing them releases them and delivers their warning; they are not hostile creatures."
-                    ],
-                    [
-                      "No stair ghost",
-                      "There is no apparition on the stairs and no backward-walking puzzle."
-                    ],
-                    [
-                      "The void",
-                      "All upstairs windows reveal an endless demiplane void. During an active haunting, crossing the window, exterior wall, floor or ceiling loops safely back into that room; after release, the void remains real and is no route to the village."
-                    ],
-                    [
-                      "Downstairs dinner",
-                      "Unoccupied until the final transition. Table and guardians appear only as dinner preparation begins."
-                    ],
-                    [
-                      "Combat",
-                      "One finale combat: scaled Dinner Golem and two Skeletons. OPTIONAL pacing escalation: two Dinner Specters (11 HP each, 1d6 Spectral Touch) can manifest during the fight. No creature targets Mira."
+                      "Dinner",
+                      "The stairway leads directly to the newly prepared dining room. Fight one custom Dinner Golem and two Skeletons; two Dinner Specters are optional."
                     ],
                     [
                       "End",
-                      "Once the Golem and BOTH Skeletons are defeated, the dinner ritual breaks. Any remaining optional Specters immediately disperse. The house is cleansed and safe."
+                      "Defeating or permanently neutralizing all three original guardians breaks the ritual. Any remaining Specters vanish; the house is cleansed."
                     ]
                   ],
                   "colStyles": [
@@ -153,10 +136,10 @@
             },
             {
               "type": "entries",
-              "name": "Battle Maps — Embedded",
+              "name": "Maps",
               "id": "020",
               "entries": [
-                "These maps are embedded within this homebrew JSON; they do not require hosting, an img/ folder, or a separate GitHub upload. The 36×24 grid is a layout reference, not a printed full-size one-inch map.",
+                "The three maps are embedded in this JSON. Each depicts a 36×24-square layout for the ENHANCE mat; the image is not a full-size printable one-inch grid.",
                 {
                   "type": "image",
                   "href": {
@@ -200,7 +183,7 @@
             },
             {
               "type": "entries",
-              "name": "Encounter clock: elapsed table time, not scene-resolution time",
+              "name": "Session Clock",
               "id": "003",
               "entries": [
                 {
@@ -252,21 +235,21 @@
                     "col-6"
                   ]
                 },
-                "{@i These are broad planning ranges, NOT a promise of exactly three hours. Allow real players to joke, deliberate for 3–4 minutes, ask questions, move figures, look up abilities, and take breaks. Deliberation during each scene is already included; the last row represents extra interruptions. Do not add filler encounters to hit a number.}"
+                "Ranges include roleplay, investigation, decisions, and moving miniatures. The last row covers breaks and other interruptions."
               ]
             },
             {
               "type": "entries",
-              "name": "1. What the DM knows",
+              "name": "The Hag's Ritual",
               "id": "004",
               "entries": [
-                "Old Mother Vale is long dead. Her magical hospitality routine persists: rest, dress, music, play, then dinner. The ordinary ground floor remains on the Material Plane; an inherited planar threshold at the staircase opens into a demiplane whose rooms and distances need not match the outside of the house. The four upper room destinations become fixed only when their hallway doors first open. The same old hospitality ritual folds the upstairs geometry into a prison: opening an unexplored threshold automatically admits the upstairs party, and the room returns attempts to leave to itself until its haunting is broken. It is an adventure-specific demiplane property, not a published spell. These are adventure-specific enchantments; they are not claimed to be the effects of a published spell.",
-                "Each of the three ghosts was a visitor kept captive by one part of the ritual. The household guards are a customized Flesh Golem and two Skeletons. The Golem carried Mira to the Playroom when she entered; it understands little more than a duty to keep guests ready for dinner. If more combat is needed for pacing, the ritual can briefly manifest two spectral echoes of old dinner guests; they are not the freed ghosts from upstairs. Defeating the original three guardians breaks the lingering ritual and instantly dissipates any Specters still present. There is no living hag to fight and the other heroes’ undead outbreak is unrelated."
+                "Old Mother Vale died decades ago, but her hospitality ritual continues: guests must rest, dress, perform, play, and attend dinner. The ordinary ground floor exists on the Material Plane. The staircase crosses into an upstairs demiplane, where doors assign rooms when opened and the house's enchantment loops exits until each haunting is resolved.",
+                "Three former guests remain bound to the ritual. A Flesh Golem and two Skeleton servants enforce dinner preparations. The golem carried Mira upstairs after she entered the house. Destroying or permanently neutralizing the three guardians ends the dinner ritual and releases every remaining spirit. Two spectral echoes may briefly appear during the finale if needed. The other heroes' undead outbreak is unrelated."
               ]
             },
             {
               "type": "entries",
-              "name": "2. The Hall outpost and the old key",
+              "name": "The Hall Outpost",
               "id": "005",
               "entries": [
                 {
@@ -275,19 +258,20 @@
                     "Rain rattles against the Hall outpost shutters. Two children stand dripping at the door. “Our friend is missing. Mira went into the old witch’s house. We saw her go inside, and the door wouldn’t open!”"
                   ]
                 },
-                "Tob admits Mira accepted a dare. Nell saw the front door slam after her. They know nothing about the upstairs. The other experienced Hall heroes are out dealing with an unrelated undead outbreak. The house is ten minutes away.",
+                "Tob admits Mira accepted a dare. Nell saw the door slam after her. They know nothing of the upstairs. The experienced Hall heroes are occupied by an unrelated undead outbreak. The house is ten minutes away.",
+                "Take the skeleton key from your belt and hand it to the players.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
-                    "[Hand the player the skeleton key from your costume belt.] “The town left this with us after the hag died. Bring Mira home.”"
+                    "“The town left this with us after the hag died. Bring Mira home.”"
                   ]
                 },
-                "The Hall can lend mundane rope, lanterns, blankets, chalk and crowbars if requested; no extra magical aid or required investigation."
+                "The Hall has ordinary rope, lanterns, blankets, chalk, and crowbars available."
               ]
             },
             {
               "type": "entries",
-              "name": "3. The front door: Hag’s Door Warden",
+              "name": "Hag's Door Warden",
               "id": "006",
               "entries": [
                 {
@@ -296,38 +280,33 @@
                     "A stone face above the front door draws a long, hollow breath. Leaves lie in a perfect circle beneath it."
                   ]
                 },
-                "This is the previously approved custom device trap, not a published magic item or independent combat. The enchanted key lets its holder bypass the ward. Clever bypasses and disabling it are valid; it is entirely possible for the players to use the key and spend almost no time here.",
-                "CONTINUITY: Mira did not obtain the key. The house treated her as an invited child and let her enter. Once inside, the entry door latched and the golem carried her upstairs. The key held at Hall opens the latch and bypasses the ward for its holder. This does not change the device’s 20-charge limit or normal wind effect on other unkeyed creatures.",
+                "Mira passed the ward because the house treats children as invited guests. The door latched behind her. The enchanted key allows its holder to approach safely; other bypasses are possible.",
                 {
                   "type": "table",
                   "colLabels": [
                     "Feature",
-                    "Mechanical ruling"
+                    "Rule"
                   ],
                   "rows": [
                     [
                       "Charges",
-                      "20 charges; one charge sustains a Gust of Wind effect for up to 1 minute. No recharge; cannot stack simultaneous activations."
+                      "20; each activation consumes one charge and creates a Gust of Wind effect lasting up to 1 minute. No recharge or simultaneous stacking."
                     ],
                     [
                       "Trigger",
-                      "The ward triggers when a creature other than an invited child approaches within 20 ft without the enchanted key. The house recognizes children as expected guests; Mira passed without activating the wind. This is the adventure-specific device rule."
+                      "An approaching creature within 20 feet without the key triggers the ward, except an invited child."
                     ],
                     [
-                      "Direction",
-                      "Fixed line directly outward from the face. Wind effect based on 2024 Gust of Wind, save DC 12."
+                      "Effect",
+                      "Fixed line outward from the stone face; 2024 Gust of Wind, save DC 12, no damage."
                     ],
                     [
                       "Key",
-                      "A creature physically holding the enchanted key is exempt from the ward. A handoff or other valid bypass lets companions approach. Invited children also pass freely, whether or not they have the key."
+                      "The creature holding the key is exempt. It may be handed between adventurers."
                     ],
                     [
                       "Disable",
-                      "Stone face AC 13, 15 HP; tools, suitable magic, exhausting charges, side approach and other plausible plans work."
-                    ],
-                    [
-                      "Damage",
-                      "The wind itself deals no damage; use the published spell movement rules when it activates."
+                      "Stone face AC 13, 15 HP; tools, damage, exhausting charges, side approach, or an effective magical method."
                     ]
                   ],
                   "colStyles": [
@@ -339,32 +318,33 @@
             },
             {
               "type": "entries",
-              "name": "4. Downstairs, narrated",
+              "name": "Ground Floor",
               "id": "007",
               "entries": [
-                "The foyer, parlor, kitchen, study and dining room are ordinary spaces. From upstairs, the party hears thumping and crying. No mandatory downstairs search. If they investigate the dining room BEFORE the finale, it is empty of creatures and not yet set for dinner. The transition later sends the party back to that same, suddenly prepared room."
+                "The foyer, parlor, kitchen, study, and dining room occupy the ordinary ground floor. Thumping and crying can be heard from upstairs. Before Mira's rescue the dining room is empty and unset. The household prepares it for dinner when the party returns via the staircase portal.",
+                "A character waiting on the ground floor stays there when an upstairs door folds the party. If that character later ascends during an active haunting, the stairs deliver them into the current room."
               ]
             },
             {
               "type": "entries",
-              "name": "5. The impossible upstairs and discovery doors",
+              "name": "The Upstairs Demiplane",
               "id": "008",
               "entries": [
-                "An ordinary staircase crosses a planar threshold into a much longer upper corridor, visibly impossible inside this building. No ghost speaks on the stairs. All FOUR unopened doors are mundane-looking and sound as though someone is crying. The players choose which door to investigate. On the FIRST opening of an unexplored door, the hallway folds into the next encounter: first Guest Bedroom, second Dressing Room, third Music Room, fourth Playroom with Mira. Door geography does not determine the room; the room is permanently assigned at the first opening. After its haunting is broken, the room remains furnished and revisitable from its original doorway. Every window—including Mira’s—looks onto the demiplane’s endless void. Looking through a window never reveals a normal exterior or an escape route.",
-                "MANDATORY ADMISSION AND THE ROOM-PRISON RULE: The instant the party opens a new upstairs threshold far enough to reveal its interior, the hallway bends around every adventurer currently on the impossible upper floor (including anyone hanging back or waiting in a previously cleared room). All arrive safely just INSIDE the revealed room’s doorway, not on a hazard such as the bear rug. The newly opened door slams shut. No saving throw is rolled against this change of geometry. During an active haunting, reopening the exit shows or leads back into that SAME room; walking out, opening a different unopened door, or breaking through a dividing wall also loops back to this room. The characters can move, investigate, cast spells, damage furnishings, and solve the haunting freely; the house blocks bypassing the haunting, NOT meaningful approaches to resolving it. As soon as that haunting is broken (or Mira agrees to depart from the Playroom), the exit leads back to the normal impossible upstairs hallway. Rooms already cleared do not re-trap anyone. The prison applies equally to crossings through the room’s windows, exterior walls, ceiling and floor: these reveal the void, but a character trying to cross is spatially returned into the active room rather than allowed to bypass the unresolved haunting. This is a local spatial condition, not immunity to spells or a ban on genuine planar travel.",
+                "The staircase crosses into an impossibly long upper hallway. Four ordinary-looking doors can be opened in any order; crying can be heard beyond them. The first unexplored door opened reveals the Guest Bedroom, the second the Dressing Room, the third the Music Room, and the fourth the Playroom. Once revealed, each door retains that room permanently. Every upstairs window overlooks endless void.",
+                "When a new upstairs door opens far enough to reveal its interior, the hallway folds everyone currently upstairs into that room, placing them safely just inside the threshold. The door shuts. The room's exit and any breaches through its walls, windows, floor, or ceiling loop into that same room until its haunting ends. Clearing the haunting restores access to the hallway. Characters can freely act inside the room; teleportation within the room works where its spell permits. The loop provides no hallway destination for a local teleport, but an actual planar-travel effect may cross planes according to its spell.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
                     "The door swings open. Before anyone can step through, the hallway lurches beneath you. For a heartbeat its walls seem to fold like paper—and suddenly you are all standing inside the room. Behind you, the door slams shut."
                   ]
                 },
-                "EDGE CASES: A character who remains on the MATERIAL-PLANE ground floor is not folded upstairs; if they later ascend while a haunting is active, the upstairs route deposits them into that active room instead of allowing them to bypass it. If multiple new doors are opened simultaneously, the FIRST exposure establishes one active room and the fold interrupts the second opening; use declared order, or a consistent tie-breaker. A breach into an unopened room is treated as a first entry ONLY after the current haunting is solved; during an active haunting it loops into that same room. Doors into previously CLEARED rooms work normally when no haunting is active. Ordinary movement and local teleportation cannot leave an active room via the looping interior geometry; do not invent blanket immunity to spells. Genuine planar travel or effects that explicitly cross planes still function as published if the character actually possesses them. Attempting to cross an active room’s outside windows or external boundaries also loops back safely into the active room. Once a haunting is resolved those boundaries again look out on the actual demiplane void; the void is not a path into the material-plane house.",
-                "PACING OPTION FROM TABLE DESIGN: The default is all four rooms in order; each encountered room must be RESOLVED before the next can open. If an early room consumes so much real table time that dinner cannot fit (for example, an hour in the bedroom), once the CURRENT haunting is resolved the next NEW door may lead directly to the Playroom. Unrevealed encounters can be skipped; already revealed rooms, their consequences, and the resolved-then-exit rule never change. Do not shortcut the room the characters are currently trapped in. AFTER Mira has agreed to leave the Playroom, any still-unopened doors are empty quiet rooms when entered: no ghost, no trap, no newly assigned haunting, and no re-trapping. Already cleared rooms keep their furnishings. The guests from skipped hauntings remain tied to the household ritual but do not appear inside these empty rooms; breaking the dinner ritual releases them all. Any crying formerly heard behind those unused doors has ceased by then."
+                "If two unopened doors are opened simultaneously, the first exposed room becomes active and interrupts the second opening. A character arriving from the ground floor during an active haunting appears in that room. Previously cleared rooms remain accessible whenever no haunting is active.",
+                "PACE ADJUSTMENT: If a room consumes so much session time that the dinner finale is at risk, finish that room normally, then have the next unexplored doorway reveal Mira's Playroom. Once Mira agrees to leave, every still-unrevealed room is empty: no guest, trap, or door loop. The ritual releases the guests from skipped hauntings when it breaks."
               ]
             },
             {
               "type": "entries",
-              "name": "6. First revealed room: Guest Bedroom — locked",
+              "name": "Guest Bedroom",
               "id": "009",
               "entries": [
                 {
@@ -379,7 +359,7 @@
                     "“Please! I’ve been in this room for ages! Every time I leave, it’s like I’m wrapped back up! Will you free me?”"
                   ]
                 },
-                "The guest does NOT know what is trapping him. As he becomes distressed, his features slowly appear spectral. The physical bear-rug terrain piece is the surprise; do not signal that it is hostile until someone steps onto it.",
+                "The guest has no idea that the bearskin rug traps him. He appears ordinary until distressed, when his features grow spectral. The rug animates only when approached closely enough to trigger it.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -415,13 +395,12 @@
                     "“Find the girl you seek before she’s trapped as I was.”"
                   ]
                 },
-                "He fades peacefully. This room is permanently furnished and remains safe once solved.",
-                "When the bear rug is neutralized, the guest is freed and the spatial loop ends. The door once again leads into the upstairs hallway; leave the bedroom terrain in place."
+                "On release he fades peacefully, the loop ends, and the bedroom remains furnished and safe."
               ]
             },
             {
               "type": "entries",
-              "name": "7. Second revealed room: Dressing Room — locked",
+              "name": "Dressing Room",
               "id": "010",
               "entries": [
                 {
@@ -430,7 +409,7 @@
                     "A crying woman sits at a vanity among overflowing wardrobes. “Do you know where my friends have gone? Everyone must look their best, I’m told! That’s all I’m told!”"
                   ]
                 },
-                "She is another trapped GUEST, not a servant. She tries to approach the doorway; her shoes abruptly drag her back toward the vanity. If someone pulls off her shoes, the other enchanted garments resist or replace them. Shirts dive over adventurers’ heads, hats settle onto helmets and brushes attack their hair. Clothing keeps pursuing characters who try to escape through the door, but until the haunting is broken those attempts loop them back into the Dressing Room; it cannot persist as an active threat in the hallway after the ghost is freed. This is comical, not a restraint or damage encounter.",
+                "Her enchanted shoes drag her back to the vanity when she tries to leave. Removing them causes other garments to intervene: shirts pull over heads, hats settle onto helmets, and brushes tug at hair. Attempts to flee through the looping doorway lead back into the room. The clothing causes no damage or restraints.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -466,13 +445,12 @@
                     "“Thank you for freeing me, now hurry before the girl’s place at the table is set!”"
                   ]
                 },
-                "The woman fades. Leave the clothes and terrain in this room; the garments are inert from this point on.",
-                "When someone convincingly tells her she is ready and invites her to leave—or breaks the dress-code enchantment another reasonable way—the clothing falls still, the ghost is freed, and the door opens to the hallway. Leave the clothes where they fell."
+                "When she accepts that she is ready to leave, or another effective method breaks the dress-code enchantment, the clothes fall still, the guest is freed, and the doorway opens. Furnishings remain."
               ]
             },
             {
               "type": "entries",
-              "name": "8. Third revealed room: Music Room — locked",
+              "name": "Music Room",
               "id": "011",
               "entries": [
                 {
@@ -481,17 +459,17 @@
                     "Three instruments play together: a piano, a violin and a cello, all without musicians. Beside them a crying man struggles to keep pace on his lute. A few notes clash; the music breaks, and the entire performance begins again."
                   ]
                 },
-                "He is a trapped former guest who FAILED the Music Room’s DC 13 Wisdom saving throw long ago. He is genuinely enthralled by the same melody that affects living adventurers, compulsively struggling through his lute part and restarting the passage. His lute part is CORRECT; the enchanted accompaniment follows the WRONG master score. Whenever he attempts to leave, the phrase crashes, and the ritual immediately returns him to his chair with his lute. As a bound ghost replaying a decades-old performance, he cannot free himself through ordinary repeat saves, unlike living PCs: the curse holds his attention on trying again, leaving him unable to scrutinize the score and recognize the accompaniment is wrong. This is the haunting binding his spirit, not an additional combat condition.",
+                "The lute player is a trapped guest who failed the room's DC 13 Wisdom save long ago. He is genuinely enthralled, compulsively replaying his CORRECT lute part while the piano, violin, and cello follow an INCORRECT master score. He cannot identify the mismatch, and the ritual continually returns him to his chair. Unlike living characters, his binding has no repeat saving throw.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
                     "“I know this piece! I’ve played it a thousand times! Why can’t I ever get it right?”"
                   ]
                 },
-                "ENTHRALLMENT — custom hazard, not the Charmed condition: As the demiplane folds the upstairs adventurers into the Music Room, anyone who hears the music makes a DC 13 Wisdom save. Failure means listening helplessly, unable to take purposeful actions or willingly leave while enthralled. Repeat the save at the end of each turn; a success ends the effect for the encounter. An ally using an action to shake someone awake or block the sound reaching them gives an immediate repeat with Advantage. The bound lute-player spirit is already enthralled as part of the persistent haunting; his attempt to perform is compulsory, and he has no independent end-of-turn escape save. Once the music changes or ends, he is free. Do not launch a separate monster initiative unless you need turns to track the effect.",
-                "WHAT THE PLAYERS CAN SEE: Three enchanted instruments play from a large WRONG master score displayed on a central music stand. A leather folio beside the lute player’s chair contains his original CORRECT full quartet score, with notes in his hand. The same passage visibly differs on the two copies; a player comparing them sees the mismatch without music literacy or a check. The enthralled lute player is compulsively focused on his part and cannot spot this discrepancy on his own, even after decades of attempts. If asked, he can hand over the folio, but his attention snaps back to playing. The players—not the ghost—must intervene to end the loop.",
-                "INSTRUMENT OBJECTS (2024 Breaking Objects rules): All three are wooden, AC 15. Violin: Small, fragile, 3 HP. Cello: Medium, fragile, 4 HP. Piano: Large, resilient, 27 HP. These are OBJECTS, not monsters: no creature turns, attacks, or saving throws. Objects have immunity to Poison and Psychic damage; other damage and whether an effect can target an object follow the normal 2024 rules. When an instrument reaches 0 HP it falls silent and cannot resume playing. Treat a particularly clever, plausible method of disabling an instrument’s ability to play as effective without requiring the characters to grind down its full HP.",
-                "ANY ONE solution frees him. Do not require three separate challenges:",
+                "Enthralling music: anyone who hears it on arrival makes a DC 13 Wisdom save. On a failure, the listener cannot take purposeful actions while entranced. Repeat the save at the end of each turn; success ends the effect. An ally who uses an action to shake or shield the listener from the music grants an immediate repeat save with Advantage. If everyone fails, the end-of-turn saves continue. Use initiative if tracking turns becomes necessary.",
+                "The WRONG master score stands in the center of the room. The CORRECT complete quartet score is in a leather folio beside the lute player's chair. Comparing them reveals the difference without a check. He can pass the folio to the characters while compelled to keep playing.",
+                "All three accompanying instruments are wooden objects (AC 15): violin 3 HP, cello 4 HP, piano 27 HP. A destroyed or disabled instrument stops playing. The instruments take no creature turns; ordinary object-damage rules apply.",
+                "Any one of these solutions ends the haunting:",
                 {
                   "type": "list",
                   "items": [
@@ -500,20 +478,19 @@
                     "Join or redirect the piece with ONE successful DC 13 Charisma (Performance) check to bring the accompaniment into harmony with his lute. No separate check for each instrument."
                   ]
                 },
-                "Other genuinely effective creative interventions may also work. No action is necessary just to inspect or compare the two scores. On success the final phrase resolves; the music ends and all listeners are released.",
+                "Other effective interventions can resolve the performance. When the music ends, the ghost and any entranced adventurers are freed.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
                     "“The table is set, and dinner begins soon. Find the girl before she becomes a permanent dinner guest.”"
                   ]
                 },
-                "The lute player fades. Furniture and instruments stay in the revealed room.",
-                "When ANY ONE listed solution ends the performance, all enthralled listeners recover, the ghost is released, and the door leads back to the upstairs hallway; instrument terrain stays in place."
+                "The door opens to the hallway. The instruments and furnishings remain in place."
               ]
             },
             {
               "type": "entries",
-              "name": "9. Fourth revealed room: Playroom — Mira’s rescue — locked",
+              "name": "Playroom: Mira",
               "id": "012",
               "entries": [
                 {
@@ -522,21 +499,20 @@
                     "The room is full of old toys. A small Halfling girl sits crying on the floor. Dolls line the shelves and carpet. Every doll is looking directly at her. As you enter, their heads slowly turn toward you."
                   ]
                 },
-                "This is MIRA, alive and frightened. NO second ghost, dollhouse puzzle, monster, or combat. The dolls keep looking at her but never attack. Let the party talk to her. Reassuring her that she can leave with them is enough; do not require a Persuasion check when they make a credible effort.",
+                "Mira is alive and frightened. The dolls follow the characters with their eyes but do not attack. Credible reassurance is sufficient for her to leave.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
                     "“That big thing grabbed me when I came in. It carried me up here. It said, ‘Here. Stay. Eat. Soon.’ Then it left. I thought it would come back if I tried to go.”"
                   ]
                 },
-                "The golem’s simple speech is a deliberate customization of the 2024 Flesh Golem, which normally cannot speak. Mira can take a hero’s hand or be carried by mundane means. She has no combat role.",
-                "When Mira agrees to leave with the characters, the Playroom’s spatial loop ends; they may depart together through the door. No extra puzzle or check is required to unlock it.",
-                "POST-RESCUE RULE: When Mira agrees to leave this room, every unopened upstairs door now leads to an empty, quiet room. There is no fifth or delayed encounter and no haunted-room prison effect in these spaces. Rooms previously opened and furnished stay as discovered. Any guests whose hauntings were skipped are absent from the empty rooms; their lingering spirits are released when the dinner ritual ends."
+                "The golem's limited speech is intentional. Mira can hold a hero's hand or be carried. She has no combat role.",
+                "When she agrees to leave, the door loop ends. Every upstairs room not yet revealed is empty from that point forward; furnishings in the revealed rooms stay."
               ]
             },
             {
               "type": "entries",
-              "name": "10. The staircase leads straight to dinner — locked",
+              "name": "The Staircase",
               "id": "013",
               "entries": [
                 {
@@ -545,13 +521,12 @@
                     "The moment Mira steps out of the Playroom, all the doors behind you swing shut. The staircase, once impossibly distant, stands only twenty feet away. You hurry down. But where the foyer should be, warm light spills through an open doorway into the dining room."
                   ]
                 },
-                "NO endless corridor loop, backward-walking puzzle, mirror clue, or staircase ghost. This is a situation-keyed portal whose destination shifts to the ordinary dining room once Mira leaves the Playroom. It is a single narration beat, not another challenge. The party has full freedom of action; if a character attempts a specific spell or alternative route, adjudicate the actual ability and demiplane geometry fairly.",
-                "This final stair transition can begin only after Mira agrees to leave: at that moment the Playroom stops looping, allowing the party to depart and the old staircase portal to lead to dinner. If the players investigate any unopened upstairs doors before using the stairs, those doors now reveal empty rooms without barriers or new challenges. Do not assign skipped hauntings after Mira is freed."
+                "When Mira leaves the Playroom, the staircase appears twenty feet down the hall. Its portal now leads directly to the ordinary dining room. If the party investigates unopened upstairs doors first, those rooms are empty."
               ]
             },
             {
               "type": "entries",
-              "name": "11. Dinner: the unfinished household ritual — locked opening",
+              "name": "The Dinner Party",
               "id": "014",
               "entries": [
                 {
@@ -566,34 +541,31 @@
                     "“You not sleep, clothes bad, music not ready!”"
                   ]
                 },
-                "It pounds its enormous fist against the tabletop.",
+                "The golem pounds its fist against the table.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
-                    "“No dinner yet, must be ready!”"
+                    "“NO DINNER YET! MUST BE READY!”"
                   ]
                 },
-                "It overturns the table and charges. Both skeleton servants spring to defend it. ROLL INITIATIVE. This is the single planned combat. The golem is enraged because the players have arrived at dinner BEFORE the household is ready—not because it wants to recapture Mira.",
+                "The golem overturns the table and charges. The two Skeleton servants defend it. Roll initiative.",
                 {
                   "type": "entries",
-                  "name": "Optional Combat Escalation: Spectral Dinner Guests",
+                  "name": "Optional: Spectral Dinner Guests",
                   "entries": [
-                    "PREPARE two {@creature Dinner Specter|HDP2026} creatures. Each has AC 12, fixed HP 11, Spectral Touch +4 for 1d6 Necrotic damage; the attack does not reduce maximum Hit Points. These are scaled versions of the 2024 Specter, not unmodified Specters.",
-                    "If the finale is ending too quickly for an enjoyable climax and meaningful table time remains, two spectral impressions of long-dead dinner guests rise from empty places or the dark corners of the dining room. They are echoes created by the ritual, NOT any of the three former guests freed upstairs. This is an OPTIONAL phase within the SAME combat, not another encounter.",
-                    "Introduce the pair once, preferably at the start of round two or shortly thereafter. Both roll/act on the same initiative count as the Skeletons (for simple tracking), but take their own turns and normal actions. Do not summon more than two. If the finale is already appropriately challenging or the session is close to its hard stop, they do not appear.",
-                    "They attack ONLY player characters, NEVER Mira. Their presence adds complications, not a new victory condition: the instant the golem and both skeletons are defeated or otherwise decisively neutralized, any remaining Specters vanish as the dinner ritual breaks. Characters never need to kill the Specters to cleanse the house."
+                    "During a quick finale with meaningful time remaining, two {@creature Dinner Specter|HDP2026} creatures can emerge from the dining room. Each has AC 12, 11 HP, and Spectral Touch +4 (1d6 Necrotic, no maximum-HP reduction). They are echoes of the ritual, not the guests freed upstairs.",
+                    "Bring in the pair together, normally around round two. They act at the Skeletons' initiative count but take their own turns. They attack adventurers, never Mira. When the golem and both Skeletons are defeated or permanently neutralized, any remaining Specters dissipate."
                   ]
                 },
-                "The golem attacks PLAYER CHARACTERS to kill them. The servants also fight the heroes. No enemies, including optional Specters, EVER target or attack Mira, even if she is nearby. Do not introduce splash attacks or environmental damage that threaten her. Its rage is narrative and DOES NOT invoke the official Berserk trait, which is removed from the customized stat block.",
-                "Players may still find clever ways to defeat, immobilize, outmaneuver or otherwise neutralize the guardians. Keep the golem’s objective consistent. Table-flipping should be a theatrical beat, not a trap that creates arbitrary damage or forces a new map build. If the physical tabletop terrain is fragile, narrate the flip and lay the tabletop piece carefully on its side. If the pacing override skipped the Dressing or Music Room, the golem still complains that clothes and music are not ready: the household considers all preparations incomplete regardless of which hauntings the adventurers personally encountered."
+                "The golem fights to kill the intruding adventurers; the Skeletons protect it. None of the guardians or optional Specters target Mira. The golem's anger is portrayed through its dialogue and actions; its custom stat block has no Berserk trait."
               ]
             },
             {
               "type": "entries",
-              "name": "12. Combat reference — verified 2024 baseline and explicit changes",
+              "name": "Combat Reference",
               "id": "015",
               "entries": [
-                "USE THE CUSTOM MONSTER LINK FOR YOUR ACTUAL PARTY, not the unscaled official Flesh Golem. Each link below opens a golem with the correct fixed HP, number of slams, limited speech, omitted Berserk, and no-Mira-targeting instruction. These four new creature entries are bundled into THIS SAME homebrew JSON.",
+                "Choose the custom {@creature Dinner Golem (3 PCs)|HDP2026}, {@creature Dinner Golem (4 PCs)|HDP2026}, {@creature Dinner Golem (5 PCs)|HDP2026}, or {@creature Dinner Golem (6 PCs)|HDP2026} stat block based on the party.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -638,117 +610,44 @@
                 {
                   "type": "table",
                   "colLabels": [
-                    "Creature",
-                    "2024 baseline",
-                    "Use in this adventure"
+                    "Creature / miniature",
+                    "Quick reference"
                   ],
                   "rows": [
                     [
-                      "{@creature Skeleton|XMM} #079",
-                      "AC 14; HP 13; Shortsword +5 (1d6+3); bludgeoning vulnerability",
-                      "Normal Skeleton, fights heroes and guards golem."
+                      "{@creature Skeleton|XMM} #079 and #080",
+                      "AC 14, 13 HP; Shortsword +5 (1d6+3). Vulnerable to bludgeoning. Use normal Skeleton statistics for both miniatures."
                     ],
                     [
-                      "{@creature Skeleton|XMM} #080",
-                      "AC 14; HP 13; same stat block and attacks",
-                      "Spear-and-shield miniature represents the standard Skeleton mechanically."
+                      "Dinner Golem / #142 Ogre miniature",
+                      "AC 9; Slam +7, 2d8+4 Bludgeoning plus 1d8 Lightning. Fire aversion, lightning absorption, immutable form, and magic resistance are on its linked stat block."
                     ],
                     [
-                      "{@creature Flesh Golem|XMM} #142",
-                      "AC 9; 127 HP; Multiattack 2 Slams; +7 to hit; each Slam 2d8+4 bludgeoning +1d8 lightning",
-                      "Use one of the CUSTOM Dinner Golem links in the table above. The original link shows unscaled 127 HP, Berserk, 2 Slams and no speech; do not run it by mistake."
+                      "2 × {@creature Dinner Specter|HDP2026} / spare tokens",
+                      "Optional; AC 12, 11 HP each; Spectral Touch +4, 1d6 Necrotic, no maximum-HP reduction. Disperse when all three original guardians fall."
                     ]
                   ],
                   "colStyles": [
                     "col-4",
-                    "col-4",
-                    "col-4"
+                    "col-8"
                   ]
                 },
-                {
-                  "type": "entries",
-                  "name": "Optional spectral reinforcements — modified 2024 Specter",
-                  "entries": [
-                    "Use TWO {@creature Dinner Specter|HDP2026} creatures when the finale needs more action. Each is a modified 2024 {@creature Specter|XMM}, with THREE mechanical changes: 22 HP → fixed 11 HP; Spectral Touch 2d6 → 1d6 Necrotic damage; and no Hit Point maximum reduction. Hit bonus +4, AC 12, movement, resistances, immunities, and Incorporeal Movement remain based on the 2024 creature. Spectral Touch deals necrotic damage only; it never reduces maximum Hit Points.",
-                    {
-                      "type": "table",
-                      "colLabels": [
-                        "Creature",
-                        "AC / HP",
-                        "Attack",
-                        "Timing / end condition"
-                      ],
-                      "rows": [
-                        [
-                          "2 × {@creature Dinner Specter|HDP2026}",
-                          "AC 12 / 11 HP EACH",
-                          "Spectral Touch +4, 1d6 Necrotic; no maximum-HP reduction",
-                          "OPTIONAL during finale, usually round 2; disappear when golem + both skeletons fall"
-                        ]
-                      ],
-                      "colStyles": [
-                        "col-3",
-                        "col-2",
-                        "col-3",
-                        "col-4"
-                      ]
-                    },
-                    "These Specters are not another encounter or another required kill. Use small spare tokens/standees as needed. The Specters are not former guests the party freed earlier. Their nominal CR remains inherited from the published creature and is not recalculated for the reductions."
-                  ]
-                },
-                {
-                  "type": "table",
-                  "colLabels": [
-                    "Party at test table",
-                    "Golem max HP",
-                    "Slams on its turn"
-                  ],
-                  "rows": [
-                    [
-                      "3 PCs, mostly level 2",
-                      "55",
-                      "1"
-                    ],
-                    [
-                      "4 PCs, mixed level 2–3",
-                      "65",
-                      "1"
-                    ],
-                    [
-                      "5 PCs, mixed level 2–3",
-                      "85",
-                      "1"
-                    ],
-                    [
-                      "6 PCs, mostly level 3",
-                      "100",
-                      "2 (spread targets where reasonable)"
-                    ]
-                  ],
-                  "colStyles": [
-                    "col-4",
-                    "col-4",
-                    "col-4"
-                  ]
-                },
-                "The official 2024 Flesh Golem is a reference for the base rules; the FOUR CUSTOM Dinner Golem entries are the actual combat statistics used here. Their HP values and attack counts are intentional changes, not official 2024 recalculations. Each custom stat block has AC 9; +7 Slam for 2d8+4 Bludgeoning plus 1d8 Lightning; Fire Aversion, Lightning Absorption, Immutable Form and Magic Resistance; damage immunities and condition immunities; brief simple speech; NO Berserk; and NEVER targets Mira. Do not read a second Multiattack from the original monster. For 6-PC groups only, make two attacks, spreading targets when sensible. Avoid unplanned one-hit knockdowns for fragile 2nd-level characters.",
-                "The skeleton miniatures are #079 (sword/shield) and #080 (spear/shield). The Flesh Golem is physically represented by #142 Ogre; treat its square occupancy as Medium according to the official creature. Mira uses #017 Halfling explorer. If a player stays downstairs during earlier scenes, the room remains empty until the magical dinner routine begins, then they can witness the guardians and table appearing/being arranged."
+                "Mira uses miniature #017 Halfling explorer. The two Skeletons are represented by #079 and #080. The Flesh Golem uses #142 Ogre."
               ]
             },
             {
               "type": "entries",
-              "name": "13. The cleansing and the ending — locked",
+              "name": "Breaking the Ritual",
               "id": "016",
               "entries": [
-                "Once the golem and both skeleton guardians are defeated, their enforcement of the dead hag’s DINNER RITUAL ceases. The golem was NEVER a magical battery or anchor. Breaking the ritual releases all remaining trapped guests—even ghosts in unopened rooms—and ends the house’s enchantment. Unopened rooms, if explored after Mira’s rescue, are empty; their absent trapped guests still remain tied to the unfinished dinner ritual until it finally breaks.",
-                "If the optional two Dinner Specters were summoned, they dissolve instantly when the Golem and both Skeletons are defeated or otherwise permanently neutralized. They never need to be reduced to 0 HP to end the combat or cleanse the house.",
+                "Defeating or permanently neutralizing the Dinner Golem and both Skeletons ends the dinner ritual. All remaining trapped guests are released, including those in skipped rooms. Any optional Specters dissipate immediately.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
                     "The last guardian falls. The house becomes completely still. From somewhere deep in its timbers comes a long, low sigh. A bell rings once upstairs. Warm golden light creeps along the walls, through the doorframes, and over the ceiling. The cold lifts. A faint scent of flowers replaces the stale air. Doors swing open upstairs; distant voices sound relieved, then fade. Through the dining-room windows, you can see the village again. For the first time in decades, the house is simply a house."
                   ]
                 },
-                "The demiplane threshold closes safely; the upstairs is no longer an active prison and the building is permanently SAFE. Mira is rescued. If near the session deadline, finish here. If time remains, allow a short return to Hall, reunion with the children, or exploration of the now-harmless house. No additional house-cleansing quest or fight is required.",
+                "The demiplane prison dissolves and the house becomes permanently safe. The party can return Mira to the Hall or explore the now-harmless house.",
                 {
                   "type": "insetReadaloud",
                   "entries": [
@@ -759,99 +658,35 @@
             },
             {
               "type": "entries",
-              "name": "14. Table rulings and improv guide",
+              "name": "Special Rulings",
               "id": "017",
               "entries": [
                 {
                   "type": "table",
                   "colLabels": [
-                    "Question / action",
-                    "Precommitted ruling"
+                    "Situation",
+                    "Ruling"
                   ],
                   "rows": [
                     [
-                      "We ignore an opened room.",
-                      "They cannot: opening an unexplored door folds everyone currently upstairs into that room. The exit loops back into it until the haunting is broken. The party still decides HOW to free the guest; once done, the room stays cleared and fixed."
+                      "The party splits across floors",
+                      "Characters already upstairs fold into the revealed room. Anyone remaining downstairs joins the active room when they ascend."
                     ],
                     [
-                      "We open a door but refuse to enter.",
-                      "The door opening itself triggers the hallway fold. The party is already just inside, safely before any bear rug or other hazard. The door shuts."
+                      "Two doors opened at once",
+                      "The first threshold exposed establishes the active room; the second opening is interrupted."
                     ],
                     [
-                      "We hold the door, force it, or break through the walls.",
-                      "The hall/adjacent space folds back into the active room. The door may open, but it leads to the same room until the haunting breaks. Attacks on the objects enforcing the haunting still count as potential solutions."
+                      "Teleportation",
+                      "A local teleport cannot select a hallway space that isn't accessible through the active room's looping geometry. Teleportation to a valid space inside works; an actual planar-travel effect follows its rules."
                     ],
                     [
-                      "We split the party, hide upstairs, or open two doors together.",
-                      "All characters currently on the upstairs demiplane fold into one active room. Someone who stays downstairs joins them on later ascent. Simultaneous openings resolve to one first exposure; the second door remains unopened until the current haunting is solved. After Mira is rescued, any still-unopened room is empty."
+                      "Trapped ghost attacked or turned",
+                      "The bound guests are apparitions of the ritual, not independent Undead creatures with monster stat blocks. The room's haunting persists until its source is resolved."
                     ],
                     [
-                      "We teleport or use magic to leave an active room.",
-                      "A local teleport toward a hallway destination cannot bypass the room-loop geometry: there is no reachable visible corridor beyond the active threshold. Adjudicate published effects as written; if an actual planar-travel ability can leave the demiplane, it works. Do not declare blanket anti-magic."
-                    ],
-                    [
-                      "We return to a previous room.",
-                      "If no haunting is active, the already-cleared room is the same safe room, with its persistent furnishings and consequences. If another haunting is active, any attempted diversion loops back to the CURRENT room."
-                    ],
-                    [
-                      "We fly or jump out an upstairs window.",
-                      "They see the endless void. Before the CURRENT room haunting is resolved, any attempt to cross a window, wall, floor or ceiling folds safely back into that SAME room. After the room is cleared, the void remains a real extradimensional exterior, not a route to the Material Plane. Actual interplanar travel works if the party has the published capability."
-                    ],
-                    [
-                      "We use Misty Step with Mira.",
-                      "Misty Step moves the caster, not another creature; adjudicate published spell targeting. Actual party resources that can travel between planes work as written."
-                    ],
-                    [
-                      "We attack a trapped ghost.",
-                      "These are residual ghostly presences attached to the room’s curse, not extra hostile stat-block monsters. The relevant hazard continues; recognize plausible magic or creative ways to break it."
-                    ],
-                    [
-                      "Everyone fails the Music Room save.",
-                      "End-of-turn repeats continue; allied intervention gives an extra save with Advantage. No permanent lockout."
-                    ],
-                    [
-                      "We destroy the music rather than play.",
-                      "All three animated accompanists disabled = release. Violin AC 15 / 3 HP; cello AC 15 / 4 HP; piano AC 15 / 27 HP. These are objects, not creatures. Do not insist on a Performance check."
-                    ],
-                    [
-                      "Where is the correct music?",
-                      "Wrong master score: central stand. Correct full quartet score: the lute player’s folio. Because the lute player FAILED the music’s Wisdom save and is enthralled in the repeating performance, he cannot recognize the discrepancy himself. Players comparing the two scores see it without a check."
-                    ],
-                    [
-                      "Could Mira be hurt by the monsters?",
-                      "No. This encounter has a hard design rule that Mira is never targeted. Describe her sheltering out of immediate danger."
-                    ],
-                    [
-                      "What if they negotiate at dinner?",
-                      "The golem has already snapped and attacks the heroes after overturning the table; allow sensible tactics and in-fiction consequences, but its stated objective is to kill those who spoiled dinner."
-                    ],
-                    [
-                      "How do we make the house safe?",
-                      "The ritual breaks automatically once its three guardians are defeated. No cleanup encounter."
-                    ],
-                    [
-                      "Why could Mira enter without the enchanted key?",
-                      "The Door Warden recognizes children as invited guests, allowing Mira to approach; the main door latched behind her. The Hall key bypasses the ward for its holder."
-                    ],
-                    [
-                      "We rescue Mira early and open the remaining doors.",
-                      "All rooms not already revealed are EMPTY. No new ghosts, hazards, or traps activate, and the room-prison rule does not trigger there. Furniture in previously revealed rooms remains. The ritual’s final collapse still releases all trapped spirits."
-                    ],
-                    [
-                      "Which Flesh Golem stat block do I open?",
-                      "Use the Dinner Golem (3 PCs / 4 PCs / 5 PCs / 6 PCs) custom link under Combat Reference. It carries the selected fixed HP and attacks, modified speech and target rule; do not click the official unscaled Flesh Golem to run the encounter."
-                    ],
-                    [
-                      "Can the Specters hurt Mira?",
-                      "No. The two optional Dinner Specters only attack player characters; they vanish when the original three guardians have been defeated."
-                    ],
-                    [
-                      "The fight is too short or too long.",
-                      "If it is resolving too quickly and there is time left, allow BOTH Dinner Specters to manifest once during the existing combat. If the fight is substantial or time is short, omit them. Do not add further waves."
-                    ],
-                    [
-                      "Do the Specters have the official Specter statistics?",
-                      "Use the custom {@creature Dinner Specter|HDP2026}: 11 HP; Spectral Touch +4, 1d6 Necrotic; no maximum-HP reduction. Other listed monster traits follow the 2024 Specter."
+                      "Everyone fails Music Room save",
+                      "Repeat the Wisdom save at the end of each turn. An ally's action to interrupt the music grants an immediate save with Advantage."
                     ]
                   ],
                   "colStyles": [
@@ -863,10 +698,10 @@
             },
             {
               "type": "entries",
-              "name": "15. One-mat terrain build and mini pull",
+              "name": "Terrain and Miniatures",
               "id": "018",
               "entries": [
-                "Map grid: 36 columns × 24 rows at 1 inch per square. Coordinates below denote gridlines, measured from the upper-left corner of the physical mat. DRAW all walls before play. Emphasize door thresholds with STAHLHAMMERS where your real wall bases fit. Never physically rebuild a wall during play.",
+                "36 columns × 24 rows at one inch per square. Coordinates identify gridlines measured from the mat's upper-left corner. Draw the fixed room and corridor walls before play and mark thresholds with STAHLHAMMERS pieces.",
                 {
                   "type": "table",
                   "colLabels": [
@@ -922,39 +757,39 @@
                     "col-4"
                   ]
                 },
-                "Doors A–C are on the lower walls of rooms A–C. Door D is in its eastern wall, opening from the south corridor. All four room footprints are 7×7 squares (35×35 feet), so any room can become the first revealed Guest Bedroom. Each window faces void. The dining island is the material-plane downstairs room, spatially separated from the upstairs in the schematic; it is NOT walkable across the map.",
+                "Rooms A–D are 7×7 squares (35×35 feet) and interchangeable. Doors A–C face the main hallway; Door D opens westward from the south passage. The dining island is downstairs on the Material Plane and cannot be crossed from the upstairs grid.",
                 {
                   "type": "table",
                   "colLabels": [
-                    "Reveal kit",
-                    "Bring from owned terrain",
-                    "Setup when door opens"
+                    "Reveal",
+                    "Terrain kit",
+                    "Placement"
                   ],
                   "rows": [
                     [
-                      "1 Guest Bedroom",
-                      "Physical bear rug; AUSPDICE small cabinet #1; drawn bed",
-                      "Rug between entry and crying guest. Do not show until revealed."
+                      "Guest Bedroom",
+                      "Bear rug, AUSPDICE small cabinet #1, drawn bed",
+                      "Rug lies between entrance and guest."
                     ],
                     [
-                      "2 Dressing Room",
-                      "AUSPDICE large bookcase #1 as wardrobe; acrylic mirror standee; wardrobe card / clothing markers",
-                      "Mirror is ordinary decoration, not a breakable puzzle target."
+                      "Dressing Room",
+                      "AUSPDICE large bookcase #1, acrylic mirror, clothing markers",
+                      "Wardrobe and vanity around the guest."
                     ],
                     [
-                      "3 Music Room",
-                      "AF634A cabinet as piano; AUSPDICE bookcase #2 or stand; paper violin, cello, WRONG master score, and CORRECT folio markers",
-                      "Wrong master score on central music stand; correct full quartet score in leather folio beside the lute player’s chair. Comparing two scores takes no check. Piano 27 HP, violin 3 HP, cello 4 HP (all AC 15)."
+                      "Music Room",
+                      "AF634A cabinet/piano, AUSPDICE bookcase #2, paper violin/cello and music markers",
+                      "Wrong master score on central stand; correct folio beside lute player's chair."
                     ],
                     [
-                      "4 Playroom",
-                      "AUSPDICE bookcase #3; chest; paper dolls; Mira #017",
-                      "No dollhouse; dolls stare. Place Mira only when room opens."
+                      "Playroom",
+                      "AUSPDICE bookcase #3, chest, paper dolls, Mira #017",
+                      "Mira seated on floor among watching dolls."
                     ],
                     [
-                      "Finale",
-                      "AF634A round table, two chairs, optional fireplace; minis #142, #079, #080; 2 reserve Specter markers (optional)",
-                      "One prepared tray. Place only at finale, not before. Table set for two; narrate/tip table on rage. If pacing calls for escalation, place two Specter markers in free dining-room squares during round 2; both vanish when the three guardians fall."
+                      "Dinner",
+                      "AF634A round table, two chairs, fireplace, #142, #079, #080, optional two Specter markers",
+                      "Set table for two; add finale furnishings when the party arrives."
                     ]
                   ],
                   "colStyles": [
@@ -963,14 +798,12 @@
                     "col-4"
                   ]
                 },
-                "No known furniture is used simultaneously in two room kits. The second small AUSPDICE cabinet remains spare. The physical bear rug’s actual footprint and STAHLHAMMERS base dimensions have not been verified; test those in person before the evaluation.",
-                "For every NEW doorway: place that encounter’s pre-sorted furniture first, then put the upstairs PCs just inside its door, leaving safe space before any bear rug or hazard. Say the hallway folds and the door shuts. Do not move walls or reassign old doors. Before the haunting breaks, the same door loops back to the revealed room; after the guest is free, it functions normally. This is a narrative topology change, not a physical rebuild.",
-                "PACING GEOMETRY: When Mira has agreed to leave, do not furnish or activate any still-unopened upstairs room. If the party opens one anyway, describe an empty room overlooking the void. All previously revealed room terrain remains exactly where it was placed."
+                "Furnish each room as it is revealed. Place characters safely inside the doorway, before the rug or other hazard. Keep all walls and previously placed furnishings fixed. Unrevealed rooms remain unfurnished after Mira's rescue."
               ]
             },
             {
               "type": "entries",
-              "name": "Room assignment log",
+              "name": "Room Assignment Log",
               "id": "019",
               "entries": [
                 {
@@ -997,7 +830,8 @@
                       "________________"
                     ],
                     [
-                      "________",                      "4 — Playroom / Mira",
+                      "________",
+                      "4 — Playroom / Mira",
                       "________________"
                     ]
                   ],
@@ -1062,12 +896,6 @@
       ],
       "cr": "5",
       "trait": [
-        {
-          "name": "Adventure Scaling",
-          "entries": [
-            "Maximum HP is FIXED at 55 for 3 PCs, mostly level 2. On its turn, it makes 1 Slam attack. These are deliberate adventure modifications; the displayed CR is inherited from the base Flesh Golem and has NOT been recalculated. The golem NEVER targets or attacks Mira. Its table-flipping rage is narrative, not the Berserk trait."
-          ]
-        },
         {
           "name": "Aversion to Fire",
           "entries": [
@@ -1156,12 +984,6 @@
       "cr": "5",
       "trait": [
         {
-          "name": "Adventure Scaling",
-          "entries": [
-            "Maximum HP is FIXED at 65 for 4 PCs, mixed level 2–3. On its turn, it makes 1 Slam attack. These are deliberate adventure modifications; the displayed CR is inherited from the base Flesh Golem and has NOT been recalculated. The golem NEVER targets or attacks Mira. Its table-flipping rage is narrative, not the Berserk trait."
-          ]
-        },
-        {
           "name": "Aversion to Fire",
           "entries": [
             "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
@@ -1249,12 +1071,6 @@
       "cr": "5",
       "trait": [
         {
-          "name": "Adventure Scaling",
-          "entries": [
-            "Maximum HP is FIXED at 85 for 5 PCs, mixed level 2–3. On its turn, it makes 1 Slam attack. These are deliberate adventure modifications; the displayed CR is inherited from the base Flesh Golem and has NOT been recalculated. The golem NEVER targets or attacks Mira. Its table-flipping rage is narrative, not the Berserk trait."
-          ]
-        },
-        {
           "name": "Aversion to Fire",
           "entries": [
             "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
@@ -1341,12 +1157,6 @@
       ],
       "cr": "5",
       "trait": [
-        {
-          "name": "Adventure Scaling",
-          "entries": [
-            "Maximum HP is FIXED at 100 for 6 PCs, mostly level 3. On its turn, it makes 2 Slam attacks. These are deliberate adventure modifications; the displayed CR is inherited from the base Flesh Golem and has NOT been recalculated. The golem NEVER targets or attacks Mira. Its table-flipping rage is narrative, not the Berserk trait."
-          ]
-        },
         {
           "name": "Aversion to Fire",
           "entries": [
@@ -1452,12 +1262,6 @@
       ],
       "cr": "1",
       "trait": [
-        {
-          "name": "Adventure Scaling",
-          "entries": [
-            "Based on the 2024 Specter, but fixed HP 11 (rather than 22), Spectral Touch damage 1d6 (rather than 2d6), and no reduction to the target’s maximum Hit Points. The nominal CR is inherited and has not been recalculated. Optional: exactly two appear during the dinner finale if additional action is needed; they NEVER target Mira. They automatically disperse when the Golem and both Skeletons are defeated or permanently neutralized."
-          ]
-        },
         {
           "name": "Incorporeal Movement",
           "entries": [
