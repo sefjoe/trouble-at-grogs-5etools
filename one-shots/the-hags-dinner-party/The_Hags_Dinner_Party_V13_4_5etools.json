@@ -468,13 +468,15 @@
                 "Enthralling music: anyone who hears it on arrival makes a DC 13 Wisdom save. On a failure, the listener cannot take purposeful actions while entranced. Repeat the save at the end of each turn; success ends the effect. An ally who uses an action to shake or shield the listener from the music grants an immediate repeat save with Advantage. If everyone fails, the end-of-turn saves continue. Use initiative if tracking turns becomes necessary.",
                 "The WRONG master score stands in the center of the room. The CORRECT complete quartet score is in a leather folio beside the lute player's chair. Comparing them reveals the difference without a check. The characters can retrieve the folio.",
                 "All three accompanying instruments are wooden objects (AC 15): violin 3 HP, cello 4 HP, piano 27 HP. A destroyed or disabled instrument stops playing. The instruments take no creature turns; ordinary object-damage rules apply.",
+                "Shatter damages nonmagical unattended objects in its area, but the three enchanted instruments are magical objects. Shatter's object-damage clause does not automatically damage them. Ordinary attacks and other effective methods can still disable them.",
                 "Any one of these solutions ends the haunting:",
                 {
                   "type": "list",
                   "items": [
                     "Destroy or permanently disable ALL THREE enchanted accompanying instruments (piano, violin, cello). Use the object AC/HP above; destroying one or two does not by itself end the repeating piece.",
                     "Replace the incorrect master score on the central stand with the correct full quartet score from the lute player’s folio. This uses an ordinary interaction once the characters decide to do it; no Performance check or music literacy required.",
-                    "Join or redirect the piece with ONE successful DC 13 Charisma (Performance) check to bring the accompaniment into harmony with his lute. No separate check for each instrument."
+                    "Join or redirect the piece with ONE successful DC 13 Charisma (Performance) check to bring the accompaniment into harmony with his lute. No separate check for each instrument.",
+                    "Cast Silence so the lute player can no longer hear the compulsory accompaniment. This interrupts the enthralling performance and frees him without destroying the instruments. The silent area must actually block the music reaching him."
                   ]
                 },
                 "Other effective interventions can resolve the performance. When the music ends, the ghost and any entranced adventurers are freed.",
@@ -681,16 +683,24 @@
                       "The first threshold exposed establishes the active room; the second opening is interrupted."
                     ],
                     [
-                      "Teleportation",
-                      "A local teleport cannot select a hallway space that isn't accessible through the active room's looping geometry. Teleportation to a valid space inside works; an actual planar-travel effect follows its rules."
+                      "Misty Step / local teleportation",
+                      "Misty Step can move its caster to a legal unoccupied space within range and line of sight inside the active room; it cannot bring Mira as a passenger or bypass the active room's looping boundary to reach the hallway or Material Plane. Other local teleportation follows the same room geometry; genuine planar travel follows its own rules."
                     ],
                     [
-                      "Trapped ghost attacked or turned",
-                      "The bound guests are apparitions of the ritual, not independent Undead creatures with monster stat blocks. The room's haunting persists until its source is resolved."
+                      "Trapped guests / Turn Undead",
+                      "The trapped guests are ritual-bound apparitions, not separate Undead creatures with monster stat blocks. Attacking or turning them does not resolve their hauntings. In the finale, Turn Undead works on the two Skeletons and any optional Dinner Specters (all Undead), subject to the normal Wisdom save and conditions, but does not affect the Dinner Golem (Construct)."
                     ],
                     [
                       "Everyone fails Music Room save",
                       "Repeat the Wisdom save at the end of each turn. An ally's action to interrupt the music grants an immediate save with Advantage."
+                    ],
+                    [
+                      "Command on Dinner Golem",
+                      "2024 Command can target the Dinner Golem: it is a Construct, and the spell does not impose the Charmed condition. Its immunity to Charmed does not negate Command. Roll its Wisdom saving throw with Advantage from Magic Resistance; if it fails, apply the chosen listed command on its next turn."
+                    ],
+                    [
+                      "Dispel Magic and standing magic",
+                      "Dispel Magic can end an active Gust of Wind spell effect from the Door Warden if targeted properly, but does not destroy the device or remove its remaining charges. It does not automatically erase the upstairs demiplane, its standing portal, or the room loops, which are not specified as ongoing spells."
                     ]
                   ],
                   "colStyles": [
