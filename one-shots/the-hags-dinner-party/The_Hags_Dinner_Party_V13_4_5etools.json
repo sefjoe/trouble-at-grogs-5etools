@@ -3,8 +3,8 @@
     "sources": [
       {
         "json": "HDP2026",
-        "abbreviation": "HDP",
-        "full": "The Hag's Dinner Party",
+        "abbreviation": "AMH",
+        "full": "A Matter of Hospitality",
         "version": "13.4",
         "authors": [
           "Josef Pickett"
@@ -17,7 +17,7 @@
   },
   "adventure": [
     {
-      "name": "The Hag's Dinner Party",
+      "name": "A Matter of Hospitality",
       "id": "HDP-1",
       "source": "HDP2026",
       "group": "other",
@@ -29,7 +29,7 @@
       },
       "contents": [
         {
-          "name": "The Hag's Dinner Party",
+          "name": "A Matter of Hospitality",
           "headers": [
             "Adventure Overview",
             "At a Glance",
@@ -62,7 +62,7 @@
       "data": [
         {
           "type": "section",
-          "name": "The Hag's Dinner Party",
+          "name": "A Matter of Hospitality",
           "id": "000",
           "entries": [
             {
