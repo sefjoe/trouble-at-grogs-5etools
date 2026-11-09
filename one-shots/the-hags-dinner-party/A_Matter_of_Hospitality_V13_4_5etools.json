@@ -1,0 +1,1260 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "HDP2026",
+        "abbreviation": "AMH",
+        "full": "A Matter of Hospitality",
+        "version": "13.4",
+        "authors": [
+          "Josef Pickett"
+        ]
+      }
+    ],
+    "edition": "one",
+    "dateAdded": 1793056800,
+    "dateLastModified": 1793100000
+  },
+  "adventure": [
+    {
+      "name": "A Matter of Hospitality",
+      "id": "HDP-1",
+      "source": "HDP2026",
+      "group": "other",
+      "published": "2026-10-26",
+      "storyline": "Hall One-Shots",
+      "level": {
+        "start": 2,
+        "end": 3
+      },
+      "contents": [
+        {
+          "name": "A Matter of Hospitality",
+          "headers": [
+            "Adventure Overview",
+            "At a Glance",
+            "Maps",
+            "Session Clock",
+            "The Hag's Ritual",
+            "The Hall Outpost",
+            "Hag's Door Warden",
+            "Ground Floor",
+            "The Upstairs Demiplane",
+            "Guest Bedroom",
+            "Dressing Room",
+            "Music Room",
+            "Playroom: Mira",
+            "The Staircase",
+            "The Dinner Party",
+            "Combat Reference",
+            "Breaking the Ritual",
+            "Special Rulings",
+            "Terrain and Miniatures"
+          ]
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "HDP-1",
+      "source": "HDP2026",
+      "data": [
+        {
+          "type": "section",
+          "name": "A Matter of Hospitality",
+          "id": "000",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Adventure Overview",
+              "id": "001",
+              "entries": [
+                "{@i HALL OF HEROES • HALLOWEEN • THREE-HOUR ONE-SHOT}",
+                "A missing child. Three trapped guests. A house preparing a dinner that never begins.",
+                "Levels 2–3 • 3–6 players • one 36×24-inch mat • one combat",
+                "The old hag's enchanted household continues its hospitality ritual: rest, dress, music, play, and dinner. Find Mira, free the imprisoned guests, and end the ritual.",
+                "The upstairs rooms appear in discovery order: Guest Bedroom → Dressing Room → Music Room → Playroom. Their physical doors are interchangeable; once revealed, each room remains in place."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "At a Glance",
+              "id": "002",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Element",
+                    "At the table"
+                  ],
+                  "rows": [
+                    [
+                      "Mat",
+                      "Draw four empty 7×7 rooms and a separate dining island on the single 36×24 mat. Add furnishings as each room is revealed; leave them in place."
+                    ],
+                    [
+                      "Room order",
+                      "Guest Bedroom → Dressing Room → Music Room → Playroom with Mira, regardless of which unopened door is chosen."
+                    ],
+                    [
+                      "New doorway",
+                      "Opening an unexplored upstairs door folds everyone currently upstairs into the next room, just inside its entrance. The doorway closes."
+                    ],
+                    [
+                      "Haunting",
+                      "Doors and boundary breaches loop back into the active room until its haunting is resolved. Afterward, that room becomes safely accessible."
+                    ],
+                    [
+                      "Pacing",
+                      "After an unusually long room, the next unopened door may reveal Mira's Playroom instead of the next haunting."
+                    ],
+                    [
+                      "After Mira",
+                      "All unrevealed rooms are empty and harmless. Previously opened rooms retain their furnishings."
+                    ],
+                    [
+                      "Windows",
+                      "Upstairs windows show an endless demiplane void. Breaching a boundary during an active haunting returns the character to that room."
+                    ],
+                    [
+                      "Dinner",
+                      "The stairway leads directly to the newly prepared dining room. Fight one custom Dinner Golem and two Skeletons; two Dinner Specters are optional."
+                    ],
+                    [
+                      "End",
+                      "Defeating or permanently neutralizing all three original guardians breaks the ritual. Any remaining Specters vanish; the house is cleansed."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Maps",
+              "id": "020",
+              "entries": [
+                "Map images are hosted alongside this adventure on GitHub. Each depicts a 36×24-square layout for the ENHANCE mat; they are not printable full-size one-inch grids.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/the-hags-dinner-party/The_Hags_Dinner_Party_V13_4_DM_36x24.png"
+                  },
+                  "title": "DM one-mat layout (36 × 24 squares)",
+                  "width": 1820,
+                  "height": 1271,
+                  "altText": "DM one-mat layout (36 × 24 squares)",
+                  "imageType": "map",
+                  "id": "hdp-map-dm"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/the-hags-dinner-party/The_Hags_Dinner_Party_V13_4_Player_36x24.png"
+                  },
+                  "title": "Player one-mat layout (36 × 24 squares)",
+                  "width": 1820,
+                  "height": 1271,
+                  "altText": "Player one-mat layout (36 × 24 squares)",
+                  "imageType": "mapPlayer",
+                  "id": "hdp-map-player"
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/the-hags-dinner-party/The_Hags_Dinner_Party_V13_4_Terrain_Overlay.png"
+                  },
+                  "title": "STAHLHAMMERS terrain positioning overlay",
+                  "width": 1820,
+                  "height": 1271,
+                  "altText": "STAHLHAMMERS terrain positioning overlay",
+                  "imageType": "map",
+                  "id": "hdp-terrain-overlay"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Session Clock",
+              "id": "003",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Segment",
+                    "Planning range"
+                  ],
+                  "rows": [
+                    [
+                      "Hall / arrival / exterior ward",
+                      "20–35 min"
+                    ],
+                    [
+                      "Guest Bedroom",
+                      "20–30 min"
+                    ],
+                    [
+                      "Dressing Room",
+                      "15–25 min"
+                    ],
+                    [
+                      "Music Room",
+                      "15–25 min"
+                    ],
+                    [
+                      "Playroom + Mira",
+                      "5–15 min"
+                    ],
+                    [
+                      "Stair transition",
+                      "2–5 min"
+                    ],
+                    [
+                      "Dinner roleplay + combat",
+                      "35–55 min"
+                    ],
+                    [
+                      "Cleansing + resolution",
+                      "5–10 min"
+                    ],
+                    [
+                      "Bathroom / real interruptions",
+                      "10–20 min"
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                },
+                "Ranges include roleplay, investigation, decisions, and moving miniatures. The last row covers breaks and other interruptions."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Hag's Ritual",
+              "id": "004",
+              "entries": [
+                "Old Mother Vale died decades ago, but her hospitality ritual continues: guests must rest, dress, perform, play, and attend dinner. The ordinary ground floor exists on the Material Plane. The staircase crosses into an upstairs demiplane, where doors assign rooms when opened and the house's enchantment loops exits until each haunting is resolved.",
+                "Three former guests remain bound to the ritual. A Flesh Golem and two Skeleton servants enforce dinner preparations. The golem carried Mira upstairs after she entered the house. Destroying or permanently neutralizing the three guardians ends the dinner ritual and releases every remaining spirit. Two spectral echoes may briefly appear during the finale if needed. The other heroes' undead outbreak is unrelated."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Hall Outpost",
+              "id": "005",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Rain rattles against the Hall outpost shutters. Two children stand dripping at the door. “Our friend is missing. Mira went into the old witch’s house. We saw her go inside, and the door wouldn’t open!”"
+                  ]
+                },
+                "Tob admits Mira accepted a dare. Nell saw the door slam after her. They know nothing of the upstairs. The experienced Hall heroes are occupied by an unrelated undead outbreak. The house is ten minutes away.",
+                "Take the skeleton key from your belt and hand it to the players.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“The town left this with us after the hag died. Bring Mira home.”"
+                  ]
+                },
+                "The Hall has ordinary rope, lanterns, blankets, chalk, and crowbars available."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Hag's Door Warden",
+              "id": "006",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "A stone face above the front door draws a long, hollow breath. Leaves lie in a perfect circle beneath it."
+                  ]
+                },
+                "Mira passed the ward because the house treats children as invited guests. The door latched behind her. The enchanted key allows its holder to approach safely; other bypasses are possible.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Feature",
+                    "Rule"
+                  ],
+                  "rows": [
+                    [
+                      "Charges",
+                      "20; each activation consumes one charge and creates a Gust of Wind effect lasting up to 1 minute. No recharge or simultaneous stacking."
+                    ],
+                    [
+                      "Trigger",
+                      "An approaching creature within 20 feet without the key triggers the ward, except an invited child."
+                    ],
+                    [
+                      "Effect",
+                      "Fixed line outward from the stone face; 2024 Gust of Wind, save DC 12, no damage."
+                    ],
+                    [
+                      "Key",
+                      "The creature holding the key is exempt. It may be handed between adventurers."
+                    ],
+                    [
+                      "Disable",
+                      "Stone face AC 13, 15 HP; tools, damage, exhausting charges, side approach, or an effective magical method."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ground Floor",
+              "id": "007",
+              "entries": [
+                "The foyer, parlor, kitchen, study, and dining room occupy the ordinary ground floor. Thumping and crying can be heard from upstairs. Before Mira's rescue the dining room is empty and unset. The household prepares it for dinner when the party returns via the staircase portal.",
+                "A character waiting on the ground floor stays there when an upstairs door folds the party. If that character later ascends during an active haunting, the stairs deliver them into the current room."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Upstairs Demiplane",
+              "id": "008",
+              "entries": [
+                "The staircase crosses into an impossibly long upper hallway. Four ordinary-looking doors can be opened in any order; crying can be heard beyond them. The first unexplored door opened reveals the Guest Bedroom, the second the Dressing Room, the third the Music Room, and the fourth the Playroom. Once revealed, each door retains that room permanently. Every upstairs window overlooks endless void.",
+                "When a new upstairs door opens far enough to reveal its interior, the hallway folds everyone currently upstairs into that room, placing them safely just inside the threshold. The door shuts. The room's exit and any breaches through its walls, windows, floor, or ceiling loop into that same room until its haunting ends. Clearing the haunting restores access to the hallway. Characters can freely act inside the room; teleportation within the room works where its spell permits. The loop provides no hallway destination for a local teleport, but an actual planar-travel effect may cross planes according to its spell.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The door swings open. Before anyone can step through, the hallway lurches beneath you. For a heartbeat its walls seem to fold like paper—and suddenly you are all standing inside the room. Behind you, the door slams shut."
+                  ]
+                },
+                "If two unopened doors are opened simultaneously, the first exposed room becomes active and interrupts the second opening. A character arriving from the ground floor during an active haunting appears in that room. Previously cleared rooms remain accessible whenever no haunting is active.",
+                "PACE ADJUSTMENT: If a room consumes so much session time that the dinner finale is at risk, finish that room normally, then have the next unexplored doorway reveal Mira's Playroom. Once Mira agrees to leave, every still-unrevealed room is empty: no guest, trap, or door loop. The ritual releases the guests from skipped hauntings when it breaks."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Guest Bedroom",
+              "id": "009",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "A man sits on the edge of a bed, crying. At first he looks perfectly ordinary. An old bearskin rug lies between you and him."
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“Please! I’ve been in this room for ages! Every time I leave, it’s like I’m wrapped back up! Will you free me?”"
+                  ]
+                },
+                "The guest has no idea that the bearskin rug traps him. He appears ordinary until distressed, when his features grow spectral. The rug remains still until someone steps onto it.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "When",
+                    "Run this"
+                  ],
+                  "rows": [
+                    [
+                      "Trigger",
+                      "First creature stepping onto the real bear rug: DC 12 Dexterity saving throw to spring clear; failure means Restrained by the magical rug."
+                    ],
+                    [
+                      "Rescue",
+                      "A restrained character or adjacent helper may use an action for DC 12 Strength (Athletics) to pull it off; damaging, severing or pinning it also works."
+                    ],
+                    [
+                      "Durability",
+                      "Custom environmental object, AC 12, 12 HP. No extra creature, attacks or separate initiative encounter. No automatic damage."
+                    ],
+                    [
+                      "Freedom",
+                      "As soon as the rug is neutralized the ghost is freed, even if the PCs used an unexpected but reasonable method."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“Find the girl you seek before she’s trapped as I was.”"
+                  ]
+                },
+                "On release he fades peacefully, the loop ends, and the bedroom remains furnished and safe."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Dressing Room",
+              "id": "010",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "A crying woman sits at a vanity among overflowing wardrobes. “Do you know where my friends have gone? Everyone must look their best, I’m told! That’s all I’m told!”"
+                  ]
+                },
+                "Her enchanted shoes drag her back to the vanity when she tries to leave. Removing them causes other garments to intervene: shirts pull over heads, hats settle onto helmets, and brushes tug at hair. Attempts to flee through the looping doorway lead back into the room. The clothing causes no damage or restraints.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Action",
+                    "Effect"
+                  ],
+                  "rows": [
+                    [
+                      "Initial swarm",
+                      "Once per PC, DC 12 Dexterity (Acrobatics) check. On a failure the character acquires an unwanted shirt, hat, hairdo or other absurd clothing; no loss of speed, actions or agency."
+                    ],
+                    [
+                      "Fight the wardrobe",
+                      "Players may tear garments, dodge, barricade wardrobes or otherwise improvise. The swarm persists until the haunting is broken."
+                    ],
+                    [
+                      "Clue, if needed",
+                      "She asks: “Don’t I look ready yet?”"
+                    ],
+                    [
+                      "Solution",
+                      "Someone assures her that she IS ready and invites her to leave. The clothing goes still; any equally persuasive break of the impossible dress code succeeds."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“Thank you for freeing me, now hurry before the girl’s place at the table is set!”"
+                  ]
+                },
+                "When she accepts that she is ready to leave, or another effective method breaks the dress-code enchantment, the clothes fall still, the guest is freed, and the doorway opens. Furnishings remain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Music Room",
+              "id": "011",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Three instruments play together: a piano, a violin and a cello, all without musicians. Beside them a crying man struggles to keep pace on his lute. A few notes clash; the music breaks, and the entire performance begins again."
+                  ]
+                },
+                "The lute player is a trapped guest who failed the room's DC 13 Wisdom save long ago. He is genuinely enthralled, compulsively replaying his CORRECT lute part while the piano, violin, and cello follow an INCORRECT master score. He cannot identify the mismatch, and the ritual continually returns him to his chair. Unlike living characters, his binding has no repeat saving throw.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“I know this piece! I’ve played it a thousand times! Why can’t I ever get it right?”"
+                  ]
+                },
+                "Enthralling music: anyone who hears it on arrival makes a DC 13 Wisdom save. On a failure, the listener cannot take purposeful actions while entranced. Repeat the save at the end of each turn; success ends the effect. An ally who uses an action to shake or shield the listener from the music grants an immediate repeat save with Advantage. If everyone fails, the end-of-turn saves continue. Use initiative if tracking turns becomes necessary.",
+                "The WRONG master score stands in the center of the room. The CORRECT complete quartet score is in a leather folio beside the lute player's chair. Comparing them reveals the difference without a check. The characters can retrieve the folio.",
+                "All three accompanying instruments are wooden objects (AC 15): violin 3 HP, cello 4 HP, piano 27 HP. A destroyed or disabled instrument stops playing. The instruments take no creature turns; ordinary object-damage rules apply.",
+                "Shatter damages nonmagical unattended objects in its area, but the three enchanted instruments are magical objects. Shatter's object-damage clause does not automatically damage them. Ordinary attacks and other effective methods can still disable them.",
+                "Any one of these solutions ends the haunting:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Destroy or permanently disable ALL THREE enchanted accompanying instruments (piano, violin, cello). Use the object AC/HP above; destroying one or two does not by itself end the repeating piece.",
+                    "Replace the incorrect master score on the central stand with the correct full quartet score from the lute player’s folio. This uses an ordinary interaction once the characters decide to do it; no Performance check or music literacy required.",
+                    "Join or redirect the piece with ONE successful DC 13 Charisma (Performance) check to bring the accompaniment into harmony with his lute. No separate check for each instrument.",
+                    "Cast Silence so the lute player can no longer hear the compulsory accompaniment. This interrupts the enthralling performance and frees him without destroying the instruments. The silent area must actually block the music reaching him."
+                  ]
+                },
+                "Other effective interventions can resolve the performance. When the music ends, the ghost and any entranced adventurers are freed.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“The table is set, and dinner begins soon. Find the girl before she becomes a permanent dinner guest.”"
+                  ]
+                },
+                "The door opens to the hallway. The instruments and furnishings remain in place."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Playroom: Mira",
+              "id": "012",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The room is full of old toys. A small Halfling girl sits crying on the floor. Dolls line the shelves and carpet. Every doll is looking directly at her. As you enter, their heads slowly turn toward you."
+                  ]
+                },
+                "Mira is alive and frightened. The dolls follow the characters with their eyes but do not attack. Credible reassurance is sufficient for her to leave.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“That big thing grabbed me when I came in. It carried me up here. It said, ‘Here. Stay. Eat. Soon.’ Then it left. I thought it would come back if I tried to go.”"
+                  ]
+                },
+                "Mira can hold a hero's hand or be carried. She has no combat role.",
+                "When she agrees to leave, the door loop ends. Every upstairs room not yet revealed is empty from that point forward; furnishings in the revealed rooms stay."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Staircase",
+              "id": "013",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The moment Mira steps out of the Playroom, all the doors behind you swing shut. The staircase, once impossibly distant, stands only twenty feet away."
+                  ]
+                },
+                "When the adventurers descend:",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Warm light spills through an open doorway where the foyer should be. Beyond it waits a dining room, prepared for guests."
+                  ]
+                },
+                "The staircase portal leads directly to the ground-floor dining room. Any unopened upstairs rooms explored before descending are empty."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "The Dinner Party",
+              "id": "014",
+              "entries": [
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The dining room is now set for two. A stitched giant sits at one end of the table. One chair stands empty. Two skeleton servants wait nearby. The giant looks at you—and at Mira."
+                  ]
+                },
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“You not sleep, clothes bad, music not ready!”"
+                  ]
+                },
+                "The golem pounds its fist against the table.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "“NO DINNER YET! MUST BE READY!”"
+                  ]
+                },
+                "The golem overturns the table and charges. The two Skeleton servants defend it. Roll initiative.",
+                {
+                  "type": "entries",
+                  "name": "Optional: Spectral Dinner Guests",
+                  "entries": [
+                    "During a quick finale with meaningful time remaining, two {@creature Dinner Specter|HDP2026} creatures can emerge from the dining room. Each has AC 12, 11 HP, and Spectral Touch +4 (1d6 Necrotic, no maximum-HP reduction). They are echoes of the ritual, not the guests freed upstairs.",
+                    "Bring in the pair together, normally around round two. They act at the Skeletons' initiative count but take their own turns. They attack adventurers, never Mira. When the golem and both Skeletons are defeated or permanently neutralized, any remaining Specters dissipate."
+                  ]
+                },
+                "The golem fights to kill the intruding adventurers; the Skeletons protect it. None of the guardians or optional Specters target Mira."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Combat Reference",
+              "id": "015",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Party",
+                    "Open this custom 5etools monster",
+                    "Fixed HP",
+                    "Slams / turn"
+                  ],
+                  "rows": [
+                    [
+                      "3 PCs, mostly level 2",
+                      "{@creature Dinner Golem (3 PCs)|HDP2026}",
+                      "55",
+                      "1"
+                    ],
+                    [
+                      "4 PCs, mixed level 2–3",
+                      "{@creature Dinner Golem (4 PCs)|HDP2026}",
+                      "65",
+                      "1"
+                    ],
+                    [
+                      "5 PCs, mixed level 2–3",
+                      "{@creature Dinner Golem (5 PCs)|HDP2026}",
+                      "85",
+                      "1"
+                    ],
+                    [
+                      "6 PCs, mostly level 3",
+                      "{@creature Dinner Golem (6 PCs)|HDP2026}",
+                      "100",
+                      "2"
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-3",
+                    "col-5",
+                    "col-2",
+                    "col-2"
+                  ]
+                },
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Creature / miniature",
+                    "Quick reference"
+                  ],
+                  "rows": [
+                    [
+                      "{@creature Skeleton|XMM} #079 and #080",
+                      "AC 14, 13 HP; Shortsword +5 (1d6+3). Vulnerable to bludgeoning. Use normal Skeleton statistics for both miniatures."
+                    ],
+                    [
+                      "Dinner Golem / #142 Ogre miniature",
+                      "AC 9; Slam +7, 2d8+4 Bludgeoning plus 1d8 Lightning. Fire aversion, lightning absorption, immutable form, and magic resistance are on its linked stat block."
+                    ],
+                    [
+                      "2 × {@creature Dinner Specter|HDP2026} / spare tokens",
+                      "Optional; AC 12, 11 HP each; Spectral Touch +4, 1d6 Necrotic, no maximum-HP reduction. Disperse when all three original guardians fall."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-4",
+                    "col-8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Breaking the Ritual",
+              "id": "016",
+              "entries": [
+                "Defeating or permanently neutralizing the Dinner Golem and both Skeletons ends the dinner ritual. All remaining trapped guests are released, including those in skipped rooms. Any optional Specters dissipate immediately.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "The last guardian falls. The house becomes completely still. From somewhere deep in its timbers comes a long, low sigh. A bell rings once upstairs. Warm golden light creeps along the walls, through the doorframes, and over the ceiling. The cold lifts. A faint scent of flowers replaces the stale air. Doors swing open upstairs; distant voices sound relieved, then fade. Through the dining-room windows, you can see the village again. For the first time in decades, the house is simply a house."
+                  ]
+                },
+                "The demiplane prison dissolves and the house becomes permanently safe. The party can return Mira to the Hall or explore the now-harmless house.",
+                {
+                  "type": "insetReadaloud",
+                  "entries": [
+                    "Mira takes the nearest hero’s hand. “Can we go home now?”"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Special Rulings",
+              "id": "017",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Situation",
+                    "Ruling"
+                  ],
+                  "rows": [
+                    [
+                      "The party splits across floors",
+                      "Characters already upstairs fold into the revealed room. Anyone remaining downstairs joins the active room when they ascend."
+                    ],
+                    [
+                      "Two doors opened at once",
+                      "The first threshold exposed establishes the active room; the second opening is interrupted."
+                    ],
+                    [
+                      "Misty Step / local teleportation",
+                      "Misty Step can move its caster to a legal unoccupied space within range and line of sight inside the active room; it cannot bring Mira as a passenger or bypass the active room's looping boundary to reach the hallway or Material Plane. Other local teleportation follows the same room geometry; genuine planar travel follows its own rules."
+                    ],
+                    [
+                      "Trapped guests / Turn Undead",
+                      "The trapped guests are ritual-bound apparitions, not separate Undead creatures with monster stat blocks. Attacking or turning them does not resolve their hauntings. In the finale, Turn Undead works on the two Skeletons and any optional Dinner Specters (all Undead), subject to the normal Wisdom save and conditions, but does not affect the Dinner Golem (Construct)."
+                    ],
+                    [
+                      "Everyone fails Music Room save",
+                      "Repeat the Wisdom save at the end of each turn. An ally's action to interrupt the music grants an immediate save with Advantage."
+                    ],
+                    [
+                      "Command on Dinner Golem",
+                      "2024 Command can target the Dinner Golem: it is a Construct, and the spell does not impose the Charmed condition. Its immunity to Charmed does not negate Command. Roll its Wisdom saving throw with Advantage from Magic Resistance; if it fails, apply the chosen listed command on its next turn."
+                    ],
+                    [
+                      "Dispel Magic and standing magic",
+                      "Dispel Magic can end an active Gust of Wind spell effect from the Door Warden if targeted properly, but does not destroy the device or remove its remaining charges. It does not automatically erase the upstairs demiplane, its standing portal, or the room loops, which are not specified as ongoing spells."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-6",
+                    "col-6"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Terrain and Miniatures",
+              "id": "018",
+              "entries": [
+                "36 columns × 24 rows at one inch per square. Coordinates identify gridlines measured from the mat's upper-left corner. Draw the fixed room and corridor walls before play and mark thresholds with STAHLHAMMERS pieces.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Zone",
+                    "Gridline coordinates",
+                    "Initial state"
+                  ],
+                  "rows": [
+                    [
+                      "Room A",
+                      "x 4–11, y 2–9",
+                      "Empty; window onto void"
+                    ],
+                    [
+                      "Room B",
+                      "x 12–19, y 2–9",
+                      "Empty; window onto void"
+                    ],
+                    [
+                      "Room C",
+                      "x 20–27, y 2–9",
+                      "Empty; window onto void"
+                    ],
+                    [
+                      "Room D",
+                      "x 17–24, y 15–22",
+                      "Empty; window onto void"
+                    ],
+                    [
+                      "Landing",
+                      "x 1–4, y 9–13",
+                      "Drawn stairs"
+                    ],
+                    [
+                      "Main hall",
+                      "x 4–28, y 9–13",
+                      "Open, long, impossible"
+                    ],
+                    [
+                      "South turn",
+                      "x 24–28, y 13–22",
+                      "Connects to Door D"
+                    ],
+                    [
+                      "Dining island",
+                      "x 29–36, y 8–22",
+                      "EMPTY until finale; cover if visible"
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-4",
+                    "col-4",
+                    "col-4"
+                  ]
+                },
+                "Rooms A–D are 7×7 squares (35×35 feet) and interchangeable. Doors A–C face the main hallway; Door D opens westward from the south passage. The dining island is downstairs on the Material Plane and cannot be crossed from the upstairs grid.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Reveal",
+                    "Terrain kit",
+                    "Placement"
+                  ],
+                  "rows": [
+                    [
+                      "Guest Bedroom",
+                      "Bear rug, AUSPDICE small cabinet #1, drawn bed",
+                      "Rug lies between entrance and guest."
+                    ],
+                    [
+                      "Dressing Room",
+                      "AUSPDICE large bookcase #1, acrylic mirror, clothing markers",
+                      "Wardrobe and vanity around the guest."
+                    ],
+                    [
+                      "Music Room",
+                      "AF634A cabinet/piano, AUSPDICE bookcase #2, paper violin/cello and music markers",
+                      "Wrong master score on central stand; correct folio beside lute player's chair."
+                    ],
+                    [
+                      "Playroom",
+                      "AUSPDICE bookcase #3, chest, paper dolls, Mira #017",
+                      "Mira seated on floor among watching dolls."
+                    ],
+                    [
+                      "Dinner",
+                      "AF634A round table, two chairs, fireplace, #142, #079, #080, optional two Specter markers",
+                      "Set table for two; add finale furnishings when the party arrives."
+                    ]
+                  ],
+                  "colStyles": [
+                    "col-4",
+                    "col-4",
+                    "col-4"
+                  ]
+                },
+                "Furnish each room as it is revealed. Place characters safely inside the doorway, before the rug or other hazard. Keep all walls and previously placed furnishings fixed. Unrevealed rooms remain unfurnished after Mira's rescue."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Dinner Golem (3 PCs)",
+      "source": "HDP2026",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        9
+      ],
+      "hp": {
+        "average": 55,
+        "formula": "55"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 9,
+      "con": 18,
+      "int": 6,
+      "wis": 10,
+      "cha": 5,
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "lightning",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common plus one other language; speaks only short, broken phrases (custom)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Aversion to Fire",
+          "entries": [
+            "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem cannot change its shape."
+          ]
+        },
+        {
+          "name": "Lightning Absorption",
+          "entries": [
+            "Lightning damage heals the golem by the damage amount instead of harming it; healing cannot exceed its maximum HP."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has Advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Attack",
+          "entries": [
+            "The golem makes 1 Slam attack."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage plus 4 ({@damage 1d8}) Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dinner Golem (4 PCs)",
+      "source": "HDP2026",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        9
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "65"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 9,
+      "con": 18,
+      "int": 6,
+      "wis": 10,
+      "cha": 5,
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "lightning",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common plus one other language; speaks only short, broken phrases (custom)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Aversion to Fire",
+          "entries": [
+            "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem cannot change its shape."
+          ]
+        },
+        {
+          "name": "Lightning Absorption",
+          "entries": [
+            "Lightning damage heals the golem by the damage amount instead of harming it; healing cannot exceed its maximum HP."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has Advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Attack",
+          "entries": [
+            "The golem makes 1 Slam attack."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage plus 4 ({@damage 1d8}) Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dinner Golem (5 PCs)",
+      "source": "HDP2026",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        9
+      ],
+      "hp": {
+        "average": 85,
+        "formula": "85"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 9,
+      "con": 18,
+      "int": 6,
+      "wis": 10,
+      "cha": 5,
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "lightning",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common plus one other language; speaks only short, broken phrases (custom)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Aversion to Fire",
+          "entries": [
+            "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem cannot change its shape."
+          ]
+        },
+        {
+          "name": "Lightning Absorption",
+          "entries": [
+            "Lightning damage heals the golem by the damage amount instead of harming it; healing cannot exceed its maximum HP."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has Advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Attack",
+          "entries": [
+            "The golem makes 1 Slam attack."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage plus 4 ({@damage 1d8}) Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dinner Golem (6 PCs)",
+      "source": "HDP2026",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        9
+      ],
+      "hp": {
+        "average": 100,
+        "formula": "100"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 9,
+      "con": 18,
+      "int": 6,
+      "wis": 10,
+      "cha": 5,
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "lightning",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common plus one other language; speaks only short, broken phrases (custom)"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Aversion to Fire",
+          "entries": [
+            "After it takes Fire damage, the golem has Disadvantage on attacks and ability checks until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem cannot change its shape."
+          ]
+        },
+        {
+          "name": "Lightning Absorption",
+          "entries": [
+            "Lightning damage heals the golem by the damage amount instead of harming it; healing cannot exceed its maximum HP."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has Advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The golem makes 2 Slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage plus 4 ({@damage 1d8}) Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dinner Specter",
+      "source": "HDP2026",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 11,
+        "formula": "11"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 50,
+          "condition": "(hover)"
+        }
+      },
+      "str": 1,
+      "dex": 14,
+      "con": 11,
+      "int": 10,
+      "wis": 10,
+      "cha": 11,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        "acid",
+        "bludgeoning",
+        "cold",
+        "fire",
+        "lightning",
+        "piercing",
+        "slashing",
+        "thunder"
+      ],
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+      ],
+      "languages": [
+        "understands Common plus one other language but cannot speak"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Incorporeal Movement",
+          "entries": [
+            "The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 ({@damage 1d10}) Force damage if it ends its turn inside an object."
+          ]
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "entries": [
+            "While in sunlight, the specter has Disadvantage on ability checks and attack rolls."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Spectral Touch",
+          "entries": [
+            "{@atkr m} {@hit 4}, reach 5 ft. {@h}3 ({@damage 1d6}) Necrotic damage. This attack does not reduce the target’s Hit Point maximum."
+          ]
+        }
+      ]
+    }
+  ]
+}
