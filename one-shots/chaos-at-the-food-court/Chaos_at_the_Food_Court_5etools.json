@@ -1,0 +1,472 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "CFCE2026",
+        "abbreviation": "CFCE",
+        "full": "Chaos at the Food Court: Modern Earth",
+        "authors": [
+          "Offscreen Worlds"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "one",
+    "dateAdded": 1795300000,
+    "dateLastModified": 1795300000
+  },
+  "adventure": [
+    {
+      "name": "Chaos at the Food Court: Modern Earth",
+      "id": "CF-2026-1",
+      "source": "CFCE2026",
+      "group": "homebrew",
+      "published": "2026-11-21",
+      "author": "Offscreen Worlds, adapted from the 2019 C2E2 premise",
+      "storyline": "One-Shots",
+      "level": {
+        "start": 8,
+        "end": 8
+      },
+      "contents": [
+        {
+          "name": "00 - Run Sheet",
+          "headers": [
+            "Run in One Page",
+            "Table Setup"
+          ]
+        },
+        {
+          "name": "01 - Maps",
+          "headers": [
+            "Player and DM PNG Images"
+          ]
+        },
+        {
+          "name": "02 - Arrival and Hydra",
+          "headers": [
+            "The Cinema - Opening",
+            "Encounter One - Hydra at the Fountain"
+          ]
+        },
+        {
+          "name": "03 - Security and Food Court",
+          "headers": [
+            "Security and Culture Clash",
+            "Encounter Two - Food-Court Menagerie"
+          ]
+        },
+        {
+          "name": "04 - Red Dragon Finale",
+          "headers": [
+            "Approach and Rest",
+            "Encounter Three - Two Owlbears and Young Red Dragon"
+          ]
+        },
+        {
+          "name": "05 - Close the Portal",
+          "headers": [
+            "Bombeldo and the Emergency Lever",
+            "Likely Deviations - Resolved"
+          ]
+        },
+        {
+          "name": "06 - Monster Cards",
+          "headers": [
+            "Native Full 2024 Stat Blocks"
+          ]
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "CF-2026-1",
+      "source": "CFCE2026",
+      "data": [
+        {
+          "type": "section",
+          "name": "00 - Run Sheet",
+          "id": "000",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Run in One Page",
+              "entries": [
+                "Four level-8 2024-rules fantasy PCs in an ordinary modern US shopping mall, 3-4 hours. None of the locals knows magic exists. A projector at The Dungeoneer misfires, bringing the PCs out of a cinema screen and depositing nine monsters into the mall. The monsters have ALREADY arrived. Turning off the projector NEVER defeats, weakens, sends home, or prevents the entry of any of the listed monsters.",
+                {
+                  "type": "table",
+                  "caption": "Real-time session clock",
+                  "colLabels": [
+                    "Elapsed",
+                    "Plan"
+                  ],
+                  "rows": [
+                    [
+                      "0:00-0:15",
+                      "Cinema arrival; first scream"
+                    ],
+                    [
+                      "0:15-0:55",
+                      "Hydra at the fountain"
+                    ],
+                    [
+                      "0:55-1:10",
+                      "Security footage and shop lead"
+                    ],
+                    [
+                      "1:10-2:00",
+                      "Food-court menagerie"
+                    ],
+                    [
+                      "2:00-2:20",
+                      "Back hall, possible short rest"
+                    ],
+                    [
+                      "2:20-3:30",
+                      "Two owlbears plus young red dragon"
+                    ],
+                    [
+                      "3:30-3:45",
+                      "Stop projector and return home"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "caption": "Encounter budget: four level-8 PCs; low 4,000 / moderate 6,800 / high 8,400 XP",
+                  "colLabels": [
+                    "Battle",
+                    "Roster",
+                    "XP"
+                  ],
+                  "rows": [
+                    [
+                      "Fountain",
+                      "1 Hydra, 184 HP",
+                      "3,900"
+                    ],
+                    [
+                      "Food court",
+                      "1 Bulette, 2 Displacer Beasts, 1 Gelatinous Cube, 1 Spectator",
+                      "4,350"
+                    ],
+                    [
+                      "Atrium finale",
+                      "1 Young Red Dragon, 2 Owlbears",
+                      "7,300"
+                    ]
+                  ]
+                },
+                "Use XMM 2024 native creature references throughout. Roster: exactly 9 enemy miniatures, no Mimics. Monsters fight; nothing in the puzzle scene provides an alternative banishment victory. PCs may use spells, weapons, equipment and normal 2024 rules unchanged.",
+                "If behind on time, skip optional store conversations and have security immediately give the shop location. Do not invent a fourth encounter. The one-hour in-world short rest takes only a few real-world minutes when the party elects to take it."
+              ],
+              "id": "000"
+            },
+            {
+              "type": "entries",
+              "name": "Table Setup",
+              "entries": [
+                "Map: 34 columns A-AH (left to right) by 22 rows, top row 1 (north); 1 square = 5 feet; 24 pixels per square in the linked PNG. Set out player map and keep DM overlay hidden.",
+                "Nine enemy tokens: Hydra x1 Huge (3x3); Bulette x1 Large (2x2); Displacer Beast x2 Large (2x2); Gelatinous Cube x1 Large (2x2); Spectator x1 Medium (1x1); Owlbear x2 Large (2x2); Young Red Dragon x1 Large (2x2). Bring four character minis. Exact owned minis are NOT confirmed; properly sized numbered paper bases are authorized stand-ins. Young dragon flies 25 feet above atrium on entry: elevation die beside its token.",
+                {
+                  "type": "table",
+                  "caption": "DM placements, columns A-AH",
+                  "colLabels": [
+                    "Creature",
+                    "Position",
+                    "Arrival"
+                  ],
+                  "rows": [
+                    [
+                      "Hydra H",
+                      "O11-Q13 (fountain)",
+                      "Fight 1 at initiative"
+                    ],
+                    [
+                      "Spectator S",
+                      "J16, 15 ft up",
+                      "Fight 2 round 1"
+                    ],
+                    [
+                      "Displacer D1",
+                      "M16-N17",
+                      "Fight 2 round 1"
+                    ],
+                    [
+                      "Displacer D2",
+                      "X15-Y16",
+                      "Fight 2 round 1"
+                    ],
+                    [
+                      "Gelatinous Cube C",
+                      "O19-P20",
+                      "Fight 2 round 1"
+                    ],
+                    [
+                      "Bulette B",
+                      "T19-U20",
+                      "Fight 2 START round 2"
+                    ],
+                    [
+                      "Owlbear O1",
+                      "Y9-Z10",
+                      "Final round 1"
+                    ],
+                    [
+                      "Owlbear O2",
+                      "AC9-AD10",
+                      "Final round 1"
+                    ],
+                    [
+                      "Dragon R",
+                      "S9-T10, 25 ft up",
+                      "Final START round 2"
+                    ]
+                  ]
+                },
+                "Adjust a footprint only when occupied by a PC or blocked by terrain; choose the nearest legal placement. Creature sizes are based on the printed 2024 stat blocks; mini sculpt overhang does not affect rules."
+              ],
+              "id": "001"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "01 - Maps",
+          "id": "001",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Player and DM PNG Images",
+              "entries": [
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_player.png"
+                      },
+                      "imageType": "mapPlayer",
+                      "title": "Mall Player Map - 34 x 22",
+                      "width": 816,
+                      "height": 528,
+                      "grid": {
+                        "type": "square",
+                        "size": 24
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "type": "image",
+                      "href": {
+                        "type": "external",
+                        "url": "https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_dm.png"
+                      },
+                      "imageType": "map",
+                      "title": "Mall DM Map - Starting Footprints",
+                      "width": 816,
+                      "height": 528,
+                      "grid": {
+                        "type": "square",
+                        "size": 24
+                      }
+                    }
+                  ]
+                },
+                "{@link Player map PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_player.png}",
+                "{@link DM placement PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_dm.png}",
+                "West (left): cinema, Eye Express, and west exit. North: games shop, service hall, and The Dungeoneer. Center: open skylight atrium and shallow fountain. Southeast: open food court. East: security kiosk and exit. The shop rooms are schematic staging areas; the entire playing surface is a single interconnected encounter map.",
+                "Fountain is shallow water, difficult terrain for creatures without a swim speed; rim provides half cover when it physically blocks line of sight. Four kiosks marked on map provide half cover if an intervening solid surface. Tables can be overturned with an object interaction to provide half cover. The skylight ceiling is 35 feet above floor; balcony paths are 15 feet high. No automatic extra fire damage from burning mall fixtures.",
+                "Normal shopfront glass: AC 13 and 10 HP per 5-ft section. The Dungeoneer's front doors and cinema exit are open or breakable. The marked Bulette crater counts as difficult terrain after it emerges."
+              ],
+              "id": "100"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "02 - Arrival and Hydra",
+          "id": "002",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "The Cinema - Opening",
+              "entries": [
+                "The stone doorway behind you snaps out of existence. The floor is red carpet. In front of you, an enormous bright rectangle shows people racing between metal carriages. A child points at your armor. 'Are you in the movie?' Then a boom rocks the room, followed by screaming from outside.",
+                "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), any sensible spell, or two PCs lifting together. Mel is not the required clue, and leaving the usher doesn't stop play. Mel heard something with too many heads outside. A shimmering seam remains in the screen but cannot yet carry them home.",
+                "PC armor and magic are real. To mall patrons they initially look like performers. Once the Hydra attacks, shoppers flee off the combat map and are not initiative participants. Police and fire crews only arrive for the aftermath, not as another fight."
+              ],
+              "id": "200"
+            },
+            {
+              "type": "entries",
+              "name": "Encounter One - Hydra at the Fountain",
+              "entries": [
+                "The fountain cracks like an egg. A vast reptilian body heaves over the low stone rim. Five heads sweep the walkway; one snatches the plastic pretzel sign from a kiosk and breaks it in half.",
+                "Place Hydra H at O11-Q13 and roll initiative. One Huge monster, not five enemies. Run its 2024 head severing, fire suppression, multiattack, and reaction from its full stat block. When a head dies, make the stump visibly react; when it regrows, narrate the doubling. An intelligent player can identify Fire as the counter without a skill-roll tax.",
+                "It attacks armed threats in reach, moving out of the fountain if necessary. It may smash through weak storefront windows. It does not wait stationary in the pool if PCs attack from far away. Shoppers escape through south and west doors.",
+                "Once defeated, violet scorch marks trail northeast, and Dana Torres at the security kiosk calls the adventurers over. This is a guaranteed transition.",
+                "Stat block: {@creature Hydra|XMM}"
+              ],
+              "id": "201"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "03 - Security and Food Court",
+          "id": "003",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Security and Culture Clash",
+              "entries": [
+                "Dana Torres, the shift manager, is evacuating civilians. She is practical and cooperative. A camera shows a violet flash erupting from the shop called The Dungeoneer at 2:17 PM, after which monstrous shapes abruptly appeared throughout the mall. A red shadow was captured on the roof above the skylight.",
+                "Dana gives them a service door key and identifies Bombeldo, who was demonstrating a bizarre antique projector. No roll to receive core clue. If skipped, a digital display loops the same video, and shoppers point toward the shop. The party may explore a games shop displaying fictional heroes resembling them, or talk to an optometrist who saw a floating eye (5 min optional)."
+              ],
+              "id": "300"
+            },
+            {
+              "type": "entries",
+              "name": "Encounter Two - Food-Court Menagerie",
+              "entries": [
+                "Two six-legged black panthers flicker across the tables. A one-eyed sphere with four stalks hovers overhead, firing prismatic rays. A slab of near-invisible acid creeps from the restaurant kitchen. Across the aisle, the floor fractures in a two-square patch.",
+                "Round 1: Spectator S at J16 (15 ft up), two Displacer Beasts D1 M16-N17 and D2 X15-Y16, and Gelatinous Cube C O19-P20 are present. Roll initiative. Round 2 START: Bulette B erupts through T19-U20 and rolls into initiative, acting on its rolled count (no free attack). If occupied, use an adjacent legal 2x2 area. Players saw the floor crack before this.",
+                "Spectator favors its 2024 eye rays and spell defense, remaining airborne. Displacers split up and reposition, using Displacement. Cube glides toward the nearest reachable target with its 2024 Engulf; it is slow, not tactical. Bulette attacks the loudest or heaviest visible movement; the escaped animals need not cooperate, and can collide.",
+                "Kitchen aisle is 10 feet wide and can be blocked by the cube. Food-court tables offer positional cover. Erupted tile becomes difficult terrain. Do not add a Mimic or any other encounter filler.",
+                "Stat blocks: {@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}"
+              ],
+              "id": "301"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "04 - Red Dragon Finale",
+          "id": "004",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Approach and Rest",
+              "entries": [
+                "The security service corridor gives the party a secure room for a short rest if desired; resolve resource recovery according to 2024 rules. Bombeldo Trask is barricaded inside his hobby shop's rear workroom, shouting that his 'display' was never supposed to do this.",
+                "A bystander's phone video shows two owlbears at The Dungeoneer and a young red dragon circling above the skylight. The players see the dragon before it joins initiative. If they choose a direct route earlier, advance to this encounter immediately."
+              ],
+              "id": "400"
+            },
+            {
+              "type": "entries",
+              "name": "Encounter Three - Two Owlbears and Young Red Dragon",
+              "entries": [
+                "Two huge feathered predators smash through The Dungeoneer's storefront. A red dragon wheels above the cracked skylight, its shadow swallowing the food-court lights.",
+                "Round 1: Owlbear O1 Y9-Z10 and Owlbear O2 AC9-AD10. Roll initiative; owlbears charge independent targets. At start of round 2: place Young Red Dragon R at S9-T10, 25 ft above floor; roll initiative, insert into existing order, and act on that count. Do NOT give it a free breath on arrival. It was visible for round 1.",
+                "Dragon uses the full 2024 XMM block. Its breath is a dangerous 30-ft cone with DC 17 Dex and 16d6 Fire on failure. It prefers lines that catch multiple heroes; it can perch on the 15-ft balcony, fly up to 35-ft atrium ceiling, or swoop to claw. The owlbears fight for territory; they are not trained minions and never receive commands from the dragon.",
+                "Keep cover, flying altitude, and line of sight real. If PCs spend resources to split up or get behind columns, reward their tactics. Don't invisibly lower HP or take away attacks to force a happy ending.",
+                "Stat blocks: {@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
+              ],
+              "id": "401"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "05 - Close the Portal",
+          "id": "005",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Bombeldo and the Emergency Lever",
+              "entries": [
+                "Bombeldo Trask is a frightened mundane human shop owner. He found a violet crystal machine at an estate sale and believed it was a theatrical effect. He has no spells, guards, secret combat phase, or leverage over the heroes.",
+                "After monsters are dealt with, a clearly labeled red STOP lever turns off the projector with no roll. The cinema screen stabilizes as a portal back to the adventurers' starting world for one minute. Shutting the machine never affects any monster already on Earth. If Bombeldo dies, an instruction placard identifies the same lever. If projector is completely destroyed, the cinema seam stabilizes once as an emergency backlash, remaining open one minute.",
+                "Choices have consequences: if adventurers stay on Earth, responders arrive and collect eyewitness testimony. No mandatory police combat. There is no mandatory treasure: Bombeldo offers each hero a cheap rechargeable flashlight or mall souvenir as thanks."
+              ],
+              "id": "500"
+            },
+            {
+              "type": "entries",
+              "name": "Likely Deviations - Resolved",
+              "entries": [
+                {
+                  "type": "table",
+                  "caption": "No plot locks",
+                  "colLabels": [
+                    "Player choice",
+                    "Outcome"
+                  ],
+                  "rows": [
+                    [
+                      "Cast high-level travel magic",
+                      "Apply normal 2024 rules, including component and destination limitations; Earth isn't antimagic."
+                    ],
+                    [
+                      "Skip security",
+                      "Scorch trail or witness points to shop; no essential clue roll."
+                    ],
+                    [
+                      "Go to shop immediately",
+                      "Find Bombeldo and projector; monsters are already loose, dragon still on roof."
+                    ],
+                    [
+                      "Kill Bombeldo",
+                      "Instructions on machine remain; no dead-end."
+                    ],
+                    [
+                      "Pull STOP before fighting",
+                      "All nine monsters remain on Earth. Return screen opens for one minute; the party can leave, but the mall remains unsafe."
+                    ],
+                    [
+                      "Fight on roof",
+                      "Dragon can fly outside. Roof above atrium is 35 ft up; apply normal fall rules."
+                    ],
+                    [
+                      "Retreat after fight",
+                      "Use exits and normal pursuit, no forced teleport back into arena."
+                    ],
+                    [
+                      "Attempt to talk to monsters",
+                      "Wild monsters may react to appropriate magic as written but have no common mission or social objective."
+                    ]
+                  ]
+                },
+                "Run monsters as creatures with instincts, not obedient encounter tokens. The story ends when the players make their own decision about the emergency and returning home."
+              ],
+              "id": "501"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "06 - Monster Cards",
+          "id": "006",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Native Full 2024 Stat Blocks",
+              "entries": [
+                "These links open existing complete 2024 Monster Manual (XMM) creature stat blocks in your 5etools installation. Their full copyrighted records are NOT duplicated inside this adventure JSON. Your install must include XMM.",
+                "{@creature Hydra|XMM}",
+                "{@creature Bulette|XMM}",
+                "{@creature Displacer Beast|XMM}",
+                "{@creature Gelatinous Cube|XMM}",
+                "{@creature Spectator|XMM}",
+                "{@creature Young Red Dragon|XMM}",
+                "{@creature Owlbear|XMM}",
+                "Before leaving for Hall: verify each link in your own 5etools bestiary, verify both hosted PNGs display, and confirm printed tokens or physical minis. The package is structurally assembled but a live browser import is not verified by this publishing step."
+              ],
+              "id": "600"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
