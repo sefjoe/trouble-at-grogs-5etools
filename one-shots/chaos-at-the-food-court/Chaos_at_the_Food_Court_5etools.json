@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.0.0"
+        "version": "1.1.0-thornwatch-opening"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795300000
+    "dateLastModified": 1795294800
   },
   "adventure": [
     {
@@ -44,8 +44,9 @@
           ]
         },
         {
-          "name": "02 - Arrival and Hydra",
+          "name": "02 - Thornwatch, Cinema and Hydra",
           "headers": [
+            "The Thornwatch Contract - Play First (0:00-0:05)",
             "The Cinema - Opening",
             "Encounter One - Hydra at the Fountain"
           ]
@@ -94,7 +95,7 @@
               "type": "entries",
               "name": "Run in One Page",
               "entries": [
-                "Four level-8 2024-rules fantasy PCs in an ordinary modern US shopping mall, 3-4 hours. None of the locals knows magic exists. A projector at The Dungeoneer misfires, bringing the PCs out of a cinema screen and depositing nine monsters into the mall. The monsters have ALREADY arrived. Turning off the projector NEVER defeats, weakens, sends home, or prevents the entry of any of the listed monsters.",
+                "Four level-8 2024-rules fantasy PCs begin with The Thornwatch Contract, a genuine fantasy-world roadside investigation. Within FIVE real-time minutes, a planar tear at a ruined arch throws the whole party through a movie screen into an ordinary modern US shopping mall. This is the concealed premise: the player handout stays fantasy-only. Bombeldo's projector at The Dungeoneer causes the resonance, bringing the PCs and nine monsters to Earth. The monsters have ALREADY arrived; turning off the projector NEVER defeats, weakens, sends home, or prevents the entry of any of the listed monsters.",
                 {
                   "type": "table",
                   "caption": "Real-time session clock",
@@ -104,8 +105,12 @@
                   ],
                   "rows": [
                     [
-                      "0:00-0:15",
-                      "Cinema arrival; first scream"
+                      "0:00-0:05",
+                      "Thornwatch contract, broken arch, dimensional breach (no battle)"
+                    ],
+                    [
+                      "0:05-0:15",
+                      "Cinema reveal; usher Mel; hear screaming"
                     ],
                     [
                       "0:15-0:55",
@@ -121,7 +126,7 @@
                     ],
                     [
                       "2:00-2:20",
-                      "Back hall, possible short rest"
+                      "Back hall, optional short rest"
                     ],
                     [
                       "2:20-3:30",
@@ -129,7 +134,7 @@
                     ],
                     [
                       "3:30-3:45",
-                      "Stop projector and return home"
+                      "STOP lever, cinema portal, return to Thornwatch"
                     ]
                   ]
                 },
@@ -339,16 +344,30 @@
         },
         {
           "type": "section",
-          "name": "02 - Arrival and Hydra",
+          "name": "02 - Thornwatch, Cinema and Hydra",
           "id": "002",
           "entries": [
             {
               "type": "entries",
+              "name": "The Thornwatch Contract - Play First (0:00-0:05)",
+              "id": "200A",
+              "entries": [
+                "PRE-SESSION COVER STORY: Players have received a genuine job notice titled The Thornwatch Contract. Experienced adventurers were hired to investigate merchant disappearances and strange lights along the old trade road near Thornwatch. Do not reveal the mall or the modern setting before play. The contract is real: a weakness between worlds has been producing local anomalies, and Bombeldo's projector on Earth is now resonating with it. Neither the NPCs nor the characters know the cause.",
+                "0:00-0:01 - READ ALOUD: \"The road to Thornwatch winds between dark pines and weathered mile markers. For three nights, travelers have reported missing wagons, lights among the trees, and a humming sound near the abandoned waystation. The village reeve has offered good coin to find the cause. Ahead, beside an old stone arch, an empty wagon stands at an angle with one wheel half-sunk into the mud. No driver. No horse. The air is unusually still.\"",
+                "0:01-0:03 - PLAY: Let each player give a short introduction and one immediate action. The wagon is empty, the harness was not cut, and the deep wheel ruts end abruptly beside the arch. Anyone touching the wheel finds it slightly warm. A DC 13 Intelligence (Arcana) check identifies a planar disturbance rather than a local illusion; no check is required to find the arch or move forward. Characters may approach, observe, or cast normal spells. Nothing here is a combat encounter.",
+                "0:03-0:05 - READ ALOUD: \"The humming becomes a note too low to hear and too strong to ignore. The stone arch fills with a thin sheet of violet light. For one instant you can see your own reflections, each a heartbeat too late. Then the road drops away. The smell of damp pine gives way to butter, sugar, and something hot and salty. Your boots strike a soft red floor. A wall-sized moving picture illuminates rows of strange padded chairs. Behind you, the violet opening collapses into the picture itself.\"",
+                "ARRIVAL: The whole hired party arrives together inside the mall cinema, with all gear, familiars and worn equipment they brought. This is an environmental planar breach, not an attack, saving throw, or forced character rebuild. If a character scouts nearby, the visible surge spans the whole waystation. If they retreat from the arch entirely, a second tear opens along the road and joins them with the others; do not run a split-session prelude. The transfer cannot be prevented by merely declining to touch the arch, but sensible protective actions may shape how characters arrive. The violet seam remains in the movie screen until the projector is stopped.",
+                "The contrast is the reveal. A child in the theater points at an armored character and asks, \"Are you in the movie?\" A tremendous crash follows from the mall concourse and shoppers scream. Continue directly with 'The Cinema - Opening' below. The adventure's first fight begins at the fountain, not in Thornwatch.",
+                "TIMING: At the five-minute mark the characters are in the cinema. No roleplay stop, investigation roll, or extra combat should be required to cross. Thornwatch has no map or minis. The mall map remains the only battle map."
+              ]
+            },
+            {
+              "type": "entries",
               "name": "The Cinema - Opening",
               "entries": [
-                "The stone doorway behind you snaps out of existence. The floor is red carpet. In front of you, an enormous bright rectangle shows people racing between metal carriages. A child points at your armor. 'Are you in the movie?' Then a boom rocks the room, followed by screaming from outside.",
+                "The party has just dropped from the Thornwatch waystation into an ordinary modern movie theater. Thick red carpet lies under their boots. The giant glowing screen shows people racing between metal carriages. A child points at their armor and asks, 'Are you in the movie?' Then a boom shakes the building, followed by screaming from the concourse. Go straight from the Thornwatch transition to this beat; do not repeat the arrival description.",
                 "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), any sensible spell, or two PCs lifting together. Mel is not the required clue, and leaving the usher doesn't stop play. Mel heard something with too many heads outside. A shimmering seam remains in the screen but cannot yet carry them home.",
-                "PC armor and magic are real. To mall patrons they initially look like performers. Once the Hydra attacks, shoppers flee off the combat map and are not initiative participants. Police and fire crews only arrive for the aftermath, not as another fight."
+                "The characters have their usual weapons, armor, and spells. Phones have cameras; firearms and police never become mandatory new mechanics. Civilians flee and are removed from initiative. The mall is ordinary Earth; nobody recognizes spells or knows magic rules."
               ],
               "id": "200"
             },
@@ -432,8 +451,9 @@
               "name": "Bombeldo and the Emergency Lever",
               "entries": [
                 "Bombeldo Trask is a frightened mundane human shop owner. He found a violet crystal machine at an estate sale and believed it was a theatrical effect. He has no spells, guards, secret combat phase, or leverage over the heroes.",
-                "After monsters are dealt with, a clearly labeled red STOP lever turns off the projector with no roll. The cinema screen stabilizes as a portal back to the adventurers' starting world for one minute. Shutting the machine never affects any monster already on Earth. If Bombeldo dies, an instruction placard identifies the same lever. If projector is completely destroyed, the cinema seam stabilizes once as an emergency backlash, remaining open one minute.",
-                "Choices have consequences: if adventurers stay on Earth, responders arrive and collect eyewitness testimony. No mandatory police combat. There is no mandatory treasure: Bombeldo offers each hero a cheap rechargeable flashlight or mall souvenir as thanks."
+                "After monsters are dealt with, a clearly labeled red STOP lever turns off the projector with no roll. The cinema screen stabilizes as a portal back to the exact abandoned Thornwatch waystation where the characters entered, open for one minute. Shutting the machine never affects any monster already on Earth. If Bombeldo dies, an instruction placard identifies the same lever. If the projector is destroyed completely, the cinema seam stabilizes once as an emergency backlash, remaining open for one minute.",
+                "Choices have consequences: if adventurers stay on Earth, responders arrive and collect eyewitness testimony. No mandatory police combat. There is no mandatory treasure: Bombeldo offers each hero a cheap rechargeable flashlight or mall souvenir as thanks.",
+                "RETURN READ ALOUD: \"You step through the last flicker of the screen and onto the rutted Thornwatch road. The wagon is still there, its wheel half-buried in the mud. Beyond the abandoned arch, the pines stir in an ordinary wind. The impossible humming is gone. In your hand is a small, utterly inexplicable souvenir from somewhere that shouldn't exist.\" The road disturbance ends with the projector shut off. The reeve's contract can be paid without another combat or investigation."
               ],
               "id": "500"
             },
@@ -449,6 +469,14 @@
                     "Outcome"
                   ],
                   "rows": [
+                    [
+                      "They try to avoid the arch or split up at Thornwatch",
+                      "The dimensional surge encompasses the waystation and its nearby road; the contract party emerges together in the cinema within five minutes. No stranded scout or separate subplot."
+                    ],
+                    [
+                      "They solve a clue at Thornwatch",
+                      "Arcana DC 13 identifies a planar seam; wagon ruts end at the arch. This information carries forward but does not prevent the opening."
+                    ],
                     [
                       "Cast high-level travel magic",
                       "Apply normal 2024 rules, including component and destination limitations; Earth isn't antimagic."
