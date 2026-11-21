@@ -10,3 +10,7 @@ Maps: mall_player.png and mall_dm.png. Both are actual PNG files, 816 x 528 pixe
 All stat links resolve to built-in Monster Manual 2024 source XMM when it is available in the current 5etools installation. The JSON is a new adventure; existing repo files are unchanged.
 
 These files were structurally created and verified as GitHub assets; live browser import into the user's particular 5etools install is still a separate check.
+
+## Opening and player-facing cover
+
+Start at **The Thornwatch Contract** for five minutes: genuine trade-road investigation, abandoned wagon, stone arch, planar tear, hard cut to the cinema. The player handout is intentionally spoiler-free and still says **The Thornwatch Contract**. Do not share the DM materials or the JSON's title with players before the reveal. The linked maps do not change. The return portal deposits characters at the same Thornwatch arch.
