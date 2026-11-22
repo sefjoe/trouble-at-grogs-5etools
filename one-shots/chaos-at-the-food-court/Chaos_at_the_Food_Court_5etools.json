@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.1.0-thornwatch-opening"
+        "version": "1.2.0-jewelry-dragon-cinema-booth"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795294800
+    "dateLastModified": 1795304100
   },
   "adventure": [
     {
@@ -34,6 +34,7 @@
           "name": "00 - Run Sheet",
           "headers": [
             "Run in One Page",
+            "World Truth: What Actually Happened",
             "Table Setup"
           ]
         },
@@ -95,7 +96,7 @@
               "type": "entries",
               "name": "Run in One Page",
               "entries": [
-                "Four level-8 2024-rules fantasy PCs begin with The Thornwatch Contract, a genuine fantasy-world roadside investigation. Within FIVE real-time minutes, a planar tear at a ruined arch throws the whole party through a movie screen into an ordinary modern US shopping mall. This is the concealed premise: the player handout stays fantasy-only. Bombeldo's projector at The Dungeoneer causes the resonance, bringing the PCs and nine monsters to Earth. The monsters have ALREADY arrived; turning off the projector NEVER defeats, weakens, sends home, or prevents the entry of any of the listed monsters.",
+                "Four level-8 2024-rules fantasy PCs begin with the genuine Thornwatch Contract. Within five real-time minutes, a planar tear at an ancient arch brings them through a film screen into an ordinary modern US shopping mall. Bombeldo Trask, owner of The Dungeoneer, brought his antique crystal projector to the cinema booth for a promotional fantasy screening. Its beam strikes the screen, links to the Thornwatch arch, and overloads: secondary breaches scatter NINE monsters through the mall. All nine have ALREADY arrived. The projector remains IN THE CINEMA BOOTH, not the shop. Its STOP lever stabilizes the screen for a one-minute return window, but it never banishes, wounds, or weakens any monsters. The young red dragon has claimed Coronet Jewelers beside the food court as a glittering hoard, while two owlbears scavenge in the restaurant service areas.",
                 {
                   "type": "table",
                   "caption": "Real-time session clock",
@@ -106,19 +107,19 @@
                   "rows": [
                     [
                       "0:00-0:05",
-                      "Thornwatch contract, broken arch, dimensional breach (no battle)"
+                      "Thornwatch contract, arch, dimensional breach"
                     ],
                     [
                       "0:05-0:15",
-                      "Cinema reveal; usher Mel; hear screaming"
+                      "Cinema arrival; Mel; theater-booth clues if searched"
                     ],
                     [
                       "0:15-0:55",
-                      "Hydra at the fountain"
+                      "Hydra at fountain"
                     ],
                     [
                       "0:55-1:10",
-                      "Security footage and shop lead"
+                      "Dana's security footage: cinema booth and scattered monsters"
                     ],
                     [
                       "1:10-2:00",
@@ -126,15 +127,15 @@
                     ],
                     [
                       "2:00-2:20",
-                      "Back hall, optional short rest"
+                      "Service corridor, short rest if chosen; notice jewelers"
                     ],
                     [
                       "2:20-3:30",
-                      "Two owlbears plus young red dragon"
+                      "Owlbears scavenge into food court; dragon emerges from jewelry store"
                     ],
                     [
                       "3:30-3:45",
-                      "STOP lever, cinema portal, return to Thornwatch"
+                      "Cinema-booth STOP lever; return to Thornwatch"
                     ]
                   ]
                 },
@@ -164,17 +165,31 @@
                     ]
                   ]
                 },
-                "Use XMM 2024 native creature references throughout. Roster: exactly 9 enemy miniatures, no Mimics. Monsters fight; nothing in the puzzle scene provides an alternative banishment victory. PCs may use spells, weapons, equipment and normal 2024 rules unchanged.",
+                "Pacing principle: monsters exist at fixed locations with independent motivations. The characters are free to investigate or strike early, but avoid volunteering the dragon's exact whereabouts until evidence points to the jeweler. Its lair and motive create a natural late confrontation. If PCs uncover it early, honor that discovery; do not teleport it away or ignore their actions. The later scenes respond to what survives.",
                 "If behind on time, skip optional store conversations and have security immediately give the shop location. Do not invent a fourth encounter. The one-hour in-world short rest takes only a few real-world minutes when the party elects to take it."
               ],
               "id": "000"
             },
             {
               "type": "entries",
+              "name": "World Truth: What Actually Happened",
+              "id": "001A",
+              "entries": [
+                "Bombeldo Trask is a mundane human hobby-shop owner, not a villain or wizard. Weeks earlier he bought an antique crystal-driven projector at an estate sale. His test projections sent low-level pulses toward an old weak point between planes at the arch near Thornwatch, causing missing travelers, lights, and hums. He did not understand the connection.",
+                "Today Bombeldo arranged a special fantasy film screening to promote The Dungeoneer and personally installed the projector in the theater projection booth (cinema B2-D3). When its beam hit the screen at 2:17 p.m., the Thornwatch arch opened and swallowed the heroes. An overload immediately opened secondary rifts throughout the mall. The Hydra appeared in the fountain, food-court creatures near restaurants, Owlbears behind food-service shutters, and Young Red Dragon near the east-side storefronts. Secondary rifts have dissipated; the creatures remain physically present.",
+                "The Young Red Dragon tore open Coronet Jewelers (Y10-AG14), encountered gold chains, rings, stones, and watches, and decided this was a hoard. It has stayed there guarding its prize. Shoppers have fled; the shop is not staffed. It is not a servant, friend, or ally of the owlbears. It wants ownership and safety for its treasure.",
+                "Two Owlbears became trapped among food-service stockrooms on opposite sides of the food court. They are scavenging trash, meat, and deliveries; as shutters fail and food-cart noise increases, they move into the dining area. Their brawling and the PCs' powerful attacks make the dragon perceive an immediate threat to its hoard and territory. It breaks through the storefront to fight. This is the planned finale cause, not a new portal event. No new monster appears at this point.",
+                "Security cameras captured bright light from the CINEMA, then separate monstrous arrivals and a glimpse of a red shape breaking into the JEWELRY STORE. Dana Torres can piece together the screening's timing but knows nothing about the planes. Bombeldo fled from the booth to his gaming shop in terror; he knows he brought and switched on the projector, but not the full mechanics.",
+                "The projector has a red STOP lever in the CINEMA BOOTH. Moving it stops the machine, collapses unstable rifts, and briefly converts the screen's fading residual light into a stable doorway back to Thornwatch for 60 seconds. It does not affect any escaped monsters. If the party turns it off early and the minute passes, they can restart and stop the intact projector to briefly stabilize the same doorway again; the known secondary rifts do not re-form and no replacement monsters arrive. If the machine is smashed irreparably, a final one-minute backlash stabilizes the route only once.",
+                "Nothing requires PCs to wait for the Owlbears or dragon. If they deliberately seek the dragon's claimed jewelry store early, they can find it, talk, steal from it, lure it out, or fight it. Doing so changes the narrative order; play its territorial intelligence rather than blocking them. The intended rising action arises from their information and the monsters' visible behavior."
+              ]
+            },
+            {
+              "type": "entries",
               "name": "Table Setup",
               "entries": [
-                "Map: 34 columns A-AH (left to right) by 22 rows, top row 1 (north); 1 square = 5 feet; 24 pixels per square in the linked PNG. Set out player map and keep DM overlay hidden.",
-                "Nine enemy tokens: Hydra x1 Huge (3x3); Bulette x1 Large (2x2); Displacer Beast x2 Large (2x2); Gelatinous Cube x1 Large (2x2); Spectator x1 Medium (1x1); Owlbear x2 Large (2x2); Young Red Dragon x1 Large (2x2). Bring four character minis. Exact owned minis are NOT confirmed; properly sized numbered paper bases are authorized stand-ins. Young dragon flies 25 feet above atrium on entry: elevation die beside its token.",
+                "Physical mall map: 34 columns A-AH west to east and 22 rows north to south, at 1 square = 5 ft (24 pixels each). Player and DM PNGs share footprints. Cinema projection booth occupies B2-D3 inside the cinema; Coronet Jewelers occupies Y10-AG14 east of the fountain and immediately north of the food court. The shop has breakable west/south glass.",
+                "Nine enemy pieces: Hydra Huge 3x3; Bulette Large 2x2; Displacer Beasts Large 2x2 each; Gelatinous Cube Large 2x2; Spectator Medium 1x1; Owlbears Large 2x2 each; Young Red Dragon Large 2x2. Owning physical minis is NOT confirmed; use printed correctly sized stand-ins. The dragon begins inside Coronet Jewelers, not on the roof. Show elevation if it takes flight in the atrium.",
                 {
                   "type": "table",
                   "caption": "DM placements, columns A-AH",
@@ -186,48 +201,48 @@
                   "rows": [
                     [
                       "Hydra H",
-                      "O11-Q13 (fountain)",
-                      "Fight 1 at initiative"
+                      "O11-Q13, fountain",
+                      "Hydra combat start"
                     ],
                     [
                       "Spectator S",
                       "J16, 15 ft up",
-                      "Fight 2 round 1"
+                      "Food court round 1"
                     ],
                     [
                       "Displacer D1",
                       "M16-N17",
-                      "Fight 2 round 1"
+                      "Food court round 1"
                     ],
                     [
                       "Displacer D2",
                       "X15-Y16",
-                      "Fight 2 round 1"
+                      "Food court round 1"
                     ],
                     [
                       "Gelatinous Cube C",
                       "O19-P20",
-                      "Fight 2 round 1"
+                      "Food court round 1"
                     ],
                     [
                       "Bulette B",
                       "T19-U20",
-                      "Fight 2 START round 2"
+                      "Food court round 2 start"
                     ],
                     [
                       "Owlbear O1",
-                      "Y9-Z10",
-                      "Final round 1"
+                      "L19-M20, kitchen side",
+                      "Scavenging; finale round 1 if not previously met"
                     ],
                     [
                       "Owlbear O2",
-                      "AC9-AD10",
-                      "Final round 1"
+                      "Y19-Z20, east delivery side",
+                      "Scavenging; finale round 1 if not previously met"
                     ],
                     [
                       "Dragon R",
-                      "S9-T10, 25 ft up",
-                      "Final START round 2"
+                      "AB11-AC12, inside jewelers",
+                      "Already there; emerges when hoard or perimeter threatened, normally finale round 2"
                     ]
                   ]
                 },
@@ -334,9 +349,10 @@
                 },
                 "{@link Player map PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_player.png}",
                 "{@link DM placement PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/mall_dm.png}",
-                "West (left): cinema, Eye Express, and west exit. North: games shop, service hall, and The Dungeoneer. Center: open skylight atrium and shallow fountain. Southeast: open food court. East: security kiosk and exit. The shop rooms are schematic staging areas; the entire playing surface is a single interconnected encounter map.",
+                "West (left): Cinema, including booth B2-D3, Eye Express and exit. North: Thundercube Games and The Dungeoneer. East of central fountain: Coronet Jewelers at Y10-AG14 (glass storefront and valuables). Southeast: food court; farther east: security kiosk and exit. The storefronts are open floorplan rooms, not separate encounter maps. Dragon physically occupies jewelers until disturbed. Owlbears scavenge at opposite edges of the food-service area.",
                 "Fountain is shallow water, difficult terrain for creatures without a swim speed; rim provides half cover when it physically blocks line of sight. Four kiosks marked on map provide half cover if an intervening solid surface. Tables can be overturned with an object interaction to provide half cover. The skylight ceiling is 35 feet above floor; balcony paths are 15 feet high. No automatic extra fire damage from burning mall fixtures.",
-                "Normal shopfront glass: AC 13 and 10 HP per 5-ft section. The Dungeoneer's front doors and cinema exit are open or breakable. The marked Bulette crater counts as difficult terrain after it emerges."
+                "Normal shopfront glass: AC 13 and 10 HP per 5-ft section. The Dungeoneer's front doors and cinema exit are open or breakable. The marked Bulette crater counts as difficult terrain after it emerges.",
+                "Coronet Jewelers: broken west-facing display windows, south glass to the concourse, 10-ft ceiling damaged by the dragon's entry, toppled jewelry cases (half cover), and a pile of gold jewelry, watches, gems, and shattered display lighting. A Large dragon fits inside the showroom but its flying maneuvers become meaningful once it exits into the 35-ft-high atrium. The shop is NOT a second planar breach."
               ],
               "id": "100"
             }
@@ -365,9 +381,10 @@
               "type": "entries",
               "name": "The Cinema - Opening",
               "entries": [
-                "The party has just dropped from the Thornwatch waystation into an ordinary modern movie theater. Thick red carpet lies under their boots. The giant glowing screen shows people racing between metal carriages. A child points at their armor and asks, 'Are you in the movie?' Then a boom shakes the building, followed by screaming from the concourse. Go straight from the Thornwatch transition to this beat; do not repeat the arrival description.",
-                "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), any sensible spell, or two PCs lifting together. Mel is not the required clue, and leaving the usher doesn't stop play. Mel heard something with too many heads outside. A shimmering seam remains in the screen but cannot yet carry them home.",
-                "The characters have their usual weapons, armor, and spells. Phones have cameras; firearms and police never become mandatory new mechanics. Civilians flee and are removed from initiative. The mall is ordinary Earth; nobody recognizes spells or knows magic rules."
+                "The adventurers land on thick red cinema carpet beneath a luminous screen. Behind the seats, a projection booth at B2-D3 is throwing a distinctly violet beam onto that screen; no second machine is operating elsewhere in the mall. A child points at their armor and asks, 'Are you in the movie?' Then a boom shakes the building and people scream in the concourse.",
+                "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), an appropriate spell, or two PCs lifting together. Mel is not a required gate. Mel says, 'That Dungeoneer fellow started the special projector, then there was purple lightning everywhere.' Mel heard something with too many heads outside. A shimmering seam remains in the screen but cannot yet carry them home; STOP causes a one-minute stable window.",
+                "The characters have their usual weapons, armor, and spells. Phones have cameras; firearms and police never become mandatory new mechanics. Civilians flee and are removed from initiative. The mall is ordinary Earth; nobody recognizes spells or knows magic rules.",
+                "If players investigate the CINEMA BOOTH first, they find a hot antique crystal projector, its lens trained on the film screen, a clearly labeled red STOP lever, and an empty operator's chair. Bombeldo already fled via the theater corridor to The Dungeoneer. The heroes may pull STOP immediately: it opens the return route for one minute while all nine monsters remain alive and loose on Earth. They can choose to leave, remain, or operate the lever later. Do not force the Hydra fight before allowing this choice."
               ],
               "id": "200"
             },
@@ -394,8 +411,8 @@
               "type": "entries",
               "name": "Security and Culture Clash",
               "entries": [
-                "Dana Torres, the shift manager, is evacuating civilians. She is practical and cooperative. A camera shows a violet flash erupting from the shop called The Dungeoneer at 2:17 PM, after which monstrous shapes abruptly appeared throughout the mall. A red shadow was captured on the roof above the skylight.",
-                "Dana gives them a service door key and identifies Bombeldo, who was demonstrating a bizarre antique projector. No roll to receive core clue. If skipped, a digital display loops the same video, and shoppers point toward the shop. The party may explore a games shop displaying fictional heroes resembling them, or talk to an optometrist who saw a floating eye (5 min optional)."
+                "Dana Torres is the mall SECURITY manager, evacuating shoppers and watching a security monitor. At 2:17 PM she saw a violet flash from the CINEMA PROJECTION BOOTH, followed by monsters appearing around the mall. She knows the showing was sponsored by The Dungeoneer. A later camera clip shows a red dragon crash into Coronet Jewelers and not come back out. She assumes an enormous animal is trapped inside that store, not that it has made a hoard.",
+                "Dana gives a service-door key and identifies Bombeldo Trask as the owner of The Dungeoneer who installed the strange film equipment. If the party skips security, scorch traces lead back toward the cinema, a cashier reports Bombeldo fleeing the booth, or a looped video shows the glow. No essential conclusion is locked behind a roll. If players ask about the dragon, Dana can show the jewelers footage. Don't volunteer the dragon's current precise location as a quest marker unless they investigate."
               ],
               "id": "300"
             },
@@ -406,8 +423,9 @@
                 "Two six-legged black panthers flicker across the tables. A one-eyed sphere with four stalks hovers overhead, firing prismatic rays. A slab of near-invisible acid creeps from the restaurant kitchen. Across the aisle, the floor fractures in a two-square patch.",
                 "Round 1: Spectator S at J16 (15 ft up), two Displacer Beasts D1 M16-N17 and D2 X15-Y16, and Gelatinous Cube C O19-P20 are present. Roll initiative. Round 2 START: Bulette B erupts through T19-U20 and rolls into initiative, acting on its rolled count (no free attack). If occupied, use an adjacent legal 2x2 area. Players saw the floor crack before this.",
                 "Spectator favors its 2024 eye rays and spell defense, remaining airborne. Displacers split up and reposition, using Displacement. Cube glides toward the nearest reachable target with its 2024 Engulf; it is slow, not tactical. Bulette attacks the loudest or heaviest visible movement; the escaped animals need not cooperate, and can collide.",
-                "Kitchen aisle is 10 feet wide and can be blocked by the cube. Food-court tables offer positional cover. Erupted tile becomes difficult terrain. Do not add a Mimic or any other encounter filler.",
-                "Stat blocks: {@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}"
+                "The kitchen aisle is 10 feet wide and can be blocked by the cube. Food-court tables offer positional cover. Erupted tile becomes difficult terrain. The two owlbears are in shuttered food-service stockrooms beyond the active fight. They have not entered the dining area yet unless the players opened those rooms. Do not add any Mimic or extra monster.",
+                "Stat blocks: {@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}",
+                "After this combat, signs of the next danger are diegetic: heavy clawing from the food-service shutters, a low reptilian growl behind the broken glass of Coronet Jewelers, store alarms, and glints of gold in the smoke. The owlbears move out to scavenge if left alone; the dragon watches the nearby violence with territorial suspicion."
               ],
               "id": "301"
             }
@@ -422,8 +440,10 @@
               "type": "entries",
               "name": "Approach and Rest",
               "entries": [
-                "The security service corridor gives the party a secure room for a short rest if desired; resolve resource recovery according to 2024 rules. Bombeldo Trask is barricaded inside his hobby shop's rear workroom, shouting that his 'display' was never supposed to do this.",
-                "A bystander's phone video shows two owlbears at The Dungeoneer and a young red dragon circling above the skylight. The players see the dragon before it joins initiative. If they choose a direct route earlier, advance to this encounter immediately."
+                "A service corridor behind the games shop offers a defensible area for a normal 2024 short rest. The party may choose it. Bombeldo Trask has fled back to The Dungeoneer after the accident, where he is frightened and willing to answer questions. He identifies the machine as an antique projector he installed in the CINEMA BOOTH, not in his own shop.",
+                "Players can learn from witnesses that Coronet Jewelers' emergency shutter is bent outward and jewelry has vanished from its shattered front displays. An emergency phone recording shows a red dragon breaking inside and remaining there. That is its CURRENT fixed location, not a silhouette wandering around the roof. A character intentionally searching the store finds the dragon and may engage it before the scheduled finale.",
+                "Owlbears have been tearing into food and refuse behind kitchen and loading shutters on opposite sides of the food court. After the chaos of the menagerie, their scavenging brings them into the main dining area, independent of the dragon. If PCs cleared them earlier, omit them from the finale instead of respawning them.",
+                "The dragon is not allies with or commanding the owlbears. It does not need the projector crystal to want to fight; it believes adventurers and large animals near its new hoard are would-be thieves. The owlbears' brawl at the storefront, the PCs' loud attacks, or deliberate approach to jewelers provoke it. This is why it emerges from the store into the food court rather than arriving from another dimension."
               ],
               "id": "400"
             },
@@ -431,11 +451,13 @@
               "type": "entries",
               "name": "Encounter Three - Two Owlbears and Young Red Dragon",
               "entries": [
-                "Two huge feathered predators smash through The Dungeoneer's storefront. A red dragon wheels above the cracked skylight, its shadow swallowing the food-court lights.",
-                "Round 1: Owlbear O1 Y9-Z10 and Owlbear O2 AC9-AD10. Roll initiative; owlbears charge independent targets. At start of round 2: place Young Red Dragon R at S9-T10, 25 ft above floor; roll initiative, insert into existing order, and act on that count. Do NOT give it a free breath on arrival. It was visible for round 1.",
-                "Dragon uses the full 2024 XMM block. Its breath is a dangerous 30-ft cone with DC 17 Dex and 16d6 Fire on failure. It prefers lines that catch multiple heroes; it can perch on the 15-ft balcony, fly up to 35-ft atrium ceiling, or swoop to claw. The owlbears fight for territory; they are not trained minions and never receive commands from the dragon.",
-                "Keep cover, flying altitude, and line of sight real. If PCs spend resources to split up or get behind columns, reward their tactics. Don't invisibly lower HP or take away attacks to force a happy ending.",
-                "Stat blocks: {@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
+                "Two ravenous owlbears emerge from separate food-service storage areas and barrel between abandoned restaurant tables. Beyond the food court, Coronet Jewelers' broken front window glows red. Inside, amid toppled cases, a large red dragon coils around necklaces, bracelets, rings, and watches. Its eye follows the fighting near its claimed treasure.",
+                "Standard finale pacing IF none was discovered earlier: Round 1, Owlbear O1 begins L19-M20 (kitchen side), O2 begins Y19-Z20 (east delivery side). Roll initiative; both are scavengers and attack the nearest perceived threats. They are NOT dragon minions. Their brawl and the armed heroes' presence near jewelers disturb the dragon's new territory.",
+                "At the start of round 2, the dragon pushes through the jewelers' smashed south/west storefront into the food court, aiming to drive every threat away from its hoard. It begins INSIDE the shop at AB11-AC12, moves through an actual open/broken storefront along a legal route, rolls into initiative, and acts only on its rolled count; do not grant a free attack. If the party went into the shop already, this encounter starts the moment they interact with the dragon instead: do NOT wait for round 2.",
+                "The dragon is an arrogant, possessive predator, not a mindless combat script. It can speak, threaten, bargain for retreat, or attack anyone it judges a thief; it may choose a fire-breath line that also catches an Owlbear, because those beasts are strangers to it. Its 2024 breath is a 30-ft cone, DC 17 Dexterity, 16d6 Fire on a failed save. Fire immunity matters. The 35-ft atrium ceiling permits flying; jewelers showroom itself is lower and partially smashed.",
+                "Environmental rules: collapsed jewelry displays provide half cover where they obstruct a line; glass storefront AC 13, 10 HP per 5-ft panel; melted security gate is an obstacle, not a magic barrier. The floor plan has a clear route from the jewelry storefront to the open food court. Destruction does not create additional monsters.",
+                "The dragon can be discovered early by excellent investigation, divination, flight, or direct approach. It stays in the jewelry store until it has reason to act; if intentionally attacked before the food-court fight, resolve that choice honestly and allow surviving monsters and NPCs to respond. Never teleport it away to preserve a scripted boss fight.",
+                "Native stat blocks: {@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
               ],
               "id": "401"
             }
@@ -450,9 +472,9 @@
               "type": "entries",
               "name": "Bombeldo and the Emergency Lever",
               "entries": [
-                "Bombeldo Trask is a frightened mundane human shop owner. He found a violet crystal machine at an estate sale and believed it was a theatrical effect. He has no spells, guards, secret combat phase, or leverage over the heroes.",
-                "After monsters are dealt with, a clearly labeled red STOP lever turns off the projector with no roll. The cinema screen stabilizes as a portal back to the exact abandoned Thornwatch waystation where the characters entered, open for one minute. Shutting the machine never affects any monster already on Earth. If Bombeldo dies, an instruction placard identifies the same lever. If the projector is destroyed completely, the cinema seam stabilizes once as an emergency backlash, remaining open for one minute.",
-                "Choices have consequences: if adventurers stay on Earth, responders arrive and collect eyewitness testimony. No mandatory police combat. There is no mandatory treasure: Bombeldo offers each hero a cheap rechargeable flashlight or mall souvenir as thanks.",
+                "Bombeldo Trask, mundane human proprietor of The Dungeoneer, hosted a fantasy-film promotional event and installed his antique crystal projector in the CINEMA PROJECTION BOOTH. He fled back to his store when the screen turned into a magical doorway. He knows which machine he touched, not exactly how planar physics works. He is not a mastermind or combat encounter.",
+                "STOP lever is on the projector in the CINEMA BOOTH (B2-D3), not in The Dungeoneer. Pulling it requires no roll and stops future disturbances; the residual projected energy stabilizes the cinema screen into a doorway back to the Thornwatch arch for ONE MINUTE. The projector does not banish, weaken, teleport, or eliminate any of the NINE monsters already on Earth. If shut down early and still intact, a later START-STOP cycle gives another 60-second return window without respawning monsters. If irreparably smashed, a final one-minute backlash stabilizes the route once.",
+                "If players decide to leave while dangerous monsters remain, they can. Earth emergency services arrive to find the damage and any escaped creatures; no secret cinematic wall prevents escape. Bombeldo offers small mundane gifts as thanks if they help. The real victory is what the characters choose to protect.",
                 "RETURN READ ALOUD: \"You step through the last flicker of the screen and onto the rutted Thornwatch road. The wagon is still there, its wheel half-buried in the mud. Beyond the abandoned arch, the pines stir in an ordinary wind. The impossible humming is gone. In your hand is a small, utterly inexplicable souvenir from somewhere that shouldn't exist.\" The road disturbance ends with the projector shut off. The reeve's contract can be paid without another combat or investigation."
               ],
               "id": "500"
@@ -487,19 +509,19 @@
                     ],
                     [
                       "Go to shop immediately",
-                      "Find Bombeldo and projector; monsters are already loose, dragon still on roof."
+                      "They find frightened Bombeldo at The Dungeoneer. He says the projector is IN THE CINEMA BOOTH, and knows which switch turns it off; the monsters are already loose."
                     ],
                     [
                       "Kill Bombeldo",
-                      "Instructions on machine remain; no dead-end."
+                      "It does not affect monsters or the machine. The projector and labeled STOP lever remain in the cinema projection booth; staff and signs can point to it."
                     ],
                     [
                       "Pull STOP before fighting",
-                      "All nine monsters remain on Earth. Return screen opens for one minute; the party can leave, but the mall remains unsafe."
+                      "Stops active projector, provides 60 seconds home, does not remove existing monsters. They can depart or stay; if the machine is intact, cycle START-STOP later for another exit."
                     ],
                     [
                       "Fight on roof",
-                      "Dragon can fly outside. Roof above atrium is 35 ft up; apply normal fall rules."
+                      "The dragon begins INSIDE Coronet Jewelers, not on the roof. If pursued or lured outside, use normal flying and roof rules."
                     ],
                     [
                       "Retreat after fight",
@@ -507,7 +529,19 @@
                     ],
                     [
                       "Attempt to talk to monsters",
-                      "Wild monsters may react to appropriate magic as written but have no common mission or social objective."
+                      "The intelligent young red dragon may speak and bargain regarding its jewelry hoard; other escaped monsters follow their printed traits and instincts. They are not a team."
+                    ],
+                    [
+                      "Go looking for dragon early",
+                      "Dragon is truly at Coronet Jewelers next to food court, guarding jewelry; its encounter can happen early if the party intentionally triggers it. Owlbears and other survivors remain where they were."
+                    ],
+                    [
+                      "Steal jewelry or offer valuables",
+                      "Dragon judges trespass, treasure loss, and offers according to its pride and territorial greed. De-escalation is possible in fiction, but no automatic banishment, immunity to combat, or quest skip."
+                    ],
+                    [
+                      "Owlbears killed before food-court aftermath",
+                      "Remove the already-killed owlbears from the later clash; do not respawn them. Dragon still defends jewelers if provoked."
                     ]
                   ]
                 },
