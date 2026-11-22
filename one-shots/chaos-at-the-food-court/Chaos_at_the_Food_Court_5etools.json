@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.8.2-table-ready"
+        "version": "1.8.3-render-fix"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795366800
+    "dateLastModified": 1795390000
   },
   "adventure": [
     {
@@ -95,7 +95,7 @@
         {
           "type": "section",
           "name": "00 - Adventure Overview",
-          "id": "000",
+          "id": "CH-00",
           "entries": [
             {
               "type": "entries",
@@ -279,7 +279,7 @@
         {
           "type": "section",
           "name": "01 - Maps",
-          "id": "001",
+          "id": "CH-01",
           "entries": [
             {
               "type": "entries",
@@ -628,7 +628,7 @@
         {
           "type": "section",
           "name": "02 - Thornwatch, Cinema and Hydra",
-          "id": "002",
+          "id": "CH-02",
           "entries": [
             {
               "type": "entries",
@@ -690,7 +690,7 @@
         {
           "type": "section",
           "name": "03 - Concourse, Looking Glass Games and Food Court",
-          "id": "003",
+          "id": "CH-03",
           "entries": [
             {
               "type": "entries",
@@ -745,7 +745,7 @@
         {
           "type": "section",
           "name": "04 - Red Dragon Finale",
-          "id": "004",
+          "id": "CH-04",
           "entries": [
             {
               "type": "entries",
@@ -803,7 +803,7 @@
         {
           "type": "section",
           "name": "05 - Close the Portal",
-          "id": "005",
+          "id": "CH-05",
           "entries": [
             {
               "type": "entries",
