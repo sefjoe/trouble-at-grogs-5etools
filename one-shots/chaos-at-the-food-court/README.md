@@ -1,8 +1,9 @@
 # Chaos at the Food Court
 
-**Current DM adventure:** v1.7.0
+**Current DM adventure:** v1.8.0
 **Party:** four level-8 characters using D&D 2024 rules
 **Session:** roughly 3–4 hours
+**Encounters:** Hydra; two Displacer Beasts, Spectator and Cube; two Owlbears and Young Red Dragon. Eight escaped monsters.
 
 ## 5etools
 
