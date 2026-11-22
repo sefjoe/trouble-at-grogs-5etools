@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.4.2-two-maps-placement-fix"
+        "version": "1.4.3-two-map-audited"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795318000
+    "dateLastModified": 1795318300
   },
   "adventure": [
     {
@@ -176,7 +176,7 @@
               "id": "001A",
               "entries": [
                 "Bombeldo Trask is the mundane human owner of The Dungeoneer. Weeks ago he bought an antique crystal projector at an estate sale. Low-power tests produced violet light, humming and time-slip sensations at a preexisting planar weak point near the Thornwatch arch. These were strange reports, NOT missing wagons or people; there are no missing travelers to locate.",
-                "On the adventure day he brings the projector to the CINEMA BOOTH (B2-D3) for a special fantasy screening. The beam strikes the screen, and it opens the primary planar doorway to the Thornwatch arch, pulling the four adventurers through. The crystal immediately overloads and produces NINE monster arrivals through secondary tears around the mall: Hydra x1, Bulette x1, Displacer Beasts x2, Gelatinous Cube x1, Spectator x1, Owlbears x2, and Young Red Dragon x1. All nine are here before the adventurers reach the concourse; no new monsters arrive during the story.",
+                "On the adventure day he brings the projector to the WEST CINEMA BOOTH (C3-E4) for a special fantasy screening. The beam strikes the screen, and it opens the primary planar doorway to the Thornwatch arch, pulling the four adventurers through. The crystal immediately overloads and produces NINE monster arrivals through secondary tears around the mall: Hydra x1, Bulette x1, Displacer Beasts x2, Gelatinous Cube x1, Spectator x1, Owlbears x2, and Young Red Dragon x1. All nine are here before the adventurers reach the concourse; no new monsters arrive during the story.",
                 "Every living creature that came through one of the secondary rifts holds a separate arcane feedback anchor while it remains INSIDE THE MALL BUILDING (including the rooftop). The boundary is the exterior walls and roofline, not a moving radius centered on the projector; fully exiting to outdoor parking or sidewalks disconnects the anchor. Dead or transported-off-plane monsters also disconnect. Primary-screen travelers (the PCs) do not count; the system tracks the initial nine secondary-rift arrivals and never spawns replacements.",
                 "While ANY anchor remains, the projector's AC electrical motor can be stopped or unplugged, but the crystal keeps projecting on its own. Pulling the conspicuous STOP lever simply stops the motor; the violet beam persists, the cinema screen flickers, and NO stable doorway home forms. The machine is NOT indestructible and the STOP lever is NOT physically stuck: the problem is arcane feedback. When a linked monster dies or leaves the area, its purple glow briefly discharges and the beam visibly weakens. When the final anchor disconnects, an already-STOPPED projector's screen stabilizes for 60 seconds immediately; if in RUN, pulling STOP then provides the same one-minute return window. An intact crystal can be started and stopped again to create a later one-minute window when no anchors remain.",
                 "If the characters break the projector, it can be damaged like a physical object. Smashing the crystal kills the only controlled return mechanism; it does NOT kill the monsters or create a convenient instant exit. Explain by visible feedback and Arcana that destroying the crystal risks stranding the party. If motor/lens breaks but crystal survives, appropriate repair with tools or magic may restore the beam after the anchors are removed. Powerful independent planar travel works normally. The construct isn't protected by an arbitrary invulnerability or scripted immunity.",
