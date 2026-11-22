@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.5.0-clean-dm-copy"
+        "version": "1.6.0-runnable-editorial-fix"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795318300
+    "dateLastModified": 1795320060
   },
   "adventure": [
     {
@@ -31,9 +31,9 @@
       },
       "contents": [
         {
-          "name": "00 - Run Sheet",
+          "name": "00 - Adventure Overview",
           "headers": [
-            "Session at a Glance",
+            "Adventure in Brief",
             "What Happened",
             "Table Coordinates and Pieces"
           ]
@@ -69,14 +69,7 @@
         {
           "name": "05 - Close the Portal",
           "headers": [
-            "The Projector and the Return",
-            "If They Change the Situation"
-          ]
-        },
-        {
-          "name": "06 - Monster Cards",
-          "headers": [
-            "2024 Monster Blocks"
+            "The Projector and the Return"
           ]
         }
       ]
@@ -89,83 +82,16 @@
       "data": [
         {
           "type": "section",
-          "name": "00 - Run Sheet",
+          "name": "00 - Adventure Overview",
           "id": "000",
           "entries": [
             {
               "type": "entries",
-              "name": "Session at a Glance",
+              "name": "Adventure in Brief",
               "id": "000",
               "entries": [
-                "Four level-8 adventurers arrive from Thornwatch through a cinema screen. Bombeldo's antique projector opened nine secondary rifts, scattering monsters through a modern mall. Nine living planar links hold the projector's crystal open. Each link ends when its monster dies, leaves the building, or travels off-plane. The dragon has claimed Coronet Jewelers; Eddie Vale's attempted robbery brings it into the food court.",
-                {
-                  "type": "table",
-                  "caption": "Real-time session clock",
-                  "colLabels": [
-                    "Elapsed",
-                    "Plan"
-                  ],
-                  "rows": [
-                    [
-                      "0:00-0:05",
-                      "Thornwatch arch and portal reveal"
-                    ],
-                    [
-                      "0:05-0:15",
-                      "West cinema: Mel and projector clue (if explored)"
-                    ],
-                    [
-                      "0:15-0:55",
-                      "Hydra at west fountain"
-                    ],
-                    [
-                      "0:55-1:15",
-                      "Security footage, 450-ft concourse, exploration"
-                    ],
-                    [
-                      "1:15-2:10",
-                      "East food-court menagerie"
-                    ],
-                    [
-                      "2:10-2:25",
-                      "Recovery / optional rest; check event schedule if time advances"
-                    ],
-                    [
-                      "2:25-3:35",
-                      "Owlbears, Eddie's attempted theft, dragon from jewelers"
-                    ],
-                    [
-                      "3:35-4:00",
-                      "Last link, return through west cinema or alternate ending"
-                    ]
-                  ]
-                },
-                {
-                  "type": "table",
-                  "caption": "Encounter budget: four level-8 PCs; low 4,000 / moderate 6,800 / high 8,400 XP",
-                  "colLabels": [
-                    "Battle",
-                    "Roster",
-                    "XP"
-                  ],
-                  "rows": [
-                    [
-                      "Fountain",
-                      "1 Hydra, 184 HP",
-                      "3,900"
-                    ],
-                    [
-                      "Food court",
-                      "1 Bulette, 2 Displacer Beasts, 1 Gelatinous Cube, 1 Spectator",
-                      "4,350"
-                    ],
-                    [
-                      "Atrium finale",
-                      "1 Young Red Dragon, 2 Owlbears",
-                      "7,300"
-                    ]
-                  ]
-                }
+                "Four level-8 adventurers investigating strange lights at Thornwatch cross through a cinema screen into a modern shopping mall. Bombeldo's crystal projector opened nine secondary rifts. The adventurers must break the nine living planar links to stabilize the screen and return home. The Hydra occupies West Mall; the remaining monsters are in East Mall.",
+                "Young Red Dragon guards a new hoard inside Coronet Jewelers. Eddie Vale's attempted robbery draws the dragon into the food court if he succeeds. West and East are 450 feet apart along a normal enclosed shopping concourse."
               ]
             },
             {
@@ -173,13 +99,13 @@
               "name": "What Happened",
               "id": "001A",
               "entries": [
-                "Bombeldo Trask, proprietor of The Dungeoneer, bought an antique crystal projector at an estate sale. His tests resonated with a weak point near the Thornwatch arch, causing violet lights, hums, and strange reflections. He brought it to the West cinema for a promotional screening.",
-                "When Bombeldo switched on the projector, its beam struck the movie screen and connected to the Thornwatch arch. The adventurers crossed through that primary doorway. The overload opened secondary rifts and released one Hydra, one Bulette, two Displacer Beasts, one Gelatinous Cube, one Spectator, two Owlbears, and one Young Red Dragon. All nine entered before the party reached the mall concourse.",
-                "Each creature from a secondary rift carries a living planar link while inside the mall's exterior walls or on its roof. Death, travel to another plane, or moving beyond the exterior walls breaks the link; leaving the building doesn't kill or banish the creature. An unconscious creature still maintains its link. The PCs crossed through the primary screen, so they carry no link.",
-                "The projector has nine visible violet strands within its crystal, one per creature. Each strand darkens when its link breaks. Turning the crystal or moving with it reveals the general direction of the remaining links as their light and sound intensify. DC 13 Intelligence (Arcana) identifies the resonant feedback; observing the strands requires no check.",
-                "The red STOP lever shuts off the projector's electrical motor, but the crystal continues projecting while any link remains. Once all links are broken, STOP produces a stable cinema-screen doorway to Thornwatch for 60 seconds. If STOP was already selected, the doorway opens when the final link breaks. An intact machine can be cycled again after the window closes. A shattered crystal cannot produce the controlled doorway.",
-                "The dragon settled in Coronet Jewelers among necklaces, watches, stones, and gold. It guards the store as its hoard. It has no allegiance to other escaped monsters. Two Owlbears forage in separate food-service rooms; the food-court creatures occupy nearby dining areas.",
-                "After the food-court disturbance, Eddie Vale notices Coronet's broken glass and tries to steal a velvet tray of jewelry. The dragon pursues the stolen treasure into the food court if Eddie succeeds. Intercepting Eddie changes what happens; the dragon remains in the store unless its territory or valuables are threatened."
+                "Bombeldo Trask, owner of The Dungeoneer beside ThunderCube in EAST Mall, bought an antique crystal projector at an estate sale. His tests caused strange lights and humming near Thornwatch's stone arch. He brought it to the WEST cinema for a promotional screening, switched it on, and fled back to his shop when it overloaded.",
+                "The projector beam struck the screen, joining it to Thornwatch's arch. The party entered through this primary doorway. Secondary breaches released one Hydra, one Bulette, two Displacer Beasts, one Gelatinous Cube, one Spectator, two Owlbears, and a Young Red Dragon. All nine monsters were already in the mall when the party arrived.",
+                "Each living secondary-rift creature maintains a planar link while inside the mall building or on its roof. Death, travel off-plane, or crossing the outer walls to the outdoors disconnects it. If a living monster reenters the building, its link immediately returns. Unconscious monsters remain linked. The adventurers crossed through the cinema screen, so they do not carry links.",
+                "Nine violet strands glow inside the crystal, one per active link. A strand goes out when its monster disconnects. Turning the crystal reveals the general direction of each linked monster. DC 13 Intelligence (Arcana) identifies the resonant feedback; the strands themselves are plainly visible.",
+                "STOP halts the projector's electrical motor but cannot extinguish the magical beam while any link remains. With zero links, STOP opens the cinema screen to Thornwatch for 60 seconds. An intact projector can be restarted and stopped to open another window. Shattering the crystal destroys this controlled way home.",
+                "The dragon has settled in Coronet Jewelers, guarding jewelry as its hoard. Two Owlbears are feeding in separate secured kitchen/service areas. They are not allies of the dragon or the other displaced monsters.",
+                "Eddie Vale is an ordinary shopper. When the food-court violence distracts everyone, he tries to steal a tray of watches through Coronet's smashed window. If the dragon sees its stolen treasure leaving the store, it follows Eddie to recover the hoard. If the robbery is prevented, it stays until its territory is threatened."
               ]
             },
             {
@@ -187,7 +113,7 @@
               "name": "Table Coordinates and Pieces",
               "id": "001",
               "entries": [
-                "WEST FOLDING MAT: 22×26 squares. Cinema, booth C3–E4, security office P3–U9, Hydra fountain I12–O18. EAST ROLLED MAT: 34×22 squares. Food court, kitchens and Coronet Jewelers X2–AG8. Both maps use 5-foot squares, A1 at upper left.",
+                "WEST folding map: 22×26 squares; cinema booth C3–E4, security P3–U9, fountain I12–O18. EAST rolled map: 34×22 squares; The Dungeoneer M2–U7 beside ThunderCube, Coronet X2–AG8, kitchens and food court. A1 is upper left; 5 feet per square.",
                 {
                   "type": "table",
                   "caption": "DM placements, columns A-AH",
@@ -243,8 +169,7 @@
                       "In hoard; reacts to robbery or intrusion"
                     ]
                   ]
-                },
-                "Nine monster pieces: Hydra 3×3; Bulette, two Displacer Beasts, Gelatinous Cube, two Owlbears and Young Red Dragon all 2×2; Spectator 1×1. Eddie Vale is an optional 1×1 civilian."
+                }
               ]
             }
           ]
@@ -277,23 +202,65 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "cf-west_fountain_player",
+                          "area": "200",
                           "points": [
                             [
-                              0,
-                              0
+                              26,
+                              50
                             ],
                             [
-                              1,
-                              0
+                              212,
+                              50
                             ],
                             [
-                              1,
-                              1
+                              212,
+                              238
                             ],
                             [
-                              0,
-                              1
+                              26,
+                              238
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "201",
+                          "points": [
+                            [
+                              192,
+                              264
+                            ],
+                            [
+                              359,
+                              264
+                            ],
+                            [
+                              359,
+                              430
+                            ],
+                            [
+                              192,
+                              430
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "300",
+                          "points": [
+                            [
+                              362,
+                              50
+                            ],
+                            [
+                              500,
+                              50
+                            ],
+                            [
+                              500,
+                              214
+                            ],
+                            [
+                              362,
+                              214
                             ]
                           ]
                         }
@@ -320,23 +287,65 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "cf-west_fountain_dm",
+                          "area": "200",
                           "points": [
                             [
-                              0,
-                              0
+                              26,
+                              50
                             ],
                             [
-                              1,
-                              0
+                              212,
+                              50
                             ],
                             [
-                              1,
-                              1
+                              212,
+                              238
                             ],
                             [
-                              0,
-                              1
+                              26,
+                              238
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "201",
+                          "points": [
+                            [
+                              192,
+                              264
+                            ],
+                            [
+                              359,
+                              264
+                            ],
+                            [
+                              359,
+                              430
+                            ],
+                            [
+                              192,
+                              430
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "300",
+                          "points": [
+                            [
+                              362,
+                              50
+                            ],
+                            [
+                              500,
+                              50
+                            ],
+                            [
+                              500,
+                              214
+                            ],
+                            [
+                              362,
+                              214
                             ]
                           ]
                         }
@@ -363,23 +372,65 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "cf-east_foodcourt_player",
+                          "area": "400",
                           "points": [
                             [
-                              0,
-                              0
+                              290,
+                              26
                             ],
                             [
-                              1,
-                              0
+                              501,
+                              26
                             ],
                             [
-                              1,
-                              1
+                              501,
+                              166
                             ],
                             [
-                              0,
-                              1
+                              290,
+                              166
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "401",
+                          "points": [
+                            [
+                              554,
+                              26
+                            ],
+                            [
+                              789,
+                              26
+                            ],
+                            [
+                              789,
+                              190
+                            ],
+                            [
+                              554,
+                              190
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "301",
+                          "points": [
+                            [
+                              230,
+                              196
+                            ],
+                            [
+                              549,
+                              196
+                            ],
+                            [
+                              549,
+                              480
+                            ],
+                            [
+                              230,
+                              480
                             ]
                           ]
                         }
@@ -406,23 +457,65 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "cf-east_foodcourt_dm",
+                          "area": "400",
                           "points": [
                             [
-                              0,
-                              0
+                              290,
+                              26
                             ],
                             [
-                              1,
-                              0
+                              501,
+                              26
                             ],
                             [
-                              1,
-                              1
+                              501,
+                              166
                             ],
                             [
-                              0,
-                              1
+                              290,
+                              166
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "401",
+                          "points": [
+                            [
+                              554,
+                              26
+                            ],
+                            [
+                              789,
+                              26
+                            ],
+                            [
+                              789,
+                              190
+                            ],
+                            [
+                              554,
+                              190
+                            ]
+                          ]
+                        },
+                        {
+                          "area": "301",
+                          "points": [
+                            [
+                              230,
+                              196
+                            ],
+                            [
+                              549,
+                              196
+                            ],
+                            [
+                              549,
+                              480
+                            ],
+                            [
+                              230,
+                              480
                             ]
                           ]
                         }
@@ -430,14 +523,10 @@
                     }
                   ]
                 },
-                "{@link West Concourse & Fountain - Players PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/west_fountain_player.png}",
-                "{@link West Concourse & Fountain - DM PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/west_fountain_dm.png}",
-                "{@link East Food Court & Coronet - Players PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/east_foodcourt_player.png}",
-                "{@link East Food Court & Coronet - DM PNG|https://raw.githubusercontent.com/sefjoe/trouble-at-grogs-5etools/main/one-shots/chaos-at-the-food-court/east_foodcourt_dm.png}",
-                "WEST connects at V12–V16 to EAST at A10–C14 through a 450-foot, roughly 30-foot-wide retail concourse. The hallway turns and has ordinary fire doors; the areas are not adjacent combat spaces. A character moving between them travels the distance normally.",
-                "WEST: shallow fountain water is difficult terrain without Swim Speed. Fountain rim, kiosks and storefront corners provide cover where they interrupt sightlines.",
-                "EAST: the Cube starts outside the west-kitchen doorway at M19–N20; Owlbear O1 remains behind a kitchen shutter at G19–H20. The dragon occupies Coronet's showroom at Z4–AA5, with a broken south frontage AB8–AD8 opening into the food court. Kitchen shutters and cases can be opened or broken; the main dining area has a 35-foot ceiling and 15-foot balconies.",
-                "Storefront glass: AC 13, 10 HP per 5-foot panel. Tables and jewelry cases can provide half cover. Bulette's crater is difficult terrain after emergence. Exterior sidewalks and parking are outside the planar-link boundary; the roof is inside."
+                "WEST and EAST are connected by 450 feet of enclosed retail corridor, 30 feet wide with ordinary fire doors and turns. West connects at V12–V16 to East at A10–C14.",
+                "WEST: Cinema east entrance, booth door into theater, and west-side security door are marked. Fountain water is shallow difficult terrain for creatures without Swim Speed; its rim may grant cover.",
+                "EAST: The Dungeoneer is beside ThunderCube. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high.",
+                "Glass storefronts AC 13, 10 HP per 5-foot panel. Tables and cases provide half cover when they obstruct attacks. Bulette's crater is difficult terrain. Exterior parking and sidewalks are outside the planar-link boundary; the rooftop is inside."
               ],
               "id": "100"
             }
@@ -467,7 +556,7 @@
               "entries": [
                 "READ ALOUD: Rows of padded chairs face a wall-sized moving image. A child points at your weapons and asks, 'Are you in the movie?' A crash shakes the building; screams follow from the concourse.",
                 "Mel Ruiz, a cinema usher, is pinned under a fallen curtain bar (DC 13 Athletics, two people lifting, or suitable magic). Mel saw Bombeldo install the projector and heard a many-headed creature outside.",
-                "The crystal projector is in booth C3–E4, aimed at the screen. Its red STOP lever stops the motor but not the violet beam while any monster link remains. Nine strands glow within the crystal; DC 13 Arcana explains the feedback. The screen cannot yet carry anyone home."
+                "Projector in CINEMA BOOTH C3–E4, reached through the door at the rear of the theater. STOP shuts off the motor but the violet beam persists while monster links remain. Nine strands are visible within the crystal; DC 13 Intelligence (Arcana) explains the resonance. Rotating the crystal shows the general directions of surviving links."
               ]
             },
             {
@@ -475,9 +564,9 @@
               "name": "Encounter 1: Hydra",
               "id": "201",
               "entries": [
-                "READ ALOUD: The fountain cracks. Five scaled necks rise over the rim, throwing water across the walkway as shoppers flee toward the exits.",
-                "WEST L13–N15: one Huge Hydra (184 HP), fountain I12–O18. Shallow water is difficult terrain without Swim Speed; the low rim provides cover where relevant. The Hydra attacks armed threats, leaves the water when pursuing prey, and can smash storefront glass.",
-                "Use its 2024 head-severing, fire-suppression and attack abilities. When it falls, a violet arc discharges and one projector strand goes dark. Dana Torres is directing the evacuation from security office P3–U9."
+                "READ ALOUD: Five reptilian heads sweep above a shattered fountain rim. The enormous creature thrashes in the water as shoppers flee between overturned kiosks.",
+                "WEST L13–N15: Hydra (184 HP), already in the fountain I12–O18. It pursues armed threats into the walkway. On death, a violet arc fades and one projector strand goes dark.",
+                "{@creature Hydra|XMM}"
               ]
             }
           ]
@@ -493,7 +582,7 @@
               "id": "300",
               "entries": [
                 "Dana Torres manages mall security in WEST. Her cameras recorded a violet blast from the cinema booth, creatures appearing across the building, and a red reptilian shape entering Coronet Jewelers in EAST. She cannot explain the magic.",
-                "Dana knows Bombeldo installed the projector for a Dungeoneer-sponsored screening and fled toward his shop in EAST. She has a service-pass key, camera access and evacuation routes. The east food court lies beyond the 450-foot retail concourse. Fire doors break sightlines and dampen the noise from the fountain."
+                "Dana knows Bombeldo sponsored the screening and fled to The Dungeoneer, beside ThunderCube in EAST. She has camera footage, a service-pass key and evacuation routes. The East food court lies 450 feet along the enclosed shopping concourse."
               ]
             },
             {
@@ -502,10 +591,10 @@
               "id": "301",
               "entries": [
                 "READ ALOUD: Six-legged black panthers flicker between abandoned tables. A floating eye surveys the room from above, while a nearly transparent wall of jelly slides out of the kitchen. Cracks spread across the tiled floor.",
-                "EAST round 1: Spectator M10, 15 feet up; Displacer Beasts N12–O13 and U10–V11; Gelatinous Cube M19–N20, outside the kitchen doorway. At the start of round 2 the Bulette breaks through at Q17–R18, rolls initiative, and acts on its count.",
-                "The Spectator fights at range with eye rays, the Displacers stalk separate targets, the Cube Engulfs creatures in its path, and the Bulette attacks active threats near its emergence point. Tables give cover where they block sight. The Bulette leaves difficult terrain at the crater.",
-                "Owlbear O1 is behind the west kitchen shutter at G19–H20; Owlbear O2 is behind the east service shutter at AC19–AD20. Opening a shutter brings its resident into contact with the party. The Cube is on the dining side of the west-kitchen doorway, not in O1's room.",
-                "When this fight subsides, kitchen shutters rattle, Eddie Vale starts watching Coronet's broken displays, and the dragon remains within the jeweler."
+                "EAST: Spectator M10 (15 feet aloft); Displacer Beasts N12–O13 and U10–V11; Gelatinous Cube M19–N20 outside the kitchen. The Bulette is already burrowing under Q17–R18 and emerges at round 2 start, or earlier if discovered or disturbed, taking its turn on its initiative.",
+                "The Bulette's emergence ruptures a sprinkler pipe and sounds the kitchen fire alarm. Both Owlbears were eating food supplies behind jammed steel service shutters; the noise draws them toward the exits. The shutters have AC 19 and 100 HP each. The Owlbears begin attacking their shutters when the Bulette erupts. They can break through during a long fight or afterward; the characters can open or break a shutter sooner.",
+                "The Cube is in the dining area, outside Owlbear O1's kitchen. Owlbear O1 begins at G19–H20, Owlbear O2 at AC19–AD20; both stay in their rooms until they break through or a door is opened. Tables provide cover where they obstruct attacks. Bulette's crater is difficult terrain.",
+                "{@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}"
               ]
             }
           ]
@@ -520,27 +609,23 @@
               "name": "East Mall Between Battles",
               "id": "400",
               "entries": [
-                "The dragon is inside Coronet Jewelers at Z4–AA5. Its hoard consists of watches, necklaces, stones and gold. Eddie Vale, a civilian opportunist, waits near AB10, considering a theft. Bombeldo is frightened and hiding in The Dungeoneer; he knows where he installed the machine, not its planar mechanics.",
-                "The party may rest in a secured service corridor. A short rest lasts one in-world hour; the local event clock advances during that time.",
+                "Coronet Jewelers X2–AG8: dragon starts Z4–AA5 guarding jewelry and watches. Bombeldo is hiding at The Dungeoneer M2–U7. Eddie Vale is near AB10, watching the smashed jeweler's window.",
+                "The Owlbears start battering their jammed shutters after the Bulette emerges and continue until an exit is open. An undisturbed service corridor can accommodate a one-hour short rest; all surviving creatures continue their activities.",
                 {
                   "type": "table",
-                  "caption": "Eddie, Owlbears, Dragon: two time scales",
+                  "caption": "Eddie's attempted theft",
                   "colLabels": [
-                    "Party present in combat",
-                    "Party absent / resting"
+                    "Party present in the food court",
+                    "Party leaves or rests"
                   ],
                   "rows": [
                     [
-                      "Owlbear round 1: O1 and O2 emerge; Eddie enters Coronet and grabs a tray if unopposed.",
-                      "+2–8 minutes: Owlbears emerge and forage; +5 minutes: Eddie approaches Coronet."
+                      "If Owlbears emerge into combat, Eddie enters the shop and tries to take a jewelry tray. The dragon notices the theft and joins initiative on its normal count.",
+                      "After the area quiets, Eddie approaches after roughly five minutes. He takes the tray if not stopped. The dragon pursues when it sees its treasure carried away."
                     ],
                     [
-                      "Owlbear round 2: Eddie runs out with the tray; dragon pursues if treasure was taken.",
-                      "+10 minutes: Eddie takes the tray. +11 minutes: dragon follows into food court."
-                    ],
-                    [
-                      "Interception, theft prevention, early dragon contact, or flight changes subsequent events.",
-                      "+60 minutes: Eddie is pinned alive under a kiosk; dragon guards spilled jewelry in the food court; both Owlbears roam separately."
+                      "Eddie can be stopped, and the dragon can be confronted inside the store at any time.",
+                      "After an hour, the dragon has either recovered the jewelry and returned to Coronet or remains investigating the disturbance. Eddie has fled or been caught; he is not guaranteed to survive."
                     ]
                   ]
                 }
@@ -551,11 +636,12 @@
               "name": "Encounter 3: Owlbears and Dragon",
               "id": "401",
               "entries": [
-                "EAST: Owlbear O1 G19–H20 and O2 AC19–AD20 emerge from separate food-service areas. Neither obeys the dragon. Eddie starts near AB10 and enters Coronet during their disturbance.",
+                "EAST: Owlbears emerge from jammed shutters once they force an exit (O1 G19–H20, O2 AC19–AD20). They seek food and react to nearby threats. Eddie attempts his theft if he believes the area is distracted.",
                 "READ ALOUD (if Eddie succeeds): A man runs from the shattered jewelry storefront clutching a velvet tray of watches. From the darkness behind him a voice bellows, 'THIEF!' A red dragon crashes through the opening and follows the glittering loot into the food court.",
-                "Young Red Dragon: 178 HP, Fire immunity, DC 17 Dexterity, 16d6 Fire breath in a 30-foot cone. Dragon starts Z4–AA5 inside jewelers, then exits through broken glass at AB8–AD8. Roll its initiative when it joins and use its normal turn. Two Owlbears: 59 HP each.",
-                "The dragon demands its treasure back and treats nearby armed strangers as potential thieves. It can fly in the 35-foot atrium. A stolen tray, an intruder in Coronet, or another threat to its hoard can provoke it; an intercepted Eddie does not automatically draw it out.",
-                "If the group returns after an hour's rest, start with Eddie pinned alive beneath a kiosk, the dragon occupying the food court with the spilled jewelry, and both Owlbears still foraging."
+                "Young Red Dragon (178 HP, Fire immunity, DC 17 Dexterity, 16d6 Fire breath) starts Z4–AA5 in Coronet. It exits through the broken south storefront at AB8–AD8 when the theft or another threat to its treasure provokes it. Roll initiative when it becomes involved; it acts on its regular count, with no free attack.",
+                "The dragon wants its jewelry returned. It may pursue Eddie, threaten armed strangers, attack, or retreat to guard its hoard once the treasure is recovered. If Eddie is intercepted, the dragon remains inside unless another threat draws it out.",
+                "An hour later the dragon's location follows its actual pursuit and return to the store, not a fixed pose. It has not automatically killed or allied with either Owlbear.",
+                "{@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
               ]
             }
           ]
@@ -570,7 +656,7 @@
               "name": "The Projector and the Return",
               "id": "500",
               "entries": [
-                "Bombeldo's projector remains in WEST cinema booth C3–E4. Its motor can be stopped or unplugged, but its crystal beam persists as long as any of the nine monster links remain inside the building. It cannot banish or harm the monsters.",
+                "Projector in WEST cinema booth C3–E4. Motor and STOP lever function normally, but its crystal projects while linked living monsters remain inside the mall. Nine glowing strands show active links; rotating the crystal gives a direction to each remaining creature.",
                 {
                   "type": "table",
                   "caption": "Crystal feedback",
@@ -580,102 +666,36 @@
                   ],
                   "rows": [
                     [
-                      "Living linked monster remains inside mall or on roof",
-                      "One strand glows; STOP halts motor only. Screen remains unstable."
+                      "Linked monster alive inside the building or on its roof",
+                      "Its link glows. STOP halts only the motor; the screen remains unstable."
                     ],
                     [
-                      "Linked monster dies, leaves exterior building, or moves off-plane",
-                      "Its strand goes dark. Off-plane disappearance is temporary if the creature later returns."
+                      "Linked monster dies, travels off-plane, or exits the exterior walls",
+                      "Its link darkens. Reentering alive, or returning from banishment inside the mall, immediately reconnects."
                     ],
                     [
-                      "Final strand goes dark and STOP is already selected",
-                      "Screen opens to Thornwatch for 60 seconds immediately."
+                      "Final active link ends with STOP already selected",
+                      "A doorway back to Thornwatch opens in the cinema screen for 60 seconds, even if the party is in East Mall."
                     ],
                     [
-                      "Final strand goes dark while projector is running",
-                      "Pull STOP to open the same 60-second doorway."
+                      "Final link ends while motor is RUNNING",
+                      "Pull STOP to open the screen portal for 60 seconds."
                     ],
                     [
-                      "Window closes, intact crystal",
-                      "Cycle RUN then STOP again for another window."
+                      "The party arrives after the one-minute window",
+                      "With no links active, cycle RUN then STOP again to reopen the doorway for another minute."
                     ],
                     [
-                      "Crystal shattered",
-                      "Controlled return route fails. Other planar travel remains possible."
+                      "A linked creature reenters while portal is open",
+                      "The returning link collapses the portal. The doorway can be reopened once all links are inactive."
+                    ],
+                    [
+                      "The crystal is shattered",
+                      "No controlled doorway. Independent planar travel remains possible; motor or housing damage can be repaired."
                     ]
                   ]
                 },
                 "RETURN READ ALOUD: The screen flickers behind you. A moment later the air smells of pine again, and the Thornwatch arch stands beside the road. Its violet marks fade to ordinary gray stone."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "If They Change the Situation",
-              "id": "501",
-              "entries": [
-                {
-                  "type": "table",
-                  "caption": "State changes",
-                  "colLabels": [
-                    "Decision",
-                    "What follows"
-                  ],
-                  "rows": [
-                    [
-                      "Investigate or stop the projector first",
-                      "Motor stops, crystal remains lit; nine strands lead toward linked creatures."
-                    ],
-                    [
-                      "Locate a remaining monster",
-                      "Turn or carry the crystal to follow the directional strand; no skill check to observe it."
-                    ],
-                    [
-                      "Find dragon or Owlbears early",
-                      "They occupy their established rooms. Existing monsters aren't replaced later."
-                    ],
-                    [
-                      "Stop Eddie",
-                      "He never steals; dragon stays with its hoard unless otherwise threatened."
-                    ],
-                    [
-                      "Take a one-hour rest",
-                      "Use the two-scale event clock; surviving monsters retain their links."
-                    ],
-                    [
-                      "Lure a monster outside",
-                      "Its link ends beyond exterior walls; it remains loose on Earth."
-                    ],
-                    [
-                      "Teleport or travel between areas",
-                      "Honor actual distances, ranges and creature movement through the 450-foot concourse."
-                    ],
-                    [
-                      "Destroy the crystal",
-                      "No controlled screen portal; repair or independent planar travel would be needed."
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "name": "06 - Monster Cards",
-          "id": "006",
-          "entries": [
-            {
-              "type": "entries",
-              "name": "2024 Monster Blocks",
-              "id": "600",
-              "entries": [
-                "{@creature Hydra|XMM}",
-                "{@creature Bulette|XMM}",
-                "{@creature Displacer Beast|XMM}",
-                "{@creature Gelatinous Cube|XMM}",
-                "{@creature Spectator|XMM}",
-                "{@creature Owlbear|XMM}",
-                "{@creature Young Red Dragon|XMM}"
               ]
             }
           ]
