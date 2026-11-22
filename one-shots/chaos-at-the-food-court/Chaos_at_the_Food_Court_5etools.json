@@ -519,7 +519,7 @@
               "id": "201",
               "entries": [
                 "READ ALOUD: Five reptilian heads sweep above a shattered fountain rim. The enormous creature thrashes in the water as shoppers flee between overturned kiosks.",
-                "WEST L13–N15: Hydra (184 HP), already in the fountain I12–O18. It pursues armed threats into the walkway. On death, a violet arc fades and one projector strand goes dark.",
+                "WEST L13–N15: Hydra (184 HP), already at the fountain I12–O18. It snaps at nearby movement and pursues armed threats past the overturned kiosks. On death, a violet arc fades and one projector strand goes dark.",
                 "{@creature Hydra|XMM}"
               ]
             }
@@ -535,8 +535,9 @@
               "name": "Dana Torres and the Concourse",
               "id": "300",
               "entries": [
-                "Dana Torres manages mall security in WEST. Her cameras recorded a violet blast from the cinema booth, creatures appearing across the building, and a red reptilian shape entering Coronet Jewelers in EAST. She cannot explain the magic.",
-                "Dana knows the special screening was sponsored by Looking Glass Games and its owner, Elias Trask, installed the projector. Elias fled toward the shop, halfway along the 450-foot main concourse leading to East Mall. Dana can show her security footage, offer a service-pass key and identify evacuation routes."
+                "Dana Torres manages mall security and coordinates the evacuation from WEST security (P3–U9). Her cameras recorded the violet flash at the cinema, creatures appearing in separate areas and a large red reptile crashing into Coronet Jewelers in EAST.",
+                "She knows Elias Trask brought the projector for the Looking Glass Games screening and fled toward his shop halfway along the concourse. She can show her footage, identify evacuation routes and provide a service-pass key.",
+                "Police and firefighters arrive roughly ten minutes after the initial alarm and secure the outside approaches. They keep shoppers away from the mall and do not attempt to clear the monster-filled interior. If living monsters run into the parking lot, responders retreat and expand the perimeter; after an hour, the exterior is cordoned off."
               ]
             },
             {
@@ -547,8 +548,8 @@
                 "Halfway along the 450-foot connecting concourse, 225 feet from West Mall, Looking Glass Games occupies a north-side storefront. Its glass displays hold painted miniature dragons, fantasy heroes, polyhedral dice, and books filled with pictures of creatures the adventurers know. The shop doors are open.",
                 "READ ALOUD: Behind a shop window, tiny warriors face a painted dragon on a miniature battlefield. Shelves of oddly familiar monsters and illustrated spellcasters stand beside glittering many-sided stones. A man at the door sees your equipment and calls, 'Wait! Are you the ones who came through the movie screen?'",
                 "Elias Trask owns Looking Glass Games. He bought the antique crystal projector at an estate sale and installed it for a promotional fantasy-film screening in the West cinema booth. The machine began throwing violet light, people panicked, and Elias fled here. He thinks he caused the disaster and wants it stopped.",
-                "Elias knows he installed the projector in WEST cinema booth C3–E4 and how to use its ordinary RUN and STOP controls. He saw its beam continue after he cut power but does not understand the nine living planar links. He tells the truth about his involvement. The games and miniatures he sells are ordinary modern products.",
-                "The store sits on the direct route to East Mall. Elias calls to the characters as they pass; they can speak with him or continue 225 feet along the concourse toward East map entrance A10–C14."
+                "Elias installed the projector in WEST cinema booth C3–E4 and knows its RUN/STOP controls. He tried cutting the power after the surge, but its violet light persisted. His phone video from the booth shows eight narrow violet threads leaving the crystal in separate directions, apart from the beam aimed at the screen. He does not understand the threads. He is afraid to return alone but will accompany an escort to the booth.",
+                "The window display of painted dragons, fantasy heroes and rulebooks resembles the adventurers' own world. Elias spots their armor and calls from the shop doorway."
               ]
             },
             {
@@ -556,11 +557,12 @@
               "name": "Encounter 2: Food-Court Menagerie",
               "id": "301",
               "entries": [
-                "READ ALOUD: Six-legged black panthers flicker between abandoned tables. A floating eye surveys the room from above, while a nearly transparent wall of jelly slides out of the kitchen. Cracks spread across the tiled floor.",
-                "EAST: Spectator M10 (15 feet aloft); Displacer Beasts N12–O13 and U10–V11; Gelatinous Cube M19–N20 outside the kitchen. The Bulette is already burrowing under Q17–R18 and emerges at round 2 start, or earlier if discovered or disturbed, taking its turn on its initiative.",
-                "The Bulette's emergence ruptures a sprinkler pipe and sounds the kitchen fire alarm. Both Owlbears were eating food supplies behind jammed steel service shutters; the noise draws them toward the exits. The shutters have AC 19 and 100 HP each. The Owlbears begin attacking their shutters when the Bulette erupts. They can break through during a long fight or afterward; the characters can open or break a shutter sooner.",
-                "The Cube is in the dining area, outside Owlbear O1's kitchen. Owlbear O1 begins at G19–H20, Owlbear O2 at AC19–AD20; both stay in their rooms until they break through or a door is opened. Tables provide cover where they obstruct attacks. Bulette's crater is difficult terrain.",
-                "{@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}"
+                "READ ALOUD: Two six-legged black panthers stalk between overturned tables. Above an abandoned prize kiosk floats a single enormous eye, warning anyone nearby to keep away. A nearly invisible cube of jelly slides out of a kitchen doorway, carrying trays and wrappers in its body. Somewhere behind the food counters, a heavy animal pounds against metal.",
+                "EAST placements: Spectator M10, hovering 15 feet above the floor; Displacer Beasts N12–O13 and U10–V11; Gelatinous Cube M19–N20 outside the kitchen doorway. All four were already loose when the characters arrived.",
+                "The Displacer Beasts stalk fleeing shoppers and armed intruders; they compete for prey rather than acting as a team. The Spectator has claimed the shiny contents of a prize kiosk as its treasure, orders everyone to stay away, and attacks if threatened or robbed. It can be reasoned with. The Cube glides toward movement and anything edible, without tactics. None of these creatures obeys the dragon.",
+                "Owlbear O1 is trapped behind the west-kitchen security shutter at G19–H20; O2 is behind the east-service shutter at AC19–AD20. The steel shutters dropped during evacuation and jammed (AC 19, 100 HP each). The Owlbears begin battering them as the food-court fighting grows loud. Damage accumulates each round they attack, including during a long fight; after combat they continue until an exit is open. A character can open or break a shutter sooner.",
+                "Food-court tables and counters provide half cover when they obstruct an attack. The Cube starts outside O1's kitchen, not inside the sealed room.",
+                "{@creature Displacer Beast|XMM}; {@creature Spectator|XMM}; {@creature Gelatinous Cube|XMM}"
               ]
             }
           ]
