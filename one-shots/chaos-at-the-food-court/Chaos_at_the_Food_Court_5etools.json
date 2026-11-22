@@ -80,7 +80,8 @@
           "name": "05 - Close the Portal",
           "headers": [
             "The Projector and the Return",
-            "Resolution"
+            "Resolution",
+            "Endings and Fast Rulings"
           ]
         }
       ]
@@ -858,6 +859,18 @@
                 "With all eight strands inactive, STOP opens the cinema passage to Thornwatch for one minute. With no active strands, another RUN/STOP cycle opens a new window if the first closes.",
                 "Returning to Thornwatch ends the lights and humming at the old arch. The reeve accepts the account and pays the reward promised in the contract.",
                 "Living monsters outside the mall remain dangerous on modern Earth even after their links disconnect. Emergency responders maintain the perimeter whether the party returns to Thornwatch or stays to help."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Endings and Fast Rulings",
+              "id": "500B",
+              "entries": [
+                "VALID ENDINGS: (A) All strands disconnected, crystal intact and STOP used: screen opens home for one minute; (B) crystal destroyed: no return using this projector, party can be permanently stranded on Earth; (C) some monsters are lured outside: those monsters still exist on Earth, even though their strands go dark; (D) adventurers decline to return: Earth is their new setting. None demands a forced escape or rescue.",
+                "QUICK LOCATIONS: booth WEST C3–E4; Hydra WEST L13–N15 (3×3); Spectator EAST M10 at 15 ft; Displacers EAST N12–O13 and U10–V11; Cube EAST M19–N20; Owlbears EAST G19–H20 and AC19–AD20 behind shutters; dragon EAST Z4–AA5; Eddie EAST AE10; watch tray AD8–AD9; east exit AF12–AG13; Looking Glass Games midway down 450-foot link.",
+                "QUICK OBJECT / SKILL ANSWERS: Arcana DC 13 explains living strands; crystal AC 13/10 HP; shutters AC 19/100 HP when actively attacked, with DM-directed narrative break timing otherwise; Dana's service-pass unlocks emergency release, DC 15 Athletics to lift; without key, DC 17 Thieves' Tools first. Spectator negotiates for territory and shiny prizes. Thornwatch contract offers 400 gp total for reporting back.",
+                "NO MINIATURES FOR PLAYERS OR NONCOMBAT NPCS: DM pulls eight numbered monster minis/proxies only; Eddie #069 is optional for combat movement. The security guard Dana, usher Mel, and Elias do not need minis.",
+                "The world's physical rules still apply when players improvise: creatures act on motivations and react to choices. You decide when a believable escalation occurs; you never have to roll invisible shutter damage every round merely to justify a dramatic entrance."
               ]
             }
           ]
