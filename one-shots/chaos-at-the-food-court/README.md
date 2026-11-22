@@ -1,6 +1,6 @@
 # Chaos at the Food Court
 
-**Current DM adventure:** v1.6.0
+**Current DM adventure:** v1.6.1
 **Party:** four level-8 characters using D&D 2024 rules
 **Session:** roughly 3–4 hours
 
