@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.8.1-shutters-and-theft"
+        "version": "1.8.2-table-ready"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795363200
+    "dateLastModified": 1795366800
   },
   "adventure": [
     {
@@ -35,7 +35,9 @@
           "headers": [
             "Adventure in Brief",
             "What Happened",
-            "Table Coordinates and Pieces"
+            "Table Coordinates and Pieces",
+            "Target Session Flow",
+            "Miniature Pull List - Numbered Catalog"
           ]
         },
         {
@@ -172,6 +174,96 @@
                     ]
                   ]
                 }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Target Session Flow",
+              "id": "000B",
+              "entries": [
+                "Session target: about 3–4 hours, including changing maps and player decisions. Suggested time ranges, NOT mandatory timers: Thornwatch/cinema 10–20 minutes, Hydra 20–35, security and Looking Glass Games 15–25, food court 30–45, east-mall finale 35–60, ending 5–15. Actual timing varies.",
+                "Eight escaped monsters in three encounter opportunities: Hydra; two Displacer Beasts, Gelatinous Cube and Spectator; then two Owlbears and Young Red Dragon. Creatures are independently motivated, not a coordinated team. No Bulette, Mimics, or automatic monster reinforcements.",
+                "DM controls dramatic entrances consistent with the scene. A shutter can crash open when repeated blows finally buckle it, including during the dragon scene, without counting each Owlbear swing. Player efforts to brace, repair, open or magically hold it must still matter. The DM controls events, not player outcomes."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Miniature Pull List - Numbered Catalog",
+              "id": "000C",
+              "entries": [
+                "PACK EIGHT MONSTER FIGURES TOTAL, taken from your numbered Arcknight 161-figure catalog. The catalog numbers are personal inventory IDs, not Monster Manual numbers. Each row names its exact binder pocket. Proxy figures represent the monster using the correct rules footprint; an exact creature-type match may still have an oversized physical model.",
+                {
+                  "type": "table",
+                  "caption": "Eight monster figures and binder locations",
+                  "colLabels": [
+                    "Creature",
+                    "Qty",
+                    "Catalog # / figure",
+                    "Binder location",
+                    "Board footprint"
+                  ],
+                  "rows": [
+                    [
+                      "Hydra",
+                      "1",
+                      "#145 Chimera (proxy)",
+                      "P19 Front TL",
+                      "Huge 3×3 marker"
+                    ],
+                    [
+                      "Displacer D1",
+                      "1",
+                      "#140 Displacer Beast (exact)",
+                      "P18 Front BR",
+                      "Large 2×2"
+                    ],
+                    [
+                      "Displacer D2",
+                      "1",
+                      "#105 Dark Wolf (proxy)",
+                      "P14 Front TL",
+                      "Large 2×2 marker"
+                    ],
+                    [
+                      "Gelatinous Cube",
+                      "1",
+                      "#139 Gelatinous Cube (exact)",
+                      "P18 Front BL",
+                      "Large 2×2"
+                    ],
+                    [
+                      "Spectator",
+                      "1",
+                      "#119 Nothic (one-eyed proxy)",
+                      "P15 Back BL",
+                      "Medium 1×1"
+                    ],
+                    [
+                      "Owlbear O1",
+                      "1",
+                      "#141 Owlbear (exact)",
+                      "P18 Back TL",
+                      "Large 2×2"
+                    ],
+                    [
+                      "Owlbear O2",
+                      "1",
+                      "#135 Dire Bear (proxy)",
+                      "P17 Back BL",
+                      "Large 2×2"
+                    ],
+                    [
+                      "Young Red Dragon",
+                      "1",
+                      "#159 Red Dragon (exact creature type; oversized figure)",
+                      "P21 Back Right",
+                      "Large 2×2 marker; place physical figure nearby if overhangs"
+                    ]
+                  ]
+                },
+                "OPTIONAL: Eddie Vale is catalog #069 Red-coated Bandit/NPC, P09 Back TL, Medium 1×1, only if you need to track his position in initiative. The catalog description is provisional. No miniatures are needed for security guard Dana Torres, usher Mel Ruiz, shopkeeper Elias Trask, or fleeing civilians.",
+                "Players bring their own player-character miniatures. None are part of your preparation inventory. The DM brings eight monster figures, and at most one optional NPC figure.",
+                "Footprint plates/markers: one Huge 3×3 (Hydra), six Large 2×2 (both Displacers, Cube, two Owlbears, Dragon), and one Medium 1×1 (Spectator), using existing bases where possible. The large #159 Red Dragon figure must occupy only a 2×2 battle footprint despite the oversized plastic."
               ]
             }
           ]
