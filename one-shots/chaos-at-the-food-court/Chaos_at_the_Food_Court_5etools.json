@@ -9,7 +9,7 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.7.0-looking-glass-games"
+        "version": "1.8.0-food-court-flow-editorial"
       }
     ],
     "edition": "one",
@@ -47,7 +47,7 @@
         {
           "name": "02 - Thornwatch, Cinema and Hydra",
           "headers": [
-            "Thornwatch (0:00–0:05)",
+            "Thornwatch",
             "The Cinema",
             "Encounter 1: Hydra"
           ]
@@ -91,8 +91,8 @@
               "name": "Adventure in Brief",
               "id": "000",
               "entries": [
-                "Four level-8 adventurers investigating strange lights at Thornwatch cross through a cinema screen into a modern shopping mall. Elias's crystal projector opened nine secondary rifts. The adventurers must break the nine living planar links to stabilize the screen and return home. The Hydra occupies West Mall; the remaining monsters are in East Mall.",
-                "A Young Red Dragon guards jewelry in Coronet Jewelers. Eddie Vale's attempted robbery can draw it into the food court. West and East battle maps lie 450 feet apart along a shopping concourse, with Looking Glass Games halfway along the route."
+                "Four level-8 adventurers investigating strange lights at Thornwatch enter a modern shopping mall through a cinema screen. Elias's crystal projector opened secondary rifts, releasing eight monsters. Each living escaped monster inside the building sustains a strand of arcane energy; the screen cannot become a stable doorway home until all active strands end.",
+                "WEST contains the cinema, Hydra and security. The 450-foot connecting concourse passes Looking Glass Games before reaching EAST: food court, Owlbear stockrooms, and the Young Red Dragon's hoard in Coronet Jewelers. Eddie Vale's attempted theft may bring the dragon out of the shop."
               ]
             },
             {
@@ -100,13 +100,13 @@
               "name": "What Happened",
               "id": "001A",
               "entries": [
-                "Elias Trask owns Looking Glass Games, a hobby shop midway along the corridor connecting West and East Mall. He bought an antique crystal projector at an estate sale. His tests caused strange lights and humming near Thornwatch's stone arch. He installed it in the West cinema for a promotional screening, switched it on, and fled to his shop when it overloaded.",
-                "The projector beam struck the screen, joining it to Thornwatch's arch. The party entered through this primary doorway. Secondary breaches released one Hydra, one Bulette, two Displacer Beasts, one Gelatinous Cube, one Spectator, two Owlbears, and a Young Red Dragon. All nine monsters were already in the mall when the party arrived.",
-                "Each living secondary-rift creature maintains a planar link while inside the mall building or on its roof. Death, travel off-plane, or crossing the outer walls to the outdoors disconnects it. If a living monster reenters the building, its link immediately returns. Unconscious monsters remain linked. The adventurers crossed through the cinema screen, so they do not carry links.",
-                "Nine violet strands glow inside the crystal, one per active link. A strand goes out when its monster disconnects. Turning the crystal reveals the general direction of each linked monster. DC 13 Intelligence (Arcana) identifies the resonant feedback; the strands themselves are plainly visible.",
-                "STOP halts the projector's electrical motor but cannot extinguish the magical beam while any link remains. With zero links, STOP opens the cinema screen to Thornwatch for 60 seconds. An intact projector can be restarted and stopped to open another window. Shattering the crystal destroys this controlled way home.",
-                "The dragon has settled in Coronet Jewelers, guarding jewelry as its hoard. Two Owlbears are feeding in separate secured kitchen/service areas. They are not allies of the dragon or the other displaced monsters.",
-                "Eddie Vale is an ordinary shopper. When the food-court violence distracts everyone, he tries to steal a tray of watches through Coronet's smashed window. If the dragon sees its stolen treasure leaving the store, it follows Eddie to recover the hoard. If the robbery is prevented, it stays until its territory is threatened."
+                "Elias Trask owns Looking Glass Games midway along the main mall concourse. He bought an antique crystal projector at an estate sale; earlier tests produced strange light and humming near Thornwatch's arch. During a promotional fantasy-film screening at the West cinema, he switched it on, saw it overload and fled to his shop.",
+                "The projector connected the cinema screen to Thornwatch, bringing the party through its primary doorway. Secondary tears released eight creatures: one Hydra, two Displacer Beasts, one Gelatinous Cube, one Spectator, two Owlbears, and one Young Red Dragon. All eight arrived before the party, with no later monster arrivals.",
+                "Each living escaped creature maintains a planar strand while inside the mall building, including its roof. Dying, going off-plane, or exiting the building disconnects it; returning alive inside the mall reconnects it. An unconscious creature remains linked. The adventurers crossed by the primary screen and carry no strand.",
+                "Eight violet strands glow inside the projector crystal. A strand dims when its creature disconnects. Rotating the crystal reveals the general direction of each surviving strand. DC 13 Intelligence (Arcana) identifies their planar resonance.",
+                "STOP halts the electrical motor but the crystal beam continues while any strand remains. With no active strands, STOP opens the cinema screen to Thornwatch for one minute (immediately if already stopped). An intact projector can be cycled for later openings; a shattered crystal cannot.",
+                "The dragon has claimed Coronet Jewelers as its hoard and is not allied to the others. Two Owlbears forage in separate kitchen/service stockrooms, trapped behind security shutters lowered during evacuation. Two Displacer Beasts, a Spectator and a Gelatinous Cube roam the East food court independently.",
+                "Eddie Vale hides beside Coronet's shattered storefront. He attempts to steal a tray of watches after the immediate food-court predators are no longer attacking nearby. If he escapes with it, the dragon pursues the treasure; if he is intercepted, the dragon stays with its hoard unless otherwise threatened."
               ]
             },
             {
@@ -114,10 +114,10 @@
               "name": "Table Coordinates and Pieces",
               "id": "001",
               "entries": [
-                "WEST folding map: 22×26 squares; cinema booth C3–E4, security P3–U9, fountain I12–O18. EAST rolled map: 34×22 squares; Coronet X2–AG8, ordinary retail shops, kitchens, and food court. The connecting corridor is 450 feet long, with Looking Glass Games halfway along the north side. A1 is upper left; 5 feet per square.",
+                "WEST folding mat: 22×26 squares; cinema booth C3–E4, security P3–U9, fountain I12–O18. EAST rolled mat: 34×22 squares; Coronet X2–AG8, food court and service kitchens. A1 is upper left; 5 feet per square. Looking Glass Games stands halfway along the 450-foot connecting concourse.",
                 {
                   "type": "table",
-                  "caption": "DM placements, columns A-AH",
+                  "caption": "Creature placements by map",
                   "colLabels": [
                     "Creature",
                     "Position",
@@ -148,11 +148,6 @@
                       "Gelatinous Cube C",
                       "EAST M19-N20 (outside west kitchen)",
                       "Food court round 1"
-                    ],
-                    [
-                      "Bulette B",
-                      "EAST Q17-R18; cracked tiles",
-                      "Food court round 2, if unprovoked"
                     ],
                     [
                       "Owlbear O1",
@@ -373,27 +368,6 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "400",
-                          "points": [
-                            [
-                              290,
-                              26
-                            ],
-                            [
-                              501,
-                              26
-                            ],
-                            [
-                              501,
-                              166
-                            ],
-                            [
-                              290,
-                              166
-                            ]
-                          ]
-                        },
-                        {
                           "area": "401",
                           "points": [
                             [
@@ -458,27 +432,6 @@
                       },
                       "mapRegions": [
                         {
-                          "area": "400",
-                          "points": [
-                            [
-                              290,
-                              26
-                            ],
-                            [
-                              501,
-                              26
-                            ],
-                            [
-                              501,
-                              166
-                            ],
-                            [
-                              290,
-                              166
-                            ]
-                          ]
-                        },
-                        {
                           "area": "401",
                           "points": [
                             [
@@ -527,7 +480,7 @@
                 "WEST and EAST are connected by a 450-foot, 30-foot-wide enclosed shopping concourse with ordinary fire doors and turns. Looking Glass Games is on its north wall, 225 feet from either end. West connects at V12–V16 to East at A10–C14.",
                 "WEST: Cinema east entrance, booth door into theater, and west-side security door are marked. Fountain water is shallow difficult terrain for creatures without Swim Speed; its rim may grant cover.",
                 "EAST: Eye Express and ThunderCube are ordinary retail stores. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high.",
-                "Glass storefronts AC 13, 10 HP per 5-foot panel. Tables and cases provide half cover when they obstruct attacks. Bulette's crater is difficult terrain. Exterior parking and sidewalks are outside the planar-link boundary; the rooftop is inside."
+                "The former Q17–R18 Bulette emergence is ordinary food-court tile. Eye Express is a background shop, with no linked encounter hotspot."
               ],
               "id": "100"
             }
@@ -540,7 +493,7 @@
           "entries": [
             {
               "type": "entries",
-              "name": "Thornwatch (0:00–0:05)",
+              "name": "Thornwatch",
               "id": "200A",
               "entries": [
                 "The reeve hired the party to investigate violet lights, low humming, and odd reflections around the old stone waystation near Thornwatch.",
