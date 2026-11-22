@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.6.0-runnable-editorial-fix"
+        "version": "1.6.1-runnable-map-fixes"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795320060
+    "dateLastModified": 1795320900
   },
   "adventure": [
     {
@@ -544,9 +544,9 @@
               "entries": [
                 "The reeve hired the party to investigate violet lights, low humming, and odd reflections around the old stone waystation near Thornwatch.",
                 "READ ALOUD: The road to Thornwatch winds through dark pines. For three nights, locals have reported violet lights and a low hum near the abandoned waystation. Ahead, an old stone arch gleams faintly in the still air.",
-                "Faint scorch lines cross the arch; puddles sometimes reflect an unfamiliar ceiling. DC 13 Arcana reveals planar instability. The characters have time for introductions and a first action.",
+                "Faint scorch lines cross the arch; puddles sometimes reflect an unfamiliar ceiling. DC 13 Arcana reveals planar instability.",
                 "READ ALOUD: A deep note hums through the stones. Violet light fills the arch. Your reflections lag a heartbeat. The ground drops away, and the smell of pine becomes butter, sugar, and popcorn. Your boots strike red carpet before an enormous moving picture.",
-                "The pulse draws the nearby party through to the West cinema together, carrying their gear and magical abilities."
+                "The pulse draws the nearby party through to the West cinema together."
               ]
             },
             {
@@ -620,12 +620,12 @@
                   ],
                   "rows": [
                     [
-                      "If Owlbears emerge into combat, Eddie enters the shop and tries to take a jewelry tray. The dragon notices the theft and joins initiative on its normal count.",
-                      "After the area quiets, Eddie approaches after roughly five minutes. He takes the tray if not stopped. The dragon pursues when it sees its treasure carried away."
+                      "Eddie sees the fighting and approaches Coronet. If he takes a tray of watches, the dragon notices, joins initiative, and pursues the stolen treasure. The PCs can intercept him or take other actions.",
+                      "About five minutes after the food court quiets, Eddie enters Coronet and takes watches. The dragon pursues him into the food court. Eddie drops the tray and flees through an outside exit; the dragon retrieves its jewelry and returns to Coronet within another five minutes."
                     ],
                     [
-                      "Eddie can be stopped, and the dragon can be confronted inside the store at any time.",
-                      "After an hour, the dragon has either recovered the jewelry and returned to Coronet or remains investigating the disturbance. Eddie has fled or been caught; he is not guaranteed to survive."
+                      "If the players prevent the theft, Eddie leaves empty-handed; the dragon remains at its hoard unless otherwise provoked.",
+                      "By the end of a one-hour rest, Eddie has escaped the mall, the dragon is back inside Coronet, and the two Owlbears are scavenging in the food court if they have broken their shutters."
                     ]
                   ]
                 }
@@ -640,7 +640,7 @@
                 "READ ALOUD (if Eddie succeeds): A man runs from the shattered jewelry storefront clutching a velvet tray of watches. From the darkness behind him a voice bellows, 'THIEF!' A red dragon crashes through the opening and follows the glittering loot into the food court.",
                 "Young Red Dragon (178 HP, Fire immunity, DC 17 Dexterity, 16d6 Fire breath) starts Z4–AA5 in Coronet. It exits through the broken south storefront at AB8–AD8 when the theft or another threat to its treasure provokes it. Roll initiative when it becomes involved; it acts on its regular count, with no free attack.",
                 "The dragon wants its jewelry returned. It may pursue Eddie, threaten armed strangers, attack, or retreat to guard its hoard once the treasure is recovered. If Eddie is intercepted, the dragon remains inside unless another threat draws it out.",
-                "An hour later the dragon's location follows its actual pursuit and return to the store, not a fixed pose. It has not automatically killed or allied with either Owlbear.",
+                "After an unattended hour: Eddie escaped after dropping the tray, the dragon has recovered its jewelry and returned to Coronet, and any Owlbears that broke through their shutters are scavenging around the food court. Dead or displaced creatures do not reappear.",
                 "{@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
               ]
             }
