@@ -72,7 +72,8 @@
           "name": "04 - Red Dragon Finale",
           "headers": [
             "East Mall Between Battles",
-            "Encounter 3: Owlbears and Dragon"
+            "Encounter 3: Owlbears and Dragon",
+            "Finale: Practical Triggers and Positions"
           ]
         },
         {
@@ -749,7 +750,7 @@
               "name": "East Mall Between Battles",
               "id": "400",
               "entries": [
-                "Coronet Jewelers X2–AG8: Young Red Dragon at Z4–AA5 guards watches, necklaces and jewels amid wrecked displays. A small tray of watches has fallen from a smashed display into the threshold at AD8–AD9, reachable from the food court without entering the shop. Eddie Vale waits outside the storefront near AE10 and mistakes the exposed watches for unguarded loot. Elias is at Looking Glass Games halfway along the main concourse.",
+                "Coronet Jewelers X2–AG8: Young Red Dragon at Z4–AA5 among the wrecked displays. A tray of watches lies exposed on the food-court side at AD8–AD9, outside broken frontage AB8–AD8. Eddie waits at AE10 for a chance to snatch it. East public exit is AF12–AG13 (correcting the earlier AG12–AH13 mistake). Elias remains at Looking Glass Games halfway along the main concourse.",
                 "The Owlbears claw at their jammed shutters until they escape, then scavenge food. A service corridor offers a defensible place for a one-hour short rest, during which the remaining creatures continue their activities.",
                 {
                   "type": "table",
@@ -776,12 +777,23 @@
               "name": "Encounter 3: Owlbears and Dragon",
               "id": "401",
               "entries": [
-                "Owlbear O1 begins G19–H20 inside the west kitchen, sealed by its east-side rolling shutter (L/M boundary, rows 19–22). O2 begins AC19–AD20 inside the east service room, sealed by its north shutter (AB16–AC16). Both independently batter their shutters as threats continue, emerging only when a shutter is opened or destroyed. They seek food and attack threats; neither obeys the dragon.",
-                "Eddie Vale is a Commoner (AC 10, 4 HP, Speed 30 feet), initially EAST AE10 outside Coronet. A watch tray lies partly outside the broken storefront at AD8–AD9, reachable from the food court; he never has to enter the dragon's occupied showroom. When the immediate food-court predators cease threatening this area, Eddie attempts the grab. In initiative he moves to AD9, takes the tray as his free object interaction when within reach, and spends his available movement running east/southeast toward the mall's east exit at AG12–AH13. Outside initiative the entire snatch takes only seconds. The dragon inside sees the loss of part of its hoard and reacts normally, moving through the actual broken south frontage, not teleporting. Eddie receives no protected turn, free Dash, immunity or guaranteed escape: the dragon may catch, burn or kill him; he drops the tray if attacked or frightened. The theft is a believable trigger for the dragon to enter the food court, not a promise that Eddie survives.",
+                "Owlbear O1 begins G19–H20 inside the west kitchen behind the L/M shutter and O2 starts AC19–AD20 inside east service behind the AB–AC north shutter. They pound and rattle the metal until a shutter gives way or a player opens it. Their entrance can coincide with the dragon confrontation when the scene justifies it; there is no mandatory round counter. Honor attempts by players to repair, reinforce, block or open either shutter. Once released, each Owlbear seeks food, defends itself and acts independently of the dragon.",
+                "Eddie Vale is a Commoner (AC 10, 4 HP, Speed 30 feet), initially EAST AE10. A watch tray lies at AD8–AD9 just outside Coronet's broken frontage. After nearby threats settle down, Eddie moves to AD9, takes the tray as an object interaction, and runs toward the east exit at AF12–AG13, all using normal speed and actions. The dragon notices the theft and moves from the store through the broken frontage; Eddie has no protected turn, guaranteed escape or free Dash. It may catch, hurt, frighten or kill him. If threatened or frightened, he drops the tray. Optional #069 P09 Back TL represents Eddie in initiative only.",
                 "READ ALOUD (when the tray is snatched and the dragon reacts): A man darts from the wrecked jewelry display with a tray of watches. From inside the store comes an enormous roar: 'THIEF!' Glass shatters again as a red dragon surges toward the food court.",
                 "The Young Red Dragon (178 HP; Fire immunity; Fire Breath DC 17 Dexterity, 16d6 Fire) begins Z4–AA5 inside Coronet. If Eddie snatches the watch tray, the dragon pursues him through the real broken storefront at AB8–AD8. It may attack and catch Eddie normally. It treats armed intruders who threaten its hoard as rival thieves. If the watches are returned, it might negotiate, attack, or retreat to guard its hoard. No outcomes are forced.",
-                "Stopping Eddie before he takes the tray leaves the dragon guarding Coronet unless another threat provokes it. The crystal strand still points toward its position, so the party can find it by investigation. If the party takes an unopposed one-hour rest and Eddie has not been stopped, resolve his attempt and the dragon's response using normal movement and attacks; do not assume he escapes or survives. Owlbear positions depend on actual accumulated damage to their shutters.",
+                "Stopping Eddie before he steals leaves the dragon in Coronet unless another action provokes it. The crystal still points to the dragon. Players can face it, negotiate over its hoard, lure it outside, avoid it, or leave the mall without solving every problem. During a one-hour rest, shutters may buckle and Eddie may attempt theft, but do not guarantee that he survives, escapes or succeeds. Owlbears are never teleported into a fight.",
                 "{@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}; {@creature Commoner|XMM}"
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Finale: Practical Triggers and Positions",
+              "id": "401A",
+              "entries": [
+                "OPTIONAL ENTRANCE NARRATION after established pounding: 'Metal tears overhead. With a double crash, both service shutters give way, and two owlbears burst into the food court.' This is an available DM beat when justified, not a mandatory scripted event. It does not override player efforts to keep a shutter closed.",
+                "FINAL TACTICAL POSITIONS: Red Dragon #159 Z4–AA5 inside Coronet on Large 2×2 footprint (physical catalog figure is oversized, use 2×2 marker); Owlbear #141 G19–H20 and proxy Owlbear #135 AC19–AD20, each Large 2×2. Coronet's broken south frontage AB8–AD8 allows a direct exit. Spectator is 15 feet aloft at encounter start and atrium ceiling is 35 feet; apply actual line of sight and movement.",
+                "The Young Red Dragon has 178 HP, Fire immunity, Fire Breath (30-foot cone, DC 17 Dex, 16d6 Fire, recharge 5–6) and otherwise uses its linked 2024 Monster Manual block. It may recover watches and retreat, threaten intruders, negotiate, pursue Eddie outdoors or fight. Outside the mall its strand disconnects, but the dragon remains alive on Earth.",
+                "FINAL MINI PULLS: #141 Owlbear P18 Back TL; #135 Dire Bear proxy P17 Back BL; #159 Red Dragon P21 Back Right (keep to 2×2 game footprint). Eddie #069 P09 Back TL only when tactical tracking is useful. Do not bring figures for noncombat NPCs."
               ]
             }
           ]
