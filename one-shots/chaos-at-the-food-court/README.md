@@ -1,6 +1,6 @@
 # Chaos at the Food Court
 
-**Current DM adventure:** v1.5.0 (editorially cleaned)
+**Current DM adventure:** v1.6.0
 **Party:** four level-8 characters using D&D 2024 rules
 **Session:** roughly 3–4 hours
 
@@ -25,7 +25,7 @@ A 450-foot enclosed retail concourse connects West V12–V16 to East A10–C14. 
 
 - Projector: West cinema booth C3–E4.
 - Dragon: Coronet Jewelers Z4–AA5.
-- Monster placements and the Eddie Vale event clocks: in the 5etools adventure and DM runbook.
+- Monster placements, creature links, projector rules, and Eddie Vale's actions are included in the 5etools adventure.
 - Player handout title: **The Thornwatch Contract**.
 
 Live browser import into your particular 5etools installation remains unverified.
