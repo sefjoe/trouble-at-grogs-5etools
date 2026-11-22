@@ -43,7 +43,10 @@
         {
           "name": "01 - Maps",
           "headers": [
-            "Player and DM PNG Images"
+            "Player and DM PNG Images",
+            "Build WEST - Cinema and Fountain",
+            "Build EAST - Food Court and Coronet",
+            "Movement, Elevation and Scenery"
           ]
         },
         {
@@ -581,6 +584,39 @@
                 "EAST SHUTTERS (now drawn on both map images): the west kitchen's east-side opening at the L/M boundary, rows 19–22, is entirely blocked by a 20-foot-wide jammed rolling security shutter. The east service room's 10-foot north opening along AB16–AC16 is blocked by a second jammed shutter. These are real barriers; there is no open side passage bypassing either shutter. Each is AC 19, 100 HP, and can be opened or destroyed."
               ],
               "id": "100"
+            },
+            {
+              "type": "entries",
+              "name": "Build WEST - Cinema and Fountain",
+              "id": "110",
+              "entries": [
+                "Build WEST on the 22-column × 26-row folding dry-erase mat. A1 is upper-left, 1 square = 5 feet. Use the linked WEST player PNG for all walls/doors and the DM PNG for hidden locations. Cinema B3–I9, projector booth C3–E4, security office P3–U9, shallow fountain I12–O18, concourse exit V12–V16.",
+                "Draw/place the 7×7 fountain and rim, two overturned kiosk/counter areas at approximately C16–F17 and Q15–S16, theater seats/aisles, the booth door and security room. Fountain water is difficult terrain for creatures without Swim Speed; rim provides half cover when it blocks a line of attack.",
+                "Hydra #145 stand-in starts L13–N15 on a 3×3 Huge footprint in fountain. The four arriving characters appear in the cinema near E7–H8 unless their approach changes it. Players provide their own figures; you do not pack those figures. No security guard or usher figure is needed.",
+                "West shop walls can be drawn, not constructed as separate 3D terrain. Shoppers flee off-map rather than needing tokens."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Build EAST - Food Court and Coronet",
+              "id": "111",
+              "entries": [
+                "Build EAST on the 34-column × 22-row ENHANCE dry-erase mat. A1 is upper-left, 1 square = 5 feet. West approach A10–C14; ThunderCube and Eye Express on north side; west kitchen approximately C16–L22; east service room approximately Z16–AG22; Coronet Jewelers X2–AG8; east public exit AF12–AG13.",
+                "Place or draw four 2×1 food-court table/counter rectangles at M15–N15, S14–T14, W16–X16, S20–T20. Draw the closed 20-foot west-kitchen shutter along the L/M boundary for rows 19–22, and the 10-foot east-service shutter across AB–AC at the boundary between rows 15 and 16. Both shutters are already pictured on the revised player and DM PNGs.",
+                "EAST monster starts: Spectator #119 M10 at 15 feet elevation (1×1), Displacer #140 N12–O13 (2×2), Displacer #105 proxy U10–V11 (2×2), Cube #139 M19–N20 outside west kitchen (2×2), Owlbear #141 G19–H20 inside west kitchen (2×2), Owlbear #135 proxy AC19–AD20 in east service (2×2), Dragon #159 Z4–AA5 inside Coronet (2×2 even if miniature itself is oversized).",
+                "Eddie starts AE10; exposed tray of watches at AD8–AD9 outside Coronet's broken front. Broken storefront AB8–AD8. Correct east exit: AF12–AG13, NOT the earlier AG12–AH13. Eddie #069 is optional for tactical tracking.",
+                "Construct/draw: room outlines, counter/table blocks, two shutter segments, broken jewelry frontage, watch tray and the two exits. Put height markers beside the Spectator or flying dragon. No third mat is needed to represent the connecting concourse."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Movement, Elevation and Scenery",
+              "id": "112",
+              "entries": [
+                "The WEST V12–V16 passage meets a 450-foot long, 30-foot wide enclosed shopping concourse ending at EAST A10–C14. Looking Glass Games is on the north side, exactly halfway along, 225 feet from each end. Narrate normal travel; sketch a six-square-wide corridor only if tactical combat begins there.",
+                "EAST atrium ceiling: 35 feet. Two upper display/maintenance gallery lips stand 15 feet above floor along the north shop fronts: ThunderCube D7–K7 and Eye Express M7–U7. Each is 5 feet deep. They can be reached by a staff stair inside the corresponding shop or by climbing (DC 13 Strength [Athletics] when uncertain). Use an elevation marker on the same mapped squares rather than a third battle map.",
+                "Shop glass: AC 13 and 10 HP per 5-foot pane, if intentionally broken. Food tables/counters are movable terrain and give half cover only where they actually obstruct attacks. No automatic cover through open areas."
+              ]
             }
           ]
         },
