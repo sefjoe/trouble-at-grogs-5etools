@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.6.1-runnable-map-fixes"
+        "version": "1.7.0-looking-glass-games"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795320900
+    "dateLastModified": 1795347000
   },
   "adventure": [
     {
@@ -53,9 +53,10 @@
           ]
         },
         {
-          "name": "03 - Security and Food Court",
+          "name": "03 - Concourse, Looking Glass Games and Food Court",
           "headers": [
             "Dana Torres and the Concourse",
+            "Looking Glass Games",
             "Encounter 2: Food-Court Menagerie"
           ]
         },
@@ -90,8 +91,8 @@
               "name": "Adventure in Brief",
               "id": "000",
               "entries": [
-                "Four level-8 adventurers investigating strange lights at Thornwatch cross through a cinema screen into a modern shopping mall. Bombeldo's crystal projector opened nine secondary rifts. The adventurers must break the nine living planar links to stabilize the screen and return home. The Hydra occupies West Mall; the remaining monsters are in East Mall.",
-                "Young Red Dragon guards a new hoard inside Coronet Jewelers. Eddie Vale's attempted robbery draws the dragon into the food court if he succeeds. West and East are 450 feet apart along a normal enclosed shopping concourse."
+                "Four level-8 adventurers investigating strange lights at Thornwatch cross through a cinema screen into a modern shopping mall. Elias's crystal projector opened nine secondary rifts. The adventurers must break the nine living planar links to stabilize the screen and return home. The Hydra occupies West Mall; the remaining monsters are in East Mall.",
+                "A Young Red Dragon guards jewelry in Coronet Jewelers. Eddie Vale's attempted robbery can draw it into the food court. West and East battle maps lie 450 feet apart along a shopping concourse, with Looking Glass Games halfway along the route."
               ]
             },
             {
@@ -99,7 +100,7 @@
               "name": "What Happened",
               "id": "001A",
               "entries": [
-                "Bombeldo Trask, owner of The Dungeoneer beside ThunderCube in EAST Mall, bought an antique crystal projector at an estate sale. His tests caused strange lights and humming near Thornwatch's stone arch. He brought it to the WEST cinema for a promotional screening, switched it on, and fled back to his shop when it overloaded.",
+                "Elias Trask owns Looking Glass Games, a hobby shop midway along the corridor connecting West and East Mall. He bought an antique crystal projector at an estate sale. His tests caused strange lights and humming near Thornwatch's stone arch. He installed it in the West cinema for a promotional screening, switched it on, and fled to his shop when it overloaded.",
                 "The projector beam struck the screen, joining it to Thornwatch's arch. The party entered through this primary doorway. Secondary breaches released one Hydra, one Bulette, two Displacer Beasts, one Gelatinous Cube, one Spectator, two Owlbears, and a Young Red Dragon. All nine monsters were already in the mall when the party arrived.",
                 "Each living secondary-rift creature maintains a planar link while inside the mall building or on its roof. Death, travel off-plane, or crossing the outer walls to the outdoors disconnects it. If a living monster reenters the building, its link immediately returns. Unconscious monsters remain linked. The adventurers crossed through the cinema screen, so they do not carry links.",
                 "Nine violet strands glow inside the crystal, one per active link. A strand goes out when its monster disconnects. Turning the crystal reveals the general direction of each linked monster. DC 13 Intelligence (Arcana) identifies the resonant feedback; the strands themselves are plainly visible.",
@@ -113,7 +114,7 @@
               "name": "Table Coordinates and Pieces",
               "id": "001",
               "entries": [
-                "WEST folding map: 22×26 squares; cinema booth C3–E4, security P3–U9, fountain I12–O18. EAST rolled map: 34×22 squares; The Dungeoneer M2–U7 beside ThunderCube, Coronet X2–AG8, kitchens and food court. A1 is upper left; 5 feet per square.",
+                "WEST folding map: 22×26 squares; cinema booth C3–E4, security P3–U9, fountain I12–O18. EAST rolled map: 34×22 squares; Coronet X2–AG8, ordinary retail shops, kitchens, and food court. The connecting corridor is 450 feet long, with Looking Glass Games halfway along the north side. A1 is upper left; 5 feet per square.",
                 {
                   "type": "table",
                   "caption": "DM placements, columns A-AH",
@@ -523,9 +524,9 @@
                     }
                   ]
                 },
-                "WEST and EAST are connected by 450 feet of enclosed retail corridor, 30 feet wide with ordinary fire doors and turns. West connects at V12–V16 to East at A10–C14.",
+                "WEST and EAST are connected by a 450-foot, 30-foot-wide enclosed shopping concourse with ordinary fire doors and turns. Looking Glass Games is on its north wall, 225 feet from either end. West connects at V12–V16 to East at A10–C14.",
                 "WEST: Cinema east entrance, booth door into theater, and west-side security door are marked. Fountain water is shallow difficult terrain for creatures without Swim Speed; its rim may grant cover.",
-                "EAST: The Dungeoneer is beside ThunderCube. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high.",
+                "EAST: Eye Express and ThunderCube are ordinary retail stores. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high.",
                 "Glass storefronts AC 13, 10 HP per 5-foot panel. Tables and cases provide half cover when they obstruct attacks. Bulette's crater is difficult terrain. Exterior parking and sidewalks are outside the planar-link boundary; the rooftop is inside."
               ],
               "id": "100"
@@ -555,7 +556,7 @@
               "id": "200",
               "entries": [
                 "READ ALOUD: Rows of padded chairs face a wall-sized moving image. A child points at your weapons and asks, 'Are you in the movie?' A crash shakes the building; screams follow from the concourse.",
-                "Mel Ruiz, a cinema usher, is pinned under a fallen curtain bar (DC 13 Athletics, two people lifting, or suitable magic). Mel saw Bombeldo install the projector and heard a many-headed creature outside.",
+                "Mel Ruiz, a cinema usher, is pinned under a fallen curtain bar (DC 13 Athletics, two people lifting, or suitable magic). Mel saw Elias install the projector and heard a many-headed creature outside.",
                 "Projector in CINEMA BOOTH C3–E4, reached through the door at the rear of the theater. STOP shuts off the motor but the violet beam persists while monster links remain. Nine strands are visible within the crystal; DC 13 Intelligence (Arcana) explains the resonance. Rotating the crystal shows the general directions of surviving links."
               ]
             },
@@ -573,7 +574,7 @@
         },
         {
           "type": "section",
-          "name": "03 - Security and Food Court",
+          "name": "03 - Concourse, Looking Glass Games and Food Court",
           "id": "003",
           "entries": [
             {
@@ -582,7 +583,19 @@
               "id": "300",
               "entries": [
                 "Dana Torres manages mall security in WEST. Her cameras recorded a violet blast from the cinema booth, creatures appearing across the building, and a red reptilian shape entering Coronet Jewelers in EAST. She cannot explain the magic.",
-                "Dana knows Bombeldo sponsored the screening and fled to The Dungeoneer, beside ThunderCube in EAST. She has camera footage, a service-pass key and evacuation routes. The East food court lies 450 feet along the enclosed shopping concourse."
+                "Dana knows the special screening was sponsored by Looking Glass Games and its owner, Elias Trask, installed the projector. Elias fled toward the shop, halfway along the 450-foot main concourse leading to East Mall. Dana can show her security footage, offer a service-pass key and identify evacuation routes."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Looking Glass Games",
+              "id": "300A",
+              "entries": [
+                "Halfway along the 450-foot connecting concourse, 225 feet from West Mall, Looking Glass Games occupies a north-side storefront. Its glass displays hold painted miniature dragons, fantasy heroes, polyhedral dice, and books filled with pictures of creatures the adventurers know. The shop doors are open.",
+                "READ ALOUD: Behind a shop window, tiny warriors face a painted dragon on a miniature battlefield. Shelves of oddly familiar monsters and illustrated spellcasters stand beside glittering many-sided stones. A man at the door sees your equipment and calls, 'Wait! Are you the ones who came through the movie screen?'",
+                "Elias Trask owns Looking Glass Games. He bought the antique crystal projector at an estate sale and installed it for a promotional fantasy-film screening in the West cinema booth. The machine began throwing violet light, people panicked, and Elias fled here. He thinks he caused the disaster and wants it stopped.",
+                "Elias knows he installed the projector in WEST cinema booth C3–E4 and how to use its ordinary RUN and STOP controls. He saw its beam continue after he cut power but does not understand the nine living planar links. He tells the truth about his involvement. The games and miniatures he sells are ordinary modern products.",
+                "The store sits on the direct route to East Mall. Elias calls to the characters as they pass; they can speak with him or continue 225 feet along the concourse toward East map entrance A10–C14."
               ]
             },
             {
@@ -609,7 +622,7 @@
               "name": "East Mall Between Battles",
               "id": "400",
               "entries": [
-                "Coronet Jewelers X2–AG8: dragon starts Z4–AA5 guarding jewelry and watches. Bombeldo is hiding at The Dungeoneer M2–U7. Eddie Vale is near AB10, watching the smashed jeweler's window.",
+                "Coronet Jewelers X2–AG8: Young Red Dragon starts Z4–AA5, guarding jewelry and watches. Eddie Vale waits near AB10, studying the smashed storefront. Elias is at Looking Glass Games midway along the connecting concourse.",
                 "The Owlbears start battering their jammed shutters after the Bulette emerges and continue until an exit is open. An undisturbed service corridor can accommodate a one-hour short rest; all surviving creatures continue their activities.",
                 {
                   "type": "table",
