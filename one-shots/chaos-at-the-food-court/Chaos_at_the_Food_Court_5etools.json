@@ -53,8 +53,10 @@
           "name": "02 - Thornwatch, Cinema and Hydra",
           "headers": [
             "Thornwatch",
+            "The Thornwatch Contract",
             "The Cinema",
-            "Encounter 1: Hydra"
+            "Encounter 1: Hydra",
+            "Projector - What Characters Can Learn"
           ]
         },
         {
@@ -639,12 +641,34 @@
             },
             {
               "type": "entries",
+              "name": "The Thornwatch Contract",
+              "id": "200C",
+              "entries": [
+                "PLAYER-FACING CONTRACT (contained here, no external handout needed): 'By order of the Reeve of Thornwatch: investigate the violet flashes, humming and unnatural reflections at the abandoned road arch. Determine the cause and end the disturbance. Reward: 400 gold pieces to the party upon satisfactory return and report. Signed, the Reeve of Thornwatch.'",
+                "This commission does not require the adventurers to kill monsters. If they never return, the payment may be lost; being stranded on modern Earth is a valid ending."
+              ]
+            },
+            {
+              "type": "entries",
               "name": "The Cinema",
               "id": "200",
               "entries": [
                 "READ ALOUD: Rows of padded chairs face a wall-sized moving image. A child points at your weapons and asks, 'Are you in the movie?' A crash shakes the building; screams follow from the concourse.",
                 "Mel Ruiz, a cinema usher, is pinned under a fallen curtain bar (DC 13 Athletics, two people lifting, or suitable magic). Mel saw Elias install the projector and heard a many-headed creature outside.",
-                "Projector in CINEMA BOOTH C3–E4, reached through the door at the rear of the theater. STOP shuts off the motor but the violet beam persists while monster links remain. Eight strands are visible within the crystal; DC 13 Intelligence (Arcana) explains the resonance. Rotating the crystal shows the general directions of surviving links."
+                "Projector in CINEMA BOOTH C3–E4, reached through the door at rear of theater. STOP halts electric motor but the violet beam persists while monster links remain. Eight strands glow in the crystal; close inspection suggests each follows a living moving creature. DC 13 Intelligence (Arcana) reveals they are tethers to the escaped creatures and can be cut by death, leaving the plane, or leaving the building (including its roof). Rotating the crystal gives the general direction of each still-connected creature. The Hydra's death visibly extinguishes one strand; this also establishes the rule without requiring an Arcana success."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Projector - What Characters Can Learn",
+              "id": "200B",
+              "entries": [
+                "The crystal's eight violet strands correspond to eight escaped monsters. While a monster is alive and inside the mall (including its roof), its strand stays lit. Death, exiting the mall or departure from the plane disconnects it. An unconscious creature stays connected. When a disconnected living monster returns inside, its strand reignites. The adventurers entered through the primary doorway and have no strands.",
+                "STOP only turns off the motor until no strands remain. An intact crystal with zero strands permits STOP to open the cinema screen to Thornwatch for one minute; subsequent RUN/STOP cycles can reopen it. Switching the projector off or unplugging it never kills, banishes, or weakens a monster.",
+                "CRYSTAL OBJECT: treat the magic crystal as a resilient Small glass object: AC 13, 10 HP, immune to Poison and Psychic damage. Smashing it destroys this portal's means of reopening; the characters can be stranded on Earth, and all monsters remain wherever they are. The motor can be disabled independently without breaking the crystal; doing so does not end the violet magic.",
+                "DISPEL MAGIC (2024): the crystal's dimensional resonance is an innate magic-item property, not an ongoing spell. Dispel Magic does not shut the device down, sever strands or remove escaped creatures.",
+                "BANISHMENT (2024): a banished creature's strand goes dark while it is away. A creature returning inside the mall reconnects. If the spell lasts a full minute, only an Aberration, Celestial, Elemental, Fey or Fiend stays banished under the 2024 spell. In this roster the Spectator is an Aberration and may be permanently banished; the others return after the spell ends. Apply the spell's normal save and Concentration requirements.",
+                "The eight threads are visible from the first scene, and the Hydra provides the first demonstration. Never make Elias or a successful check the sole source of the explanation. The characters may elect to stay on Earth even if the screen reopens."
               ]
             },
             {
@@ -654,6 +678,7 @@
               "entries": [
                 "READ ALOUD: Five reptilian heads sweep above a shattered fountain rim. The enormous creature thrashes in the water as shoppers flee between overturned kiosks.",
                 "WEST L13–N15: Hydra (184 HP), already at the fountain I12–O18. It snaps at nearby movement and pursues armed threats past the overturned kiosks. On death, a violet arc fades and one projector strand goes dark.",
+                "DM PHYSICAL SETUP: Hydra mini catalog #145 (Chimera proxy) on 3×3 marker at L13–N15, fountain I12–O18. Use linked 2024 Hydra stat block for heads and Fire; its death turns off one projector strand visibly.",
                 "{@creature Hydra|XMM}"
               ]
             }
