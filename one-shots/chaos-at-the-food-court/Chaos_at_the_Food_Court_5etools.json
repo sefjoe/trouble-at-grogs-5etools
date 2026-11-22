@@ -9,12 +9,12 @@
         "authors": [
           "Offscreen Worlds"
         ],
-        "version": "1.2.0-jewelry-dragon-cinema-booth"
+        "version": "1.3.0-resonant-feedback-eddie-thief"
       }
     ],
     "edition": "one",
     "dateAdded": 1795300000,
-    "dateLastModified": 1795304100
+    "dateLastModified": 1795311000
   },
   "adventure": [
     {
@@ -96,7 +96,7 @@
               "type": "entries",
               "name": "Run in One Page",
               "entries": [
-                "Four level-8 2024-rules fantasy PCs begin with the genuine Thornwatch Contract. Within five real-time minutes, a planar tear at an ancient arch brings them through a film screen into an ordinary modern US shopping mall. Bombeldo Trask, owner of The Dungeoneer, brought his antique crystal projector to the cinema booth for a promotional fantasy screening. Its beam strikes the screen, links to the Thornwatch arch, and overloads: secondary breaches scatter NINE monsters through the mall. All nine have ALREADY arrived. The projector remains IN THE CINEMA BOOTH, not the shop. Its STOP lever stabilizes the screen for a one-minute return window, but it never banishes, wounds, or weakens any monsters. The young red dragon has claimed Coronet Jewelers beside the food court as a glittering hoard, while two owlbears scavenge in the restaurant service areas.",
+                "Four level-8 2024-rules fantasy PCs investigate strange lights and humming near Thornwatch. Within five real-time minutes they fall through a planar tear in an old arch into the cinema of an otherwise ordinary modern US shopping mall. Bombeldo's crystal projector in the CINEMA BOOTH overloaded during a fantasy-film promotion, opening secondary tears that released all nine monsters. Each living escaped monster inside the mall sustains magical feedback to the crystal; the STOP lever stops its electric motor but cannot extinguish the beam or open a stable doorway until all anchors are disconnected. The projector is never a weapon against the monsters. Late in the session, ordinary shopper Eddie Vale tries stealing jewelry from Coronet Jewelers and draws its resident Young Red Dragon out into the food court.",
                 {
                   "type": "table",
                   "caption": "Real-time session clock",
@@ -107,11 +107,11 @@
                   "rows": [
                     [
                       "0:00-0:05",
-                      "Thornwatch contract, arch, dimensional breach"
+                      "Thornwatch: strange lights, arch, dimensional breach (no missing travelers)"
                     ],
                     [
                       "0:05-0:15",
-                      "Cinema arrival; Mel; theater-booth clues if searched"
+                      "Cinema arrival, Mel, projector feedback if explored"
                     ],
                     [
                       "0:15-0:55",
@@ -131,11 +131,11 @@
                     ],
                     [
                       "2:20-3:30",
-                      "Owlbears scavenge into food court; dragon emerges from jewelry store"
+                      "Owlbears into food court; Eddie steals jewelry, dragon pursues"
                     ],
                     [
                       "3:30-3:45",
-                      "Cinema-booth STOP lever; return to Thornwatch"
+                      "Final resonance ends; cinema screen stabilizes, return to Thornwatch"
                     ]
                   ]
                 },
@@ -165,7 +165,7 @@
                     ]
                   ]
                 },
-                "Pacing principle: monsters exist at fixed locations with independent motivations. The characters are free to investigate or strike early, but avoid volunteering the dragon's exact whereabouts until evidence points to the jeweler. Its lair and motive create a natural late confrontation. If PCs uncover it early, honor that discovery; do not teleport it away or ignore their actions. The later scenes respond to what survives.",
+                "Pacing principle: the three battles are a natural escalation, not locked mandatory rooms. Treat living monster anchors and the crystal as persistent world rules. Stopping the motor early provides proof of the feedback; it does not produce an escape portal. Eddie's opportunistic theft, rather than monster obedience, draws the dragon into the food court. Players may intervene, change the order, or exploit the feedback if their decisions logically allow it.",
                 "If behind on time, skip optional store conversations and have security immediately give the shop location. Do not invent a fourth encounter. The one-hour in-world short rest takes only a few real-world minutes when the party elects to take it."
               ],
               "id": "000"
@@ -175,13 +175,16 @@
               "name": "World Truth: What Actually Happened",
               "id": "001A",
               "entries": [
-                "Bombeldo Trask is a mundane human hobby-shop owner, not a villain or wizard. Weeks earlier he bought an antique crystal-driven projector at an estate sale. His test projections sent low-level pulses toward an old weak point between planes at the arch near Thornwatch, causing missing travelers, lights, and hums. He did not understand the connection.",
-                "Today Bombeldo arranged a special fantasy film screening to promote The Dungeoneer and personally installed the projector in the theater projection booth (cinema B2-D3). When its beam hit the screen at 2:17 p.m., the Thornwatch arch opened and swallowed the heroes. An overload immediately opened secondary rifts throughout the mall. The Hydra appeared in the fountain, food-court creatures near restaurants, Owlbears behind food-service shutters, and Young Red Dragon near the east-side storefronts. Secondary rifts have dissipated; the creatures remain physically present.",
-                "The Young Red Dragon tore open Coronet Jewelers (Y10-AG14), encountered gold chains, rings, stones, and watches, and decided this was a hoard. It has stayed there guarding its prize. Shoppers have fled; the shop is not staffed. It is not a servant, friend, or ally of the owlbears. It wants ownership and safety for its treasure.",
-                "Two Owlbears became trapped among food-service stockrooms on opposite sides of the food court. They are scavenging trash, meat, and deliveries; as shutters fail and food-cart noise increases, they move into the dining area. Their brawling and the PCs' powerful attacks make the dragon perceive an immediate threat to its hoard and territory. It breaks through the storefront to fight. This is the planned finale cause, not a new portal event. No new monster appears at this point.",
-                "Security cameras captured bright light from the CINEMA, then separate monstrous arrivals and a glimpse of a red shape breaking into the JEWELRY STORE. Dana Torres can piece together the screening's timing but knows nothing about the planes. Bombeldo fled from the booth to his gaming shop in terror; he knows he brought and switched on the projector, but not the full mechanics.",
-                "The projector has a red STOP lever in the CINEMA BOOTH. Moving it stops the machine, collapses unstable rifts, and briefly converts the screen's fading residual light into a stable doorway back to Thornwatch for 60 seconds. It does not affect any escaped monsters. If the party turns it off early and the minute passes, they can restart and stop the intact projector to briefly stabilize the same doorway again; the known secondary rifts do not re-form and no replacement monsters arrive. If the machine is smashed irreparably, a final one-minute backlash stabilizes the route only once.",
-                "Nothing requires PCs to wait for the Owlbears or dragon. If they deliberately seek the dragon's claimed jewelry store early, they can find it, talk, steal from it, lure it out, or fight it. Doing so changes the narrative order; play its territorial intelligence rather than blocking them. The intended rising action arises from their information and the monsters' visible behavior."
+                "Bombeldo Trask is the mundane human owner of The Dungeoneer. Weeks ago he bought an antique crystal projector at an estate sale. Low-power tests produced violet light, humming and time-slip sensations at a preexisting planar weak point near the Thornwatch arch. These were strange reports, NOT missing wagons or people; there are no missing travelers to locate.",
+                "On the adventure day he brings the projector to the CINEMA BOOTH (B2-D3) for a special fantasy screening. The beam strikes the screen, and it opens the primary planar doorway to the Thornwatch arch, pulling the four adventurers through. The crystal immediately overloads and generates eight? NO: exactly NINE separate monster arrivals through secondary tears around the mall: Hydra x1, Bulette x1, Displacer Beasts x2, Gelatinous Cube x1, Spectator x1, Owlbears x2, and Young Red Dragon x1. All nine are here before the adventurers reach the concourse; no new monsters arrive during the story.",
+                "The secondary tears leave each surviving creature carrying a distinct living planar RESONANCE. The projectors crystal receives feedback from these living creatures while they remain within the mall's footprint (including the roof). This is NOT a magical ability native to the creature; it comes from passage through an uncontrolled secondary breach. The heroes entered via the primary cinema screen, so they do NOT act as feedback anchors. Dead creatures, creatures transported to another plane, and creatures that physically leave the mall property no longer contribute. Unconscious but living creatures still resonate.",
+                "While ANY anchor remains, the projector's AC electrical motor can be stopped or unplugged, but the crystal keeps projecting on its own. Pulling the conspicuous STOP lever simply stops the motor; the violet beam persists, the cinema screen flickers, and NO stable doorway home forms. The machine is NOT indestructible and the STOP lever is NOT physically stuck: the problem is arcane feedback. When a linked monster dies or leaves the area, its purple glow briefly discharges and the beam visibly weakens. When the final anchor disconnects, an already-STOPPED projector's screen stabilizes for 60 seconds immediately; if in RUN, pulling STOP then provides the same one-minute return window. An intact crystal can be started and stopped again to create a later one-minute window when no anchors remain.",
+                "If the characters break the projector, it can be damaged like a physical object. Smashing the crystal kills the only controlled return mechanism; it does NOT kill the monsters or create a convenient instant exit. Explain by visible feedback and Arcana that destroying the crystal risks stranding the party. If motor/lens breaks but crystal survives, appropriate repair with tools or magic may restore the beam after the anchors are removed. Powerful independent planar travel works normally. The construct isn't protected by an arbitrary invulnerability or scripted immunity.",
+                "Clues: the violet beam pulses in response to nearby monsters; when the Hydra dies the projector sputters and one bright streak in the crystal goes dark. Detect Magic sees a common planar signature around the projector and the displaced creatures; DC 13 Intelligence (Arcana) identifies resonant feedback, while an attentive experiment with the STOP lever proves that conventional shutoff doesn't extinguish the beam. Bombeldo knows only what he witnessed and can be shown the link; he did not invent the mechanism.",
+                "Young Red Dragon claimed Coronet Jewelers (Y10-AG14) as its first hoard on Earth, surrounded by necklaces, diamonds, watches, and gold. It stays in the store, alert and possessive. It has no control over Owlbears or any other monster. Two Owlbears scavenge separate kitchen/food-service areas, then wander out into the food court.",
+                "During the Owlbear chaos, an opportunistic human shopper named EDDIE VALE spots the smashed storefront glass at Coronet Jewelers. He mistakenly assumes the shop is empty and the valuables unguarded. He darts inside and snatches a tray of watches and necklaces, making enough noise to wake the dragon's immediate attention. He flees into the FOOD COURT carrying stolen jewelry. The dragon follows him to reclaim its new hoard; it treats any armed figures near Eddie as possible rival thieves. The dragon does not enter because of new magic or a preprogrammed round count. If PCs stop Eddie or return the valuables, the dragon responds according to what it can see and its territorial greed: players can avert or change the encounter through actual choices.",
+                "Security camera recorded light from the cinema booth, monsters appearing in different mall areas, and a red creature entering Coronet Jewelers. Dana Torres is the mall security manager, not a planar expert. Bombeldo panicked and retreated from the CINEMA BOOTH to his shop, The Dungeoneer. Dana may show the footage; neither she nor Bombeldo knows the full feedback mechanism unless they see evidence.",
+                "Timeline and agency: the thief's attempt is a credible late escalation after food-court combat, not a magically compelled act. The player characters can investigate the projector, seek the dragon early, arrest Eddie, guard the jewelry, or take a different route. The dragon remains in jewelers until its hoard or territory is threatened, and the projector follows the defined resonance rules regardless of the sequence. No second dragon, no replacement Owlbears, no Mimics."
               ]
             },
             {
@@ -368,9 +371,9 @@
               "name": "The Thornwatch Contract - Play First (0:00-0:05)",
               "id": "200A",
               "entries": [
-                "PRE-SESSION COVER STORY: Players have received a genuine job notice titled The Thornwatch Contract. Experienced adventurers were hired to investigate merchant disappearances and strange lights along the old trade road near Thornwatch. Do not reveal the mall or the modern setting before play. The contract is real: a weakness between worlds has been producing local anomalies, and Bombeldo's projector on Earth is now resonating with it. Neither the NPCs nor the characters know the cause.",
-                "0:00-0:01 - READ ALOUD: \"The road to Thornwatch winds between dark pines and weathered mile markers. For three nights, travelers have reported missing wagons, lights among the trees, and a humming sound near the abandoned waystation. The village reeve has offered good coin to find the cause. Ahead, beside an old stone arch, an empty wagon stands at an angle with one wheel half-sunk into the mud. No driver. No horse. The air is unusually still.\"",
-                "0:01-0:03 - PLAY: Let each player give a short introduction and one immediate action. The wagon is empty, the harness was not cut, and the deep wheel ruts end abruptly beside the arch. Anyone touching the wheel finds it slightly warm. A DC 13 Intelligence (Arcana) check identifies a planar disturbance rather than a local illusion; no check is required to find the arch or move forward. Characters may approach, observe, or cast normal spells. Nothing here is a combat encounter.",
+                "PRE-SESSION COVER STORY: The Thornwatch Contract is a genuine investigation of strange lights, humming, and odd reflections near the old stone waystation. There are NO missing merchants, wagons, or travelers. The village reeve hired experienced adventurers because these odd phenomena have frightened locals. Bombeldo's experimental projector on modern Earth is resonating with a planar weak point that existed by the Thornwatch arch.",
+                "0:00-0:01 - READ ALOUD: \"The road to Thornwatch winds through a stand of dark pines. Over the last three nights, travelers have seen violet lights between the trees, heard a deep humming, and watched shadows bend the wrong way along the abandoned stone waystation. The village reeve has offered good coin to investigate. Ahead stands an old stone arch, its carvings gleaming faintly against the evening sky. The air is unnaturally still.\"",
+                "0:01-0:03 - PLAY: Let the PCs introduce themselves and take one immediate action near the arch. It is old, weathered, and otherwise intact. Faint purple scorch tracings cross its stones; puddles nearby reflect an unfamiliar moving ceiling for an instant. DC 13 Intelligence (Arcana) recognizes a planar disturbance, but no roll is required to approach. There are no missing travelers, no abandoned wagon, and no side investigation. No combat in Thornwatch.",
                 "0:03-0:05 - READ ALOUD: \"The humming becomes a note too low to hear and too strong to ignore. The stone arch fills with a thin sheet of violet light. For one instant you can see your own reflections, each a heartbeat too late. Then the road drops away. The smell of damp pine gives way to butter, sugar, and something hot and salty. Your boots strike a soft red floor. A wall-sized moving picture illuminates rows of strange padded chairs. Behind you, the violet opening collapses into the picture itself.\"",
                 "ARRIVAL: The whole hired party arrives together inside the mall cinema, with all gear, familiars and worn equipment they brought. This is an environmental planar breach, not an attack, saving throw, or forced character rebuild. If a character scouts nearby, the visible surge spans the whole waystation. If they retreat from the arch entirely, a second tear opens along the road and joins them with the others; do not run a split-session prelude. The transfer cannot be prevented by merely declining to touch the arch, but sensible protective actions may shape how characters arrive. The violet seam remains in the movie screen until the projector is stopped.",
                 "The contrast is the reveal. A child in the theater points at an armored character and asks, \"Are you in the movie?\" A tremendous crash follows from the mall concourse and shoppers scream. Continue directly with 'The Cinema - Opening' below. The adventure's first fight begins at the fountain, not in Thornwatch.",
@@ -382,9 +385,9 @@
               "name": "The Cinema - Opening",
               "entries": [
                 "The adventurers land on thick red cinema carpet beneath a luminous screen. Behind the seats, a projection booth at B2-D3 is throwing a distinctly violet beam onto that screen; no second machine is operating elsewhere in the mall. A child points at their armor and asks, 'Are you in the movie?' Then a boom shakes the building and people scream in the concourse.",
-                "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), an appropriate spell, or two PCs lifting together. Mel is not a required gate. Mel says, 'That Dungeoneer fellow started the special projector, then there was purple lightning everywhere.' Mel heard something with too many heads outside. A shimmering seam remains in the screen but cannot yet carry them home; STOP causes a one-minute stable window.",
+                "Cinema usher Mel Ruiz is pinned under a curtain bar. Freeing Mel requires DC 13 Strength (Athletics), any appropriate spell, or two PCs lifting together. Mel says the Dungeoneer man started his special projector, and purple lightning followed. Mel heard a many-headed creature outside. The violet screen is NOT yet a stable passage home.",
                 "The characters have their usual weapons, armor, and spells. Phones have cameras; firearms and police never become mandatory new mechanics. Civilians flee and are removed from initiative. The mall is ordinary Earth; nobody recognizes spells or knows magic rules.",
-                "If players investigate the CINEMA BOOTH first, they find a hot antique crystal projector, its lens trained on the film screen, a clearly labeled red STOP lever, and an empty operator's chair. Bombeldo already fled via the theater corridor to The Dungeoneer. The heroes may pull STOP immediately: it opens the return route for one minute while all nine monsters remain alive and loose on Earth. They can choose to leave, remain, or operate the lever later. Do not force the Hydra fight before allowing this choice."
+                "If the PCs investigate the CINEMA BOOTH, they find an antique crystal projector aimed at the screen and a red STOP lever. The electric motor can be stopped or unplugged; the purple crystal beam persists, powered by feedback from the living displaced monsters. The screen remains unstable and cannot transport them home. Arcana DC 13 or a test of the lever reveals this is an ongoing arcane energy circuit, not a stuck switch. No extra monster arrives, no harm is done by pulling STOP, and players may still use the world to find and disconnect the monster anchors."
               ],
               "id": "200"
             },
@@ -395,7 +398,7 @@
                 "The fountain cracks like an egg. A vast reptilian body heaves over the low stone rim. Five heads sweep the walkway; one snatches the plastic pretzel sign from a kiosk and breaks it in half.",
                 "Place Hydra H at O11-Q13 and roll initiative. One Huge monster, not five enemies. Run its 2024 head severing, fire suppression, multiattack, and reaction from its full stat block. When a head dies, make the stump visibly react; when it regrows, narrate the doubling. An intelligent player can identify Fire as the counter without a skill-roll tax.",
                 "It attacks armed threats in reach, moving out of the fountain if necessary. It may smash through weak storefront windows. It does not wait stationary in the pool if PCs attack from far away. Shoppers escape through south and west doors.",
-                "Once defeated, violet scorch marks trail northeast, and Dana Torres at the security kiosk calls the adventurers over. This is a guaranteed transition.",
+                "After the Hydra dies, visible violet sparks escape its body and vanish upward; the cinema projector briefly flickers as one living planar anchor goes out. Dana Torres calls from the security kiosk during the evacuation, offering access to camera footage. This is evidence and an invitation, not a mandatory checkpoint.",
                 "Stat block: {@creature Hydra|XMM}"
               ],
               "id": "201"
@@ -412,7 +415,8 @@
               "name": "Security and Culture Clash",
               "entries": [
                 "Dana Torres is the mall SECURITY manager, evacuating shoppers and watching a security monitor. At 2:17 PM she saw a violet flash from the CINEMA PROJECTION BOOTH, followed by monsters appearing around the mall. She knows the showing was sponsored by The Dungeoneer. A later camera clip shows a red dragon crash into Coronet Jewelers and not come back out. She assumes an enormous animal is trapped inside that store, not that it has made a hoard.",
-                "Dana gives a service-door key and identifies Bombeldo Trask as the owner of The Dungeoneer who installed the strange film equipment. If the party skips security, scorch traces lead back toward the cinema, a cashier reports Bombeldo fleeing the booth, or a looped video shows the glow. No essential conclusion is locked behind a roll. If players ask about the dragon, Dana can show the jewelers footage. Don't volunteer the dragon's current precise location as a quest marker unless they investigate."
+                "Dana gives a service-door key and identifies Bombeldo Trask as the owner of The Dungeoneer who installed the strange film equipment. If the party skips security, scorch traces lead back toward the cinema, a cashier reports Bombeldo fleeing the booth, or a looped video shows the glow. No essential conclusion is locked behind a roll. If players ask about the dragon, Dana can show the jewelers footage. Don't volunteer the dragon's current precise location as a quest marker unless they investigate.",
+                "Dana can confirm no monsters were being transported by truck or staged as performers. If asked about the projector, she says its electrical supply has been switched off but the violet light still appears on the screen. She does not know the underlying living-anchor rule."
               ],
               "id": "300"
             },
@@ -425,7 +429,7 @@
                 "Spectator favors its 2024 eye rays and spell defense, remaining airborne. Displacers split up and reposition, using Displacement. Cube glides toward the nearest reachable target with its 2024 Engulf; it is slow, not tactical. Bulette attacks the loudest or heaviest visible movement; the escaped animals need not cooperate, and can collide.",
                 "The kitchen aisle is 10 feet wide and can be blocked by the cube. Food-court tables offer positional cover. Erupted tile becomes difficult terrain. The two owlbears are in shuttered food-service stockrooms beyond the active fight. They have not entered the dining area yet unless the players opened those rooms. Do not add any Mimic or extra monster.",
                 "Stat blocks: {@creature Bulette|XMM}; {@creature Displacer Beast|XMM}; {@creature Gelatinous Cube|XMM}; {@creature Spectator|XMM}",
-                "After this combat, signs of the next danger are diegetic: heavy clawing from the food-service shutters, a low reptilian growl behind the broken glass of Coronet Jewelers, store alarms, and glints of gold in the smoke. The owlbears move out to scavenge if left alone; the dragon watches the nearby violence with territorial suspicion."
+                "After this combat, feedback flashes can be observed when a monster anchor is removed; there are now fewer arcs around the crystal if someone checks. The last trouble in the mall comes from scavenging Owlbears and the dragon at Coronet Jewelers. Food-service shutters shake and scrape as the Owlbears push into the dining area. During this commotion Eddie Vale will see the store's shattered glass and try to pocket valuables."
               ],
               "id": "301"
             }
@@ -441,9 +445,9 @@
               "name": "Approach and Rest",
               "entries": [
                 "A service corridor behind the games shop offers a defensible area for a normal 2024 short rest. The party may choose it. Bombeldo Trask has fled back to The Dungeoneer after the accident, where he is frightened and willing to answer questions. He identifies the machine as an antique projector he installed in the CINEMA BOOTH, not in his own shop.",
-                "Players can learn from witnesses that Coronet Jewelers' emergency shutter is bent outward and jewelry has vanished from its shattered front displays. An emergency phone recording shows a red dragon breaking inside and remaining there. That is its CURRENT fixed location, not a silhouette wandering around the roof. A character intentionally searching the store finds the dragon and may engage it before the scheduled finale.",
+                "Characters can learn that Coronet Jewelers' glass is smashed and something huge entered the store. A security camera shows a red dragon inside; it has remained there, gathering jewelry into a hoard. Eddie Vale, an ordinary opportunistic shopper, is loitering near an abandoned food-court service passage and watching the broken jeweler's front, waiting until he thinks the coast is clear.",
                 "Owlbears have been tearing into food and refuse behind kitchen and loading shutters on opposite sides of the food court. After the chaos of the menagerie, their scavenging brings them into the main dining area, independent of the dragon. If PCs cleared them earlier, omit them from the finale instead of respawning them.",
-                "The dragon is not allies with or commanding the owlbears. It does not need the projector crystal to want to fight; it believes adventurers and large animals near its new hoard are would-be thieves. The owlbears' brawl at the storefront, the PCs' loud attacks, or deliberate approach to jewelers provoke it. This is why it emerges from the store into the food court rather than arriving from another dimension."
+                "The Owlbears are independent scavengers, emerging from their food-service stockrooms. Eddie, not the Owlbears, is the immediate cause that brings the dragon into the food court: he enters the jewelry shop, steals a tray of watches and necklaces, then flees. The dragon follows him to get its treasure back. If players prevent the theft, do not force Eddie to get away; the dragon may remain, issue territorial demands, or respond to what the PCs actually do."
               ],
               "id": "400"
             },
@@ -451,10 +455,11 @@
               "type": "entries",
               "name": "Encounter Three - Two Owlbears and Young Red Dragon",
               "entries": [
-                "Two ravenous owlbears emerge from separate food-service storage areas and barrel between abandoned restaurant tables. Beyond the food court, Coronet Jewelers' broken front window glows red. Inside, amid toppled cases, a large red dragon coils around necklaces, bracelets, rings, and watches. Its eye follows the fighting near its claimed treasure.",
-                "Standard finale pacing IF none was discovered earlier: Round 1, Owlbear O1 begins L19-M20 (kitchen side), O2 begins Y19-Z20 (east delivery side). Roll initiative; both are scavengers and attack the nearest perceived threats. They are NOT dragon minions. Their brawl and the armed heroes' presence near jewelers disturb the dragon's new territory.",
-                "At the start of round 2, the dragon pushes through the jewelers' smashed south/west storefront into the food court, aiming to drive every threat away from its hoard. It begins INSIDE the shop at AB11-AC12, moves through an actual open/broken storefront along a legal route, rolls into initiative, and acts only on its rolled count; do not grant a free attack. If the party went into the shop already, this encounter starts the moment they interact with the dragon instead: do NOT wait for round 2.",
-                "The dragon is an arrogant, possessive predator, not a mindless combat script. It can speak, threaten, bargain for retreat, or attack anyone it judges a thief; it may choose a fire-breath line that also catches an Owlbear, because those beasts are strangers to it. Its 2024 breath is a 30-ft cone, DC 17 Dexterity, 16d6 Fire on a failed save. Fire immunity matters. The 35-ft atrium ceiling permits flying; jewelers showroom itself is lower and partially smashed.",
+                "Two hungry Owlbears crash out of opposite restaurant-service areas, smashing abandoned tables. On the edge of the food court, a disheveled man notices the smashed glass at Coronet Jewelers. He glances around for security, darts inside, and emerges clutching a velvet tray loaded with jewelry. An enormous red eye opens in the dim store behind him.",
+                "Normal late-session escalation, if not preempted: At round 1, Owlbear O1 at L19-M20 and O2 at Y19-Z20 enter the food court and roll initiative. Eddie Vale (ordinary modern human, use Commoner if combat statistics are needed) attempts to steal from the shattered jewelry display when the party is occupied. No mandatory roll is required for his theft; if PCs choose to intercept him, resolve their actions normally. Eddie is not allied with any monster.",
+                "At the start of round 2, if Eddie has gotten away with jewelry, he bolts from Coronet Jewelers into the FOOD COURT. The Young Red Dragon begins at AB11-AC12 inside the shop and follows its stolen treasure through the broken south/west storefront; roll initiative when it emerges and let it act at the proper count, with no free breath or attack. If a player interrupts the theft, the dragon responds based on who currently holds its treasure and what it sees; do not make an impossible scripted appearance. If the dragon was found earlier, use its actual present position and motivations.",
+                "The dragon's goal is to recover and defend its hoard. It is intelligent, greedy and territorial: it may demand that Eddie drop the loot, threaten armored heroes as rival thieves, or attack. It can breathe a 30-ft cone (2024 DC 17 Dexterity, 16d6 Fire on failure), even if Owlbears are nearby; they are not its allies. The 35-ft atrium ceiling permits flight; inside Coronet Jewelers the roof is lower. If all other planar anchors were disconnected already, its death or removal releases the FINAL feedback and allows the cinema projector to stabilize.",
+                "Eddie Vale behavior: He is a frightened but greedy ordinary man. He has no occult knowledge, no firearms encounter, and no hidden agenda. He runs with the jewelry, drops some if knocked down, and begs for help when he sees the dragon. PCs may save him, restrain him, confiscate his loot or use the theft to negotiate. His survival is NOT required to solve the projector.",
                 "Environmental rules: collapsed jewelry displays provide half cover where they obstruct a line; glass storefront AC 13, 10 HP per 5-ft panel; melted security gate is an obstacle, not a magic barrier. The floor plan has a clear route from the jewelry storefront to the open food court. Destruction does not create additional monsters.",
                 "The dragon can be discovered early by excellent investigation, divination, flight, or direct approach. It stays in the jewelry store until it has reason to act; if intentionally attacked before the food-court fight, resolve that choice honestly and allow surviving monsters and NPCs to respond. Never teleport it away to preserve a scripted boss fight.",
                 "Native stat blocks: {@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
@@ -472,10 +477,10 @@
               "type": "entries",
               "name": "Bombeldo and the Emergency Lever",
               "entries": [
-                "Bombeldo Trask, mundane human proprietor of The Dungeoneer, hosted a fantasy-film promotional event and installed his antique crystal projector in the CINEMA PROJECTION BOOTH. He fled back to his store when the screen turned into a magical doorway. He knows which machine he touched, not exactly how planar physics works. He is not a mastermind or combat encounter.",
-                "STOP lever is on the projector in the CINEMA BOOTH (B2-D3), not in The Dungeoneer. Pulling it requires no roll and stops future disturbances; the residual projected energy stabilizes the cinema screen into a doorway back to the Thornwatch arch for ONE MINUTE. The projector does not banish, weaken, teleport, or eliminate any of the NINE monsters already on Earth. If shut down early and still intact, a later START-STOP cycle gives another 60-second return window without respawning monsters. If irreparably smashed, a final one-minute backlash stabilizes the route once.",
-                "If players decide to leave while dangerous monsters remain, they can. Earth emergency services arrive to find the damage and any escaped creatures; no secret cinematic wall prevents escape. Bombeldo offers small mundane gifts as thanks if they help. The real victory is what the characters choose to protect.",
-                "RETURN READ ALOUD: \"You step through the last flicker of the screen and onto the rutted Thornwatch road. The wagon is still there, its wheel half-buried in the mud. Beyond the abandoned arch, the pines stir in an ordinary wind. The impossible humming is gone. In your hand is a small, utterly inexplicable souvenir from somewhere that shouldn't exist.\" The road disturbance ends with the projector shut off. The reeve's contract can be paid without another combat or investigation."
+                "Bombeldo Trask is an ordinary human shop owner who brought an antique crystal projector to the CINEMA BOOTH for a fantasy screening, then fled to The Dungeoneer. He does not know why monsters crossed over and is frightened by the beam continuing to shine even after electrical power is cut. He is not a combat opponent.",
+                "The red STOP lever in the cinema booth shuts off the electric motor, but the projector crystal continues to cast violet light while ANY living secondary-rift monster remains within the mall perimeter. It cannot make a stable portal home under active feedback, even if unplugged. When all living linked monsters have died, been transported off-plane, or left the mall grounds, the projector can stabilize the screen. If lever is already on STOP when final link vanishes, the screen immediately stabilizes as a ONE-MINUTE return portal to Thornwatch; otherwise pulling STOP at that point does so. If the intact projector is later restarted and stopped when no links remain, it opens another one-minute window. Destroying the crystal destroys the controlled way home and does not banish monsters. Surviving machinery/crystal may be repaired with appropriate actions; independent planar travel remains possible.",
+                "If PCs find the machine early, the inability to switch off the violet beam is a testable clue about the monsters' resonance. No invisible wall prevents them walking away or trying creative alternatives. They can choose how to handle the creatures, but cannot use the ordinary STOP lever as an automatic shortcut while living anchors remain. Earth emergency services arrive later, not as an additional encounter.",
+                "RETURN READ ALOUD: \"You pass through the film screen and step onto the road beside the old Thornwatch arch. The pines sway gently. The strange humming has stopped, and the violet marks on the stone fade to gray. For a moment, the world is still again. In your hand is a small, completely inexplicable souvenir from somewhere that shouldn't exist.\" The reeve's investigation has a genuine solution: the planar pulse is gone."
               ],
               "id": "500"
             },
@@ -513,15 +518,15 @@
                     ],
                     [
                       "Kill Bombeldo",
-                      "It does not affect monsters or the machine. The projector and labeled STOP lever remain in the cinema projection booth; staff and signs can point to it."
+                      "The operator is not the source of the energy. The machine still runs on living planar feedback. Its STOP lever and crystal remain in the cinema booth."
                     ],
                     [
                       "Pull STOP before fighting",
-                      "Stops active projector, provides 60 seconds home, does not remove existing monsters. They can depart or stay; if the machine is intact, cycle START-STOP later for another exit."
+                      "The mechanical motor stops or can be unplugged, but the enchanted crystal keeps projecting, fed by all still-living escaped creatures within the mall. No stable return portal opens. The light dims when one of those anchors is disconnected. If stopped when final link ends, the cinema portal opens automatically for 60 seconds."
                     ],
                     [
                       "Fight on roof",
-                      "The dragon begins INSIDE Coronet Jewelers, not on the roof. If pursued or lured outside, use normal flying and roof rules."
+                      "The dragon starts in Coronet Jewelers. If lured beyond the mall grounds, its planar anchor disconnects, but it remains a dangerous dragon loose on Earth. Roof is still within the mall and counts toward feedback."
                     ],
                     [
                       "Retreat after fight",
@@ -529,19 +534,43 @@
                     ],
                     [
                       "Attempt to talk to monsters",
-                      "The intelligent young red dragon may speak and bargain regarding its jewelry hoard; other escaped monsters follow their printed traits and instincts. They are not a team."
+                      "The dragon is intelligent and may negotiate about its stolen jewels. Killing is not the ONLY way to disconnect an anchor: leaving the mall perimeter or moving off-plane also removes that monster's feedback. Paralyzed/unconscious living creatures still count."
                     ],
                     [
                       "Go looking for dragon early",
-                      "Dragon is truly at Coronet Jewelers next to food court, guarding jewelry; its encounter can happen early if the party intentionally triggers it. Owlbears and other survivors remain where they were."
+                      "The dragon is genuinely inside Coronet Jewelers. If fought first, it dies first, and its energy link disconnects, but OTHER living secondary-rift monsters still feed the projector; no early shutdown unless they also leave or are defeated."
                     ],
                     [
                       "Steal jewelry or offer valuables",
-                      "Dragon judges trespass, treasure loss, and offers according to its pride and territorial greed. De-escalation is possible in fiction, but no automatic banishment, immunity to combat, or quest skip."
+                      "The dragon reacts to whoever holds its newly claimed treasure and may negotiate its return. If Eddie or PCs do not steal, the dragon can remain within the shop. Don't conjure an extra theft event if PCs prevented it."
                     ],
                     [
                       "Owlbears killed before food-court aftermath",
                       "Remove the already-killed owlbears from the later clash; do not respawn them. Dragon still defends jewelers if provoked."
+                    ],
+                    [
+                      "They destroy the projector",
+                      "Breaking ordinary casing/lens disables the motor but does not remove living monster feedback. Destroying the crystal eliminates the only controlled path back to Thornwatch. Allow repairs/salvage of an intact crystal or independent planar travel, not a free instant portal."
+                    ],
+                    [
+                      "They use Banishment",
+                      "A displaced monster temporarily removed from the plane loses its feedback while absent; it reconnects if it returns alive within the mall. Respect normal Banishment duration and concentration rules."
+                    ],
+                    [
+                      "They leave with living monsters elsewhere",
+                      "The cinema STOP lever alone cannot take them home while any monster-anchor is inside the mall. They may use independent planar travel, lure creatures beyond the mall perimeter, or otherwise sever links; enemies remain real on Earth."
+                    ],
+                    [
+                      "They stop Eddie's theft",
+                      "Eddie never completes the robbery. Dragon may remain territorial in its jewelry shop or confront anyone it perceives as an intruder. Owlbears still act independently; resolve based on player actions."
+                    ],
+                    [
+                      "They attack Eddie",
+                      "He is an ordinary human opportunist, not a plot-key NPC. Killing him does not release the dragon, though any jewelry left nearby or damage to the shop may draw its attention."
+                    ],
+                    [
+                      "They ask where missing merchants went",
+                      "There are no missing merchants; Thornwatch's complaints were strange lights and hums only."
                     ]
                   ]
                 },
