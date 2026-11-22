@@ -70,7 +70,8 @@
         {
           "name": "05 - Close the Portal",
           "headers": [
-            "The Projector and the Return"
+            "The Projector and the Return",
+            "Resolution"
           ]
         }
       ]
@@ -479,8 +480,7 @@
                 },
                 "WEST and EAST are connected by a 450-foot, 30-foot-wide enclosed shopping concourse with ordinary fire doors and turns. Looking Glass Games is on its north wall, 225 feet from either end. West connects at V12–V16 to East at A10–C14.",
                 "WEST: Cinema east entrance, booth door into theater, and west-side security door are marked. Fountain water is shallow difficult terrain for creatures without Swim Speed; its rim may grant cover.",
-                "EAST: Eye Express and ThunderCube are ordinary retail stores. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high.",
-                "The former Q17–R18 Bulette emergence is ordinary food-court tile. Eye Express is a background shop, with no linked encounter hotspot."
+                "EAST: Eye Express and ThunderCube are ordinary retail stores. The Cube begins outside the west kitchen doorway (M19–N20); Owlbear O1 starts behind a jammed service shutter (G19–H20). Coronet's broken south frontage at AB8–AD8 opens into the food court. The atrium ceiling is 35 feet; balconies are 15 feet high."
               ],
               "id": "100"
             }
@@ -510,7 +510,7 @@
               "entries": [
                 "READ ALOUD: Rows of padded chairs face a wall-sized moving image. A child points at your weapons and asks, 'Are you in the movie?' A crash shakes the building; screams follow from the concourse.",
                 "Mel Ruiz, a cinema usher, is pinned under a fallen curtain bar (DC 13 Athletics, two people lifting, or suitable magic). Mel saw Elias install the projector and heard a many-headed creature outside.",
-                "Projector in CINEMA BOOTH C3–E4, reached through the door at the rear of the theater. STOP shuts off the motor but the violet beam persists while monster links remain. Nine strands are visible within the crystal; DC 13 Intelligence (Arcana) explains the resonance. Rotating the crystal shows the general directions of surviving links."
+                "Projector in CINEMA BOOTH C3–E4, reached through the door at the rear of the theater. STOP shuts off the motor but the violet beam persists while monster links remain. Eight strands are visible within the crystal; DC 13 Intelligence (Arcana) explains the resonance. Rotating the crystal shows the general directions of surviving links."
               ]
             },
             {
@@ -577,23 +577,23 @@
               "name": "East Mall Between Battles",
               "id": "400",
               "entries": [
-                "Coronet Jewelers X2–AG8: Young Red Dragon starts Z4–AA5, guarding jewelry and watches. Eddie Vale waits near AB10, studying the smashed storefront. Elias is at Looking Glass Games midway along the connecting concourse.",
-                "The Owlbears start battering their jammed shutters after the Bulette emerges and continue until an exit is open. An undisturbed service corridor can accommodate a one-hour short rest; all surviving creatures continue their activities.",
+                "Coronet Jewelers X2–AG8: Young Red Dragon at Z4–AA5 guards watches, necklaces and jewels amid wrecked displays. Eddie Vale is at AB10 watching the broken storefront and believes the store is empty. Elias is at Looking Glass Games halfway along the main concourse.",
+                "The Owlbears claw at their jammed shutters until they escape, then scavenge food. A service corridor offers a defensible place for a one-hour short rest, during which the remaining creatures continue their activities.",
                 {
                   "type": "table",
-                  "caption": "Eddie's attempted theft",
+                  "caption": "Eddie's robbery",
                   "colLabels": [
-                    "Party present in the food court",
+                    "Party present in food court",
                     "Party leaves or rests"
                   ],
                   "rows": [
                     [
-                      "Eddie sees the fighting and approaches Coronet. If he takes a tray of watches, the dragon notices, joins initiative, and pursues the stolen treasure. The PCs can intercept him or take other actions.",
-                      "About five minutes after the food court quiets, Eddie enters Coronet and takes watches. The dragon pursues him into the food court. Eddie drops the tray and flees through an outside exit; the dragon retrieves its jewelry and returns to Coronet within another five minutes."
+                      "Eddie hides while the Displacer Beasts, Spectator or Cube are attacking in the open food court. Once they stop, the Owlbears' noise masks his approach. If the characters engage Owlbears, he acts on his own initiative.",
+                      "After the immediate food-court predators stop fighting nearby, Eddie waits a few minutes, enters Coronet and steals a tray of watches. The dragon pursues him into the food court; Eddie drops the tray and flees toward an outside exit."
                     ],
                     [
-                      "If the players prevent the theft, Eddie leaves empty-handed; the dragon remains at its hoard unless otherwise provoked.",
-                      "By the end of a one-hour rest, Eddie has escaped the mall, the dragon is back inside Coronet, and the two Owlbears are scavenging in the food court if they have broken their shutters."
+                      "Characters can intercept Eddie, confront the dragon early, or take the treasure themselves. The dragon responds to the threat to its hoard.",
+                      "Within ten minutes the dragon recovers its watches and returns to Coronet. After an hour, Owlbears may be loose and scavenging; the police have secured the outside approaches."
                     ]
                   ]
                 }
@@ -604,12 +604,12 @@
               "name": "Encounter 3: Owlbears and Dragon",
               "id": "401",
               "entries": [
-                "EAST: Owlbears emerge from jammed shutters once they force an exit (O1 G19–H20, O2 AC19–AD20). They seek food and react to nearby threats. Eddie attempts his theft if he believes the area is distracted.",
-                "READ ALOUD (if Eddie succeeds): A man runs from the shattered jewelry storefront clutching a velvet tray of watches. From the darkness behind him a voice bellows, 'THIEF!' A red dragon crashes through the opening and follows the glittering loot into the food court.",
-                "Young Red Dragon (178 HP, Fire immunity, DC 17 Dexterity, 16d6 Fire breath) starts Z4–AA5 in Coronet. It exits through the broken south storefront at AB8–AD8 when the theft or another threat to its treasure provokes it. Roll initiative when it becomes involved; it acts on its regular count, with no free attack.",
-                "The dragon wants its jewelry returned. It may pursue Eddie, threaten armed strangers, attack, or retreat to guard its hoard once the treasure is recovered. If Eddie is intercepted, the dragon remains inside unless another threat draws it out.",
-                "After an unattended hour: Eddie escaped after dropping the tray, the dragon has recovered its jewelry and returned to Coronet, and any Owlbears that broke through their shutters are scavenging around the food court. Dead or displaced creatures do not reappear.",
-                "{@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}"
+                "Owlbear O1 begins G19–H20 behind the west kitchen shutter; O2 begins AC19–AD20 behind the east service shutter. They emerge when they break through or a shutter is opened, seek food, and attack threats. Neither obeys the dragon.",
+                "Eddie Vale is a Commoner (AC 10, 4 HP, Speed 30 feet), initially EAST AB10 behind an advertising kiosk. He enters Coronet through its broken south frontage at AB8–AD8, reaches a velvet tray of watches near AC6 and flees through the same opening. In initiative, on his first turn he moves into the showroom; on the next he takes the tray and runs. Outside initiative the attempt takes about 15–20 seconds. He drops the tray if chased by the dragon.",
+                "READ ALOUD (if the theft succeeds): A man bursts through the shattered storefront clutching a tray of glittering watches. A voice roars from within: 'THIEF!' An enormous red dragon crashes after him into the food court.",
+                "The Young Red Dragon (178 HP; Fire immunity; Fire Breath DC 17 Dexterity, 16d6 Fire) begins Z4–AA5 inside Coronet. It follows stolen treasure through the broken frontage at AB8–AD8 and treats armed intruders as rival thieves. It wants its jewelry recovered; after getting it back, the dragon might negotiate, attack, or retreat to guard the hoard.",
+                "Stopping Eddie leaves the dragon inside unless another threat provokes it. The crystal strand still points toward its position. After an unopposed one-hour rest, Eddie has escaped outside, the dragon has retrieved its jewelry and returned to Coronet, and the Owlbears' positions depend on whether they broke their shutters.",
+                "{@creature Young Red Dragon|XMM}; {@creature Owlbear|XMM}; {@creature Commoner|XMM}"
               ]
             }
           ]
@@ -624,7 +624,7 @@
               "name": "The Projector and the Return",
               "id": "500",
               "entries": [
-                "Projector in WEST cinema booth C3–E4. Motor and STOP lever function normally, but its crystal projects while linked living monsters remain inside the mall. Nine glowing strands show active links; rotating the crystal gives a direction to each remaining creature.",
+                "Projector in WEST cinema booth C3–E4. Motor and STOP lever function normally, but its crystal projects while linked living monsters remain inside the mall. Eight glowing strands show active links; rotating the crystal gives a direction to each remaining creature.",
                 {
                   "type": "table",
                   "caption": "Crystal feedback",
@@ -664,6 +664,16 @@
                   ]
                 },
                 "RETURN READ ALOUD: The screen flickers behind you. A moment later the air smells of pine again, and the Thornwatch arch stands beside the road. Its violet marks fade to ordinary gray stone."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Resolution",
+              "id": "501",
+              "entries": [
+                "With all eight strands inactive, STOP opens the cinema passage to Thornwatch for one minute. With no active strands, another RUN/STOP cycle opens a new window if the first closes.",
+                "Returning to Thornwatch ends the lights and humming at the old arch. The reeve accepts the account and pays the reward promised in the contract.",
+                "Living monsters outside the mall remain dangerous on modern Earth even after their links disconnect. Emergency responders maintain the perimeter whether the party returns to Thornwatch or stays to help."
               ]
             }
           ]
