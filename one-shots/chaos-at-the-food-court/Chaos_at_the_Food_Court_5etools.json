@@ -81,7 +81,8 @@
           "headers": [
             "The Projector and the Return",
             "Resolution",
-            "Endings and Fast Rulings"
+            "Endings and Fast Rulings",
+            "Actual Table Result — Played November 22, 2026"
           ]
         }
       ]
@@ -872,6 +873,18 @@
                 "QUICK OBJECT / SKILL ANSWERS: Arcana DC 13 explains living strands; crystal AC 13/10 HP; shutters AC 19/100 HP when actively attacked, with DM-directed narrative break timing otherwise; Dana's service-pass unlocks emergency release, DC 15 Athletics to lift; without key, DC 17 Thieves' Tools first. Spectator negotiates for territory and shiny prizes. Thornwatch contract offers 400 gp total for reporting back.",
                 "NO MINIATURES FOR PLAYERS OR NONCOMBAT NPCS: DM pulls eight numbered monster minis/proxies only; Eddie #069 is optional for combat movement. The security guard Dana, usher Mel, and Elias do not need minis.",
                 "The world's physical rules still apply when players improvise: creatures act on motivations and react to choices. You decide when a believable escalation occurs; you never have to roll invisible shutter damage every round merely to justify a dramatic entrance."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Actual Table Result — Played November 22, 2026",
+              "id": "PLAYED-CFC-20261122",
+              "entries": [
+                "PLAYED TABLE RECORD, separate from prepared encounter instructions. Four-player level-8 adventure ran about four hours, including approximately 45 minutes exploring and interacting with shops.",
+                "During negotiation with the Young Red Dragon, the DM introduced the two Owlbears earlier than their prepared entrance. The players convinced the dragon that an Owlbear was trying to steal from its hoard. The dragon breathed on that Owlbear and reduced it to 10 HP.",
+                "The party successfully persuaded the dragon that they did not seek its hoard, so it returned peacefully to Coronet Jewelers. Only afterward did the party examine the projector and notice the final violet tether to the dragon.",
+                "The party returned intending to use Banishment on the dragon to permit their return to Faerûn. That attempt triggered the final battle. After approximately seven rounds, with the spellcasters depleted of slots, the party defeated the dragon.",
+                "PLAYED CROSS-SETTING CONTINUITY: Characters carried Polaroid instant cameras and film back from 1988 Earth to Faerûn. Separate NCFA merchant continuity has Polaroid OneStep 600 cameras and sealed 600 film packs newly available as finite curiosities in Jord's Odds & Ends. The precise route by which Jord acquires those particular items is not established."
               ]
             }
           ]
